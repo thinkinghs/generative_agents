@@ -218,6 +218,8 @@ def copyanything(src, dst):
     None
   """
   try:
+    if os.path.exists(dst):
+       shutil.rmtree(dst)
     shutil.copytree(src, dst)
   except OSError as exc: # python >2.5
     if exc.errno in (errno.ENOTDIR, errno.EINVAL):

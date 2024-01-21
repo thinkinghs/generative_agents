@@ -1,0 +1,13 @@
+{
+  "fork_sim_code": "base_hsproject_231124",
+  "start_date": "February 21, 2024",
+  "curr_time": "February 21, 2024, 16:00:00",
+  "sec_per_step": 30,
+  "maze_name": "the_ville",
+  "persona_names": [
+    "함호식",
+    "머스크",
+    "다빈치"
+  ],
+  "step": 0
+}
