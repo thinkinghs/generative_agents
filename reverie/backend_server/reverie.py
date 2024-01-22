@@ -313,7 +313,10 @@ class ReverieServer:
       # new environment file that matches our step count. That's when we run 
       # the content of this for loop. Otherwise, we just wait. 
       curr_env_file = f"{sim_folder}/environment/{self.step}.json"
+      print ("Does it exist?")
+      print (curr_env_file)
       if check_if_file_exists(curr_env_file):
+        print ("check_if_file_exists passed")
         # If we have an environment file, it means we have a new perception
         # input to our personas. So we first retrieve it.
         try: 
@@ -324,7 +327,8 @@ class ReverieServer:
         except: 
           pass
       
-        if env_retrieved: 
+        if env_retrieved:
+          print ("env_retrieved!") 
           # This is where we go through <game_obj_cleanup> to clean up all 
           # object actions that were used in this cylce. 
           for key, val in game_obj_cleanup.items(): 
@@ -408,6 +412,7 @@ class ReverieServer:
 
           int_counter -= 1
           
+      print ("sleep for %s" % (self.server_sleep))
       # Sleep so we don't burn our machines. 
       time.sleep(self.server_sleep)
 

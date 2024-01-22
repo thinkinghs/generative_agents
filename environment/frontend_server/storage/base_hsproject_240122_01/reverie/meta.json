@@ -1,0 +1,13 @@
+{
+  "fork_sim_code": "base_hsproject_240122",
+  "start_date": "January 22, 2024",
+  "curr_time": "January 22, 2024, 09:00:00",
+  "sec_per_step": 10,
+  "maze_name": "the_ville",
+  "persona_names": [
+    "Isabella Rodriguez", 
+    "Maria Lopez",
+    "Klaus Mueller"    
+  ],
+  "step": 0
+}
