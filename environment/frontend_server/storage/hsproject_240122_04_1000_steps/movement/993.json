@@ -1,0 +1,34 @@
+{
+  "persona": {
+    "\ud638\uc2dd \ud568": {
+      "movement": [
+        74,
+        23
+      ],
+      "pronunciatio": "\ud83c\udf43\u23f8\ufe0f",
+      "description": "working at the counter and preparing for the Valentine's Day party (taking a break) @ the Ville:Hosik Cafe:cafe:cafe customer seating",
+      "chat": null
+    },
+    "\uc77c\ub860 \uba38\uc2a4\ud06c": {
+      "movement": [
+        108,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "attending physics classes (participating in class discussions) @ the Ville:Oak Hill College:classroom:classroom podium",
+      "chat": null
+    },
+    "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58": {
+      "movement": [
+        119,
+        24
+      ],
+      "pronunciatio": "\ud83d\udc68\u200d\ud83d\udcbb",
+      "description": "researching and writing his paper (on the way to researching and gathering evidence to support his arguments) @ the Ville:Oak Hill College:library:library table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "January 22, 2024, 11:45:30"
+  }
+}
