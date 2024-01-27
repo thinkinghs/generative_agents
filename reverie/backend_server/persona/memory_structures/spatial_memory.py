@@ -103,8 +103,11 @@ class MemoryTree:
 
     try: 
       x = ", ".join(list(self.tree[curr_world][curr_sector][curr_arena]))
-    except: 
-      x = ", ".join(list(self.tree[curr_world][curr_sector][curr_arena.lower()]))
+    except:
+      priority_picks = list(self.tree[curr_world][curr_sector].keys())
+      pick = priority_picks[0]
+ 
+      x = ", ".join(list(self.tree[curr_world][curr_sector][pick]))
     return x
 
 
