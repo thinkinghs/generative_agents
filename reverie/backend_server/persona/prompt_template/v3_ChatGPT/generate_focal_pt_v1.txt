@@ -7,5 +7,5 @@ Variables:
 <commentblockmarker>###</commentblockmarker>
 !<INPUT 0>!
 
-Given only the information above, what are !<INPUT 1>! most salient high-level questions we can answer about the subjects grounded in the statements?
+위에 정보로 보았을 때, !<INPUT 1>! 번째 질문이 가장 중요하고 주목할만할까? 지금 상황에서. 한글로 대답해.
 1)

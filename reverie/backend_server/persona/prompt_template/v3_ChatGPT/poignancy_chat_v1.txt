@@ -6,12 +6,12 @@ poignancy_chat_v1.txt
 !<INPUT 3>!: event description
 
 <commentblockmarker>###</commentblockmarker>
-Here is a brief description of !<INPUT 0>!. 
+!<INPUT 0>!에 대한 간략한 대화 설명. 
 !<INPUT 1>!
 
-On the scale of 1 to 10, where 1 is purely mundane (e.g., routine morning greetings) and 10 is extremely poignant (e.g., a conversation about breaking up, a fight), rate the likely poignancy of the following conversation for !<INPUT 2>!.
+1에서 10까지 중에, 1은 일상적인 대화 (예를 들어, 일상적인 아침 인사) 그리고 10은 극단적인 대화 (예를 들어, 이혼에 대한 이야기, 말싸움), !<INPUT 2>!의 아래 대화가 몇 점인지 반환해.
 
-Conversation: 
+대화: 
 !<INPUT 3>!
 
-Rate (return a number between 1 to 10):
+1에서 10까지 번호를 반환해:
