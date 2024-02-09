@@ -1,0 +1,288 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "January 22, 2024, 10:23:10",
+  "curr_tile": [
+    68,
+    46
+  ],
+  "daily_plan_req": "\uc544\uc774\uc791 \ub274\ud134 opens \uc2a4\ub9c8\uac8c \ub9e4\uc810 at 8am, stands behind its counter, and closes it at 6pm, at which point, he likes to go to \uc2a4\ub9c8\uac8c \uc8fc\uc810 to relax",
+  "name": "\uc544\uc774\uc791 \ub274\ud134",
+  "first_name": "\uc544\uc774\uc791",
+  "last_name": "\ub274\ud134",
+  "age": 33,
+  "innate": "friendly, outgoing, helpful",
+  "learned": "\uc544\uc774\uc791 \ub274\ud134 is a shopkeeper at \uc2a4\ub9c8\uac8c \ub9e4\uc810 who loves to help people find the supplies they need. He is always looking for ways to make his customers feel welcome.",
+  "currently": "\uc544\uc774\uc791 \ub274\ud134 is managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and lives with a housemate, \ud074\ub808\uc624 \ud30c\ud2b8\ub77c. He is also working on expanding his shop online.",
+  "lifestyle": "\uc544\uc774\uc791 \ub274\ud134 goes to bed around 11pm, awakes up around 7am, eats dinner around 8pm.",
+  "living_area": "the Ville:\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uc640 \uc544\uc774\uc791 \ub274\ud134\uc758 \uc9d1:\uc544\uc774\uc791 \ub274\ud134\uc758 \ubc29",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 175,
+  "importance_ele_n": 29,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "go to \uc2a4\ub9c8\uac8c \ub9e4\uc810 to open at 8:00 am",
+    "work at the shop until 6:00 pm",
+    "close the shop at 6:00 pm",
+    "meet with \ud074\ub808\uc624 \ud30c\ud2b8\ub77c at 6:30 pm for a walk around the neighborhood",
+    "go to \uc2a4\ub9c8\uac8c \uc8fc\uc810 to relax and socialize with friends from 7:30 pm to 9:30 pm",
+    "head home for dinner and wind down for the night"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "at \uc2a4\ub9c8\uac8c \ub9e4\uc810, managing the shop",
+      60
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (checking inventory and restocking shelves)",
+      30
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (on the way to greeting customers and asking if they need help finding anything)",
+      0
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (conversing about This is a conversation between Napoleon Bonaparte and Isaac Newton about checking inventory and ordering supplies for the week, including tonic water, fresh fruits for cocktails, and ice.)",
+      6
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (helping a customer find a specific item)",
+      20
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (answering the phone and taking orders for delivery)",
+      15
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (assisting a customer with a return or exchange)",
+      10
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (taking a break)",
+      15
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (organizing the front display and making it more visually appealing)",
+      20
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (helping a customer find a gift for a friend)",
+      15
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (checking out a customer's purchases and processing payment)",
+      10
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (restocking the counter with small items like candy and gum)",
+      10
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (answering questions about products and providing recommendations)",
+      20
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (taking a break)",
+      15
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (helping a customer find a specific brand of product)",
+      20
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (checking inventory and restocking shelves)",
+      30
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (assisting a customer with finding a product that is out of stock)",
+      15
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (taking a break)",
+      15
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (helping a customer find a product for a specific dietary restriction)",
+      20
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (answering the phone and taking orders for delivery)",
+      15
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (checking out a customer's purchases and processing payment)",
+      10
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (restocking the counter with small items like candy and gum)",
+      10
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (helping a customer find a specific item)",
+      20
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (taking a break)",
+      15
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (organizing the front display and making it more visually appealing)",
+      20
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (helping a customer find a gift for a friend)",
+      15
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (checking inventory and restocking shelves)",
+      30
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (assisting a customer with a return or exchange)",
+      10
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (taking a break)",
+      15
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (answering questions about products and providing recommendations)",
+      20
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (helping a customer find a specific brand of product)",
+      20
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (checking inventory and restocking shelves)",
+      30
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (closing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and counting the cash register)",
+      15
+    ],
+    [
+      "closing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and heading to meet with \ud074\ub808\uc624 \ud30c\ud2b8\ub77c for a walk",
+      60
+    ],
+    [
+      "meeting with \ud074\ub808\uc624 \ud30c\ud2b8\ub77c for a walk around the neighborhood",
+      60
+    ],
+    [
+      "at \uc2a4\ub9c8\uac8c \uc8fc\uc810, relaxing and socializing with friends",
+      60
+    ],
+    [
+      "having dinner and winding down for the night",
+      120
+    ],
+    [
+      "going to bed at 11:00 pm",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      9
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "at \uc2a4\ub9c8\uac8c \ub9e4\uc810, managing the shop",
+      60
+    ],
+    [
+      "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies",
+      540
+    ],
+    [
+      "closing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and heading to meet with \ud074\ub808\uc624 \ud30c\ud2b8\ub77c for a walk",
+      60
+    ],
+    [
+      "meeting with \ud074\ub808\uc624 \ud30c\ud2b8\ub77c for a walk around the neighborhood",
+      60
+    ],
+    [
+      "at \uc2a4\ub9c8\uac8c \uc8fc\uc810, relaxing and socializing with friends",
+      60
+    ],
+    [
+      "having dinner and winding down for the night",
+      120
+    ],
+    [
+      "going to bed at 11:00 pm",
+      60
+    ]
+  ],
+  "act_address": "the Ville:\uc2a4\ub9c8\uac8c \ub9e4\uc810:\ub9e4\uc810:\ub9e4\uc810 \uce74\uc6b4\ud130",
+  "act_start_time": "January 22, 2024, 10:19:00",
+  "act_duration": 10,
+  "act_description": "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (assisting a customer with a return or exchange)",
+  "act_pronunciatio": "\ud83d\udc65\ud83d\udd04",
+  "act_event": [
+    "\uc544\uc774\uc791 \ub274\ud134",
+    "assist",
+    "customer"
+  ],
+  "act_obj_description": "being used by someone",
+  "act_obj_pronunciatio": "\ud83d\udc69\u200d\ud83d\udcbb",
+  "act_obj_event": [
+    "\ub9e4\uc810 \uce74\uc6b4\ud130",
+    "use",
+    "someone"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8": 384
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

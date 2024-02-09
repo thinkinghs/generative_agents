@@ -23,13 +23,21 @@
 	let step = {{step}};
 	let sim_code = "{{sim_code}}";
  	let step_size = {{sec_per_step}} * 1000; // 10 seconds = 10000
+        let zoom_level = 0.8
+        //console.log("game-container: ")
+
+        console.log(document.getElementById("game-container").getBoundingClientRect())
+        //console.log(step)
+        //console.log(step_size)
+        widthMax = document.getElementById("game-container").getBoundingClientRect().width * (1.0 / zoom_level)
+        heightMax = window.innerHeight * 0.7
 
 	// Phaser 3.0 global settings. 
 	// Configuration meant to be passed to the main Phaser game instance. 
 	const config = {
 	  type: Phaser.AUTO,
-	  width: 1500,
-	  height: 800,
+	  width: widthMax,
+	  height: heightMax,
 	  parent: "game-container",
 	  pixelArt: true,
 	  physics: {
@@ -40,7 +48,7 @@
 	    preload: preload,
 	    create: create,
 	    update: update },
-	  scale: {zoom: 0.8} };
+	  scale: {zoom: zoom_level} };
 
 	// const config = {
 	//   type: Phaser.AUTO,
@@ -84,17 +92,17 @@
 	let tile_width = 32;
 	// Important: tile_width % movement_speed has to be 0. 
 	// <movement_speed> determines how fast we move at each upate cylce. 
-	let movement_speed = {{play_speed}}; 
+	var movement_speed = {{play_speed}};
 
 	// Variables for storing movements that are sent from the backend server.
-	let execute_count_max = tile_width/movement_speed;
-	let execute_count = execute_count_max;
+	var execute_count_max = tile_width/movement_speed;
+	var execute_count = execute_count_max;
 	let movement_target = {};
 	let all_movement = {{ all_movement|safe }};
 
   let start_datetime =new Date(Date.parse("{{start_datetime}}"));
   var datetime_options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
- 	document.getElementById("game-time-content").innerHTML = start_datetime.toLocaleTimeString("en-US", datetime_options);
+ 	document.getElementById("game-time-content").innerHTML = start_datetime.toLocaleTimeString("ko-KR", datetime_options);
  	
 
 	// ###########################################################################
@@ -347,11 +355,42 @@
 			game_pause();
 		};
 
+		function change_speed() {  
+                        console.log(movement_speed)
+                        var next_speed_ui_string = "1 X"
+                        if(movement_speed == 1) {
+                            next_speed_ui_string = "2 X"
+                            movement_speed = movement_speed * 2
+                        } else if(movement_speed == 2) {
+                            next_speed_ui_string = "3 X"
+                            movement_speed = movement_speed * 2
+                        } else if(movement_speed == 4) {
+                            next_speed_ui_string = "4 X"
+                            movement_speed = movement_speed * 2
+                        } else if(movement_speed == 8) {
+                            next_speed_ui_string = "5 X"
+                            movement_speed = movement_speed * 2
+                        } else if(movement_speed == 16) {
+                            next_speed_ui_string = "6 X"
+                            movement_speed = movement_speed *2
+                        } else if(movement_speed == 32) {
+                            next_speed_ui_string = "1 X"
+                            movement_speed = 1;
+                        }
+
+                        execute_count_max = tile_width/movement_speed;
+	                execute_count = execute_count_max;
+                        document.getElementById("speed_btn_text").innerHTML = next_speed_ui_string;
+		}  
+		speed_button.onclick = function(){
+			change_speed();
+		};
+
 	  // *** MOVE CAMERA *** 
 	  // This is where we finish up the camera setting we started in the create() 
 	  // function. We set the movement speed of the camera and wire up the keys to
 	  // map to the actual movement.
-	  const camera_speed = 400;
+	  const camera_speed = 600;
 	  // Stop any previous movement from the last frame
 	  player.body.setVelocity(0);
 	  if (cursors.left.isDown) {
@@ -400,7 +439,7 @@
 		        	chat_content += chat_content_raw[j][0] + ": " + chat_content_raw[j][1] + "<br>"
 		        }
 		      } else {
-		      	chat_content = "<em>None at the moment</em>"
+		      	chat_content = "<em>현재 대화중이지 않음</em>"
 		      }
 
 	       	// This is what gives the pronunciatio balloon the name initials. We 
@@ -416,9 +455,13 @@
 	        // Updating the status of each personas 
 	        document.getElementById("quick_emoji-"+curr_persona_name).innerHTML = pronunciatio_content;
 	        document.getElementById("current_action__"+curr_persona_name).innerHTML = description_content.split("@")[0];
-	        document.getElementById("target_address__"+curr_persona_name).innerHTML = description_content.split("@")[1];
+                var target_addr = description_content.split("@")[1].replace(/:/g, ",");
+                target_addr = target_addr.replace("the Ville,", "");
+	        document.getElementById("target_address__"+curr_persona_name).innerHTML = target_addr;
 	        document.getElementById("chat__"+curr_persona_name).innerHTML = chat_content;
     		}
+
+                //console.log(movement_speed)
 
     		if (execute_count > 0) {
     			if (curr_persona.body.x < movement_target[curr_persona_name][0]) {
@@ -450,20 +493,20 @@
           curr_speech_bubble.x = curr_persona.body.x + 80; 
           curr_speech_bubble.y = curr_persona.body.y - 39;
 
-          let left_walk_name = curr_persona_name + "-left-walk";
-					let right_walk_name = curr_persona_name + "-right-walk";
-					let down_walk_name = curr_persona_name + "-down-walk";
-					let up_walk_name = curr_persona_name + "-up-walk";
-          if (anims_direction == "l") {
-			      curr_persona.anims.play(left_walk_name, true);
-			    } else if (anims_direction == "r") {
-			      curr_persona.anims.play(right_walk_name, true);
-			    } else if (anims_direction == "u") {
-			      curr_persona.anims.play(up_walk_name, true);
-			    } else if (anims_direction == "d") {
-			      curr_persona.anims.play(down_walk_name, true);
-			    };
-    		}
+	        let left_walk_name = curr_persona_name + "-left-walk";
+		let right_walk_name = curr_persona_name + "-right-walk";
+		let down_walk_name = curr_persona_name + "-down-walk";
+		let up_walk_name = curr_persona_name + "-up-walk";
+        	if (anims_direction == "l") {
+		      curr_persona.anims.play(left_walk_name, true);
+		} else if (anims_direction == "r") {
+		      curr_persona.anims.play(right_walk_name, true);
+		} else if (anims_direction == "u") {
+		      curr_persona.anims.play(up_walk_name, true);
+		} else if (anims_direction == "d") {
+		      curr_persona.anims.play(down_walk_name, true);
+		};
+    	}
     	} else { 
     		curr_persona.anims.stop();
 	      // If we were moving, pick an idle frame to use
@@ -483,9 +526,10 @@
 	    }
 			execute_count = execute_count_max + 1;
 	    step = step + 1;
+            //console.log(step);
 
-	    start_datetime = new Date(start_datetime.getTime() + step_size);
- 			document.getElementById("game-time-content").innerHTML = start_datetime.toLocaleTimeString("en-US", datetime_options);
+            start_datetime = new Date(start_datetime.getTime() + step_size);
+            document.getElementById("game-time-content").innerHTML = start_datetime.toLocaleTimeString("ko-KR", datetime_options);
     }
 
 	  execute_count -= 1;
@@ -495,40 +539,3 @@
 	var play_button=document.getElementById("play_button");
 	var pause_button=document.getElementById("pause_button");
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

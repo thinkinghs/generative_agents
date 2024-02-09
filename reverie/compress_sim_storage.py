@@ -7,6 +7,7 @@ Description: Compresses a simulation for replay demos.
 import shutil
 import json
 from global_methods import *
+import sys, getopt
 
 def compress(sim_code):
   sim_storage = f"../environment/frontend_server/storage/{sim_code}"
@@ -58,10 +59,32 @@ def compress(sim_code):
   shutil.copyfile(meta_file, f"{compressed_storage}/meta.json")
   shutil.copytree(persona_folder, f"{compressed_storage}/personas/")
 
+def help():
+  print ('compress_sim_storage.py -i <simcode>')
 
-if __name__ == '__main__':
-  compress("July1_the_ville_isabella_maria_klaus-step-3-9")
+def main(argv):
+  simcode = ''
 
+  try:
+    opts, args = getopt.getopt(argv,"hi:",["in=","help"])
+  except getopt.GetoptError:
+    help()
+    sys.exit(2)
+  for opt, arg in opts:
+    if opt in ("-h", "--help"):
+       help()
+       sys.exit(2)
+    elif opt in ("-i", "--in"):
+       simcode = arg
+
+  if simcode == "" or simcode == None:
+    help()
+    sys.exit(2)
+
+  compress(simcode)
+
+if __name__ == "__main__":
+   main(sys.argv[1:])
 
 
 

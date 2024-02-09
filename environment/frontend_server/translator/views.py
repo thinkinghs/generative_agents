@@ -38,8 +38,9 @@ def demo(request, sim_code, step, play_speed="2"):
     meta = json.load(json_file)
 
   sec_per_step = meta["sec_per_step"]
-  start_datetime = datetime.datetime.strptime(meta["start_date"] + " 00:00:00", 
-                                              '%B %d, %Y %H:%M:%S')
+  # start_datetime = datetime.datetime.strptime(meta["start_date"] + " 00:00:00", 
+  start_datetime = datetime.datetime.strptime(meta["curr_time"], 
+                                              '%B %d, %Y, %H:%M:%S')
   for i in range(step): 
     start_datetime += datetime.timedelta(seconds=sec_per_step)
   start_datetime = start_datetime.strftime("%Y-%m-%dT%H:%M:%S")
@@ -56,7 +57,8 @@ def demo(request, sim_code, step, play_speed="2"):
   for p in list(raw_all_movement["0"].keys()): 
     persona_names += [{"original": p, 
                        "underscore": p.replace(" ", "_"), 
-                       "initial": p[0] + p.split(" ")[-1][0]}]
+                       # "initial": p[0] + p.split(" ")[-1][0]}]
+                       "initial": p}]
     persona_names_set.add(p)
 
   # <all_movement> is the main movement variable that we are passing to the 
