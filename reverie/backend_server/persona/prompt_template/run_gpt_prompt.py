@@ -148,7 +148,8 @@ def run_gpt_prompt_daily_plan(persona,
 
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
-  output = ([f"wake up and complete the morning routine at {wake_up_hour}:00 am"]
+  #output = ([f"wake up and complete the morning routine at {wake_up_hour}:00 am"]
+  output = ([f"오전 {wake_up_hour}:00 에 일어나 아침맞이 준비를 한다."]
               + output)
 
   if debug or verbose: 
@@ -1007,8 +1008,9 @@ def run_gpt_prompt_act_obj_desc(act_game_object, act_desp, persona, verbose=Fals
   prompt_template = "persona/prompt_template/v3_ChatGPT/generate_obj_event_v1.txt" ########
   prompt_input = create_prompt_input(act_game_object, act_desp, persona)  ########
   prompt = generate_prompt(prompt_input, prompt_template)
-  example_output = "being fixed" ########
-  special_instruction = "The output should ONLY contain the phrase that should go in <fill in>." ########
+  example_output = "고정되어 있음" ########
+  #special_instruction = "The output should ONLY contain the phrase that should go in <fill in>." ########
+  special_instruction = "답변은 <fill in> 에 들어가야 하는 것들로만 제한한다." ########
   fail_safe = get_fail_safe(act_game_object) ########
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
                                           __chat_func_validate, __chat_func_clean_up, True)
@@ -1632,8 +1634,10 @@ def run_gpt_prompt_summarize_conversation(persona, conversation, test_input=None
   prompt_template = "persona/prompt_template/v3_ChatGPT/summarize_conversation_v1.txt" ########
   prompt_input = create_prompt_input(conversation, test_input)  ########
   prompt = generate_prompt(prompt_input, prompt_template)
-  example_output = "conversing about what to eat for lunch" ########
-  special_instruction = "The output must continue the sentence above by filling in the <fill in> tag. Don't start with 'this is a conversation about...' Just finish the sentence but do not miss any important details (including who are chatting)." ########
+  #example_output = "conversing about what to eat for lunch" ########
+  example_output = "점심으로 뭘 먹을지 대화중" ########
+  #special_instruction = "The output must continue the sentence above by filling in the <fill in> tag. Don't start with 'this is a conversation about...' Just finish the sentence but do not miss any important details (including who are chatting)." ########
+  special_instruction = "답변은 위의 <fill in> tag 를 채우는 방식으로 이어져야함. 절대 '이 대화는...' 하는 식으로 시작하지 말라. 문장을 완성하는 것만 하고 하지만 절대 디테일을 빼먹어서는 안된다. (누가 대화 중 인지를 포함)." ########
   fail_safe = get_fail_safe() ########
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
                                           __chat_func_validate, __chat_func_clean_up, True)
@@ -1886,7 +1890,8 @@ def run_gpt_prompt_event_poignancy(persona, event_description, test_input=None, 
   prompt_input = create_prompt_input(persona, event_description)  ########
   prompt = generate_prompt(prompt_input, prompt_template)
   example_output = "5" ########
-  special_instruction = "The output should ONLY contain ONE integer value on the scale of 1 to 10." ########
+  special_instruction = "출력은 반드시 1부터 10 까지의 정수 여야 한다." ########
+  #special_instruction = "The output should ONLY contain ONE integer value on the scale of 1 to 10." ########
   fail_safe = get_fail_safe() ########
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
                                           __chat_func_validate, __chat_func_clean_up, True)
@@ -1957,7 +1962,8 @@ def run_gpt_prompt_thought_poignancy(persona, event_description, test_input=None
   prompt_input = create_prompt_input(persona, event_description)  ########
   prompt = generate_prompt(prompt_input, prompt_template)
   example_output = "5" ########
-  special_instruction = "The output should ONLY contain ONE integer value on the scale of 1 to 10." ########
+  special_instruction = "출력은 반드시 1부터 10 까지의 정수 여야 한다." ########
+  #special_instruction = "The output should ONLY contain ONE integer value on the scale of 1 to 10." ########
   fail_safe = get_fail_safe() ########
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
                                           __chat_func_validate, __chat_func_clean_up, True)
@@ -2029,7 +2035,8 @@ def run_gpt_prompt_chat_poignancy(persona, event_description, test_input=None, v
   prompt_input = create_prompt_input(persona, event_description)  ########
   prompt = generate_prompt(prompt_input, prompt_template)
   example_output = "5" ########
-  special_instruction = "The output should ONLY contain ONE integer value on the scale of 1 to 10." ########
+  special_instruction = "출력은 반드시 1부터 10 까지의 정수 여야 한다." ########
+  #special_instruction = "The output should ONLY contain ONE integer value on the scale of 1 to 10." ########
   fail_safe = get_fail_safe() ########
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
                                           __chat_func_validate, __chat_func_clean_up, True)
@@ -2104,8 +2111,10 @@ def run_gpt_prompt_focal_pt(persona, statements, n, test_input=None, verbose=Fal
   prompt_template = "persona/prompt_template/v3_ChatGPT/generate_focal_pt_v1.txt" ########
   prompt_input = create_prompt_input(persona, statements, n)  ########
   prompt = generate_prompt(prompt_input, prompt_template)
-  example_output = '["What should Jane do for lunch", "Does Jane like strawberry", "Who is Jane"]' ########
-  special_instruction = "Output must be a list of str." ########
+  #example_output = '["What should Jane do for lunch", "Does Jane like strawberry", "Who is Jane"]' ########
+  example_output = '["Jane 은 점심으로 뭘 먹어야 하나", "Jane 은 딸기를 좋아하나", "Jane 은 누구인가"]' ########
+  special_instruction = "출력은 반드시 str 의 list 여야 한다." ########
+  #special_instruction = "Output must be a list of str." ########
   fail_safe = get_fail_safe(n) ########
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
                                           __chat_func_validate, __chat_func_clean_up, True)
@@ -2231,8 +2240,10 @@ def run_gpt_prompt_agent_chat_summarize_ideas(persona, target_persona, statement
   prompt_template = "persona/prompt_template/v3_ChatGPT/summarize_chat_ideas_v1.txt" ########
   prompt_input = create_prompt_input(persona, target_persona, statements, curr_context)  ########
   prompt = generate_prompt(prompt_input, prompt_template)
-  example_output = 'Jane Doe is working on a project' ########
-  special_instruction = 'The output should be a string that responds to the question.' ########
+  #example_output = 'Jane Doe is working on a project' ########
+  example_output = 'Jane Doe 는 프로젝트에서 일하고 있다' ########
+  #special_instruction = 'The output should be a string that responds to the question.' ########
+  special_instruction = '출력은 string 타입이어야 한다.' ########
   fail_safe = get_fail_safe() ########
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
                                           __chat_func_validate, __chat_func_clean_up, True)
@@ -2299,8 +2310,10 @@ def run_gpt_prompt_agent_chat_summarize_relationship(persona, target_persona, st
   prompt_template = "persona/prompt_template/v3_ChatGPT/summarize_chat_relationship_v2.txt" ########
   prompt_input = create_prompt_input(persona, target_persona, statements)  ########
   prompt = generate_prompt(prompt_input, prompt_template)
-  example_output = 'Jane Doe is working on a project' ########
-  special_instruction = 'The output should be a string that responds to the question.' ########
+  example_output = 'Jane Doe 는 프로젝트에서 일하고 있다' ########
+  #example_output = 'Jane Doe is working on a project' ########
+  #special_instruction = 'The output should be a string that responds to the question.' ########
+  special_instruction = '출력은 string 타입이어야 한다.' ########
   fail_safe = get_fail_safe() ########
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
                                           __chat_func_validate, __chat_func_clean_up, True)
@@ -2427,8 +2440,10 @@ def run_gpt_prompt_agent_chat(maze, persona, target_persona,
   prompt_template = "persona/prompt_template/v3_ChatGPT/agent_chat_v1.txt" ########
   prompt_input = create_prompt_input(persona, target_persona, curr_context, init_summ_idea, target_summ_idea)  ########
   prompt = generate_prompt(prompt_input, prompt_template)
-  example_output = '[["Jane Doe", "Hi!"], ["John Doe", "Hello there!"] ... ]' ########
-  special_instruction = 'The output should be a list of list where the inner lists are in the form of ["<Name>", "<Utterance>"].' ########
+  #example_output = '[["Jane Doe", "Hi!"], ["John Doe", "Hello there!"] ... ]' ########
+  example_output = '[["Jane Doe", "안녕!"], ["John Doe", "오 반가워!"] ... ]' ########
+  #special_instruction = 'The output should be a list of list where the inner lists are in the form of ["<Name>", "<Utterance>"].' ########
+  special_instruction = '출력은 리스트의 리스트 여야 하며, 안쪽 리스트는 다음의 형태를 반드시 지녀야 한다 ["<Name>", "<Utterance>"].' ########
   fail_safe = get_fail_safe() ########
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
                                           __chat_func_validate, __chat_func_clean_up, True)
@@ -2508,8 +2523,10 @@ def run_gpt_prompt_summarize_ideas(persona, statements, question, test_input=Non
   prompt_template = "persona/prompt_template/v3_ChatGPT/summarize_ideas_v1.txt" ########
   prompt_input = create_prompt_input(persona, statements, question)  ########
   prompt = generate_prompt(prompt_input, prompt_template)
-  example_output = 'Jane Doe is working on a project' ########
-  special_instruction = 'The output should be a string that responds to the question.' ########
+  #example_output = 'Jane Doe is working on a project' ########
+  example_output = 'Jane Doe 는 프로젝트에서 일하고 있다' ########
+  #special_instruction = 'The output should be a string that responds to the question.' ########
+  special_instruction = '출력은 string 타입이어야 한다.' ########
   fail_safe = get_fail_safe() ########
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
                                           __chat_func_validate, __chat_func_clean_up, True)
@@ -2727,8 +2744,10 @@ def run_gpt_prompt_memo_on_convo(persona, all_utt, test_input=None, verbose=Fals
   prompt_template = "persona/prompt_template/v3_ChatGPT/memo_on_convo_v1.txt" ########
   prompt_input = create_prompt_input(persona, all_utt)  ########
   prompt = generate_prompt(prompt_input, prompt_template)
-  example_output = 'Jane Doe was interesting to talk to.' ########
-  special_instruction = 'The output should ONLY contain a string that summarizes anything interesting that the agent may have noticed' ########
+  #example_output = 'Jane Doe was interesting to talk to.' ########
+  example_output = 'Jane Doe 는 대화 하는것을 좋아했었다.' ########
+  #special_instruction = 'The output should ONLY contain a string that summarizes anything interesting that the agent may have noticed' ########
+  special_instruction = '출력은 반드시 agent 가 이미 인지하고 있던 것 중 흥미있다고 느낄만한 것을 요약한 string 을 포함 하고 있어야 한다' ########
   fail_safe = get_fail_safe() ########
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
                                           __chat_func_validate, __chat_func_clean_up, True)

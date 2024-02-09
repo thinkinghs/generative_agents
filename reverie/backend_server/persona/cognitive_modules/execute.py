@@ -44,6 +44,8 @@ def execute(persona, maze, personas, plan):
 
     print ('aldhfoaf/????')
     print (plan)
+    ##### TODO HS Hard coded fixed change
+    plan = plan.replace("kitchen", "부엌")
 
     if "<persona>" in plan: 
       # Executing persona-persona interaction.
@@ -87,9 +89,9 @@ def execute(persona, maze, personas, plan):
       # location where the current action is taking place. 
       # Retrieve the target addresses. Again, plan is an action address in its
       # string form. <maze.address_tiles> takes this and returns candidate 
-      # coordinates. 
-      if plan not in maze.address_tiles: 
-        maze.address_tiles["중앙공원:광장:공원 정원"] #ERRORRRRRRR
+      # coordinates.
+      if plan not in maze.address_tiles:
+        target_tiles = maze.address_tiles["the Ville:중앙공원:광장:공원 정원"] #ERRORRRRRRR
       else: 
         target_tiles = maze.address_tiles[plan]
 

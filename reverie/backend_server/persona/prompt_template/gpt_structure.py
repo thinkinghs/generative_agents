@@ -130,8 +130,8 @@ def ChatGPT_safe_generate_response(prompt,
                                    verbose=False): 
   # prompt = 'GPT-3 Prompt:\n"""\n' + prompt + '\n"""\n'
   prompt = '"""\n' + prompt + '\n"""\n'
-  prompt += f"Output the response to the prompt above in json. {special_instruction}\n"
-  prompt += "Example output json:\n"
+  prompt += f"답변은 json 의 형태로 하라. {special_instruction}\n"
+  prompt += "예시 json:\n"
   prompt += '{"output": "' + str(example_output) + '"}'
 
   if verbose: 
@@ -274,10 +274,18 @@ def safe_generate_response(prompt,
   return fail_safe_response
 
 
-def get_embedding(text, model="text-embedding-ada-002"):
+def get_embedding(text, model="text-embedding-3-small"):
   text = text.replace("\n", " ")
   if not text: 
     text = "this is blank"
+
+  for i in range(5): 
+    try: 
+      return openai.Embedding.create(
+          input=[text], model=model)['data'][0]['embedding']
+    except: 
+      pass
+
   return openai.Embedding.create(
           input=[text], model=model)['data'][0]['embedding']
 
