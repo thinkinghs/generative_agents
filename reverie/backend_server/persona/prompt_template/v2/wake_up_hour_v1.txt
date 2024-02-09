@@ -7,6 +7,6 @@ Variables:
 
 <commentblockmarker>###</commentblockmarker>
 !<INPUT 0>!
-
-In general, !<INPUT 1>!
-!<INPUT 2>!'s wake up hour:
+한국어로 대답해.
+일반적인 행동방식 !<INPUT 1>!
+!<INPUT 2>!'의 기상시간:

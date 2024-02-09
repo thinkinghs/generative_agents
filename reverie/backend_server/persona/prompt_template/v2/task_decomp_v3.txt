@@ -11,29 +11,29 @@ Variables:
 !<INPUT 7>! -- Persona first names
 
 <commentblockmarker>###</commentblockmarker>
-Describe subtasks in 5 min increments. 
+세부 일정을 5분 단위로 한국어로 작성해
 ---
-Name: Kelly Bronson
-Age: 35
-Backstory: Kelly always wanted to be a teacher, and now she teaches kindergarten. During the week, she dedicates herself to her students, but on the weekends, she likes to try out new restaurants and hang out with friends. She is very warm and friendly, and loves caring for others.
-Personality: sweet, gentle, meticulous
-Location: Kelly is in an older condo that has the following areas: {kitchen, bedroom, dining, porch, office, bathroom, living room, hallway}.
-Currently: Kelly is a teacher during the school year. She teaches at the school but works on lesson plans at home. She is currently living alone in a single bedroom condo.
-Daily plan requirement: Kelly is planning to teach during the morning and work from home in the afternoon.s
+Name: 워렌 버핏
+Age: 45
+Backstory: 워렌 버핏은 세계 최고의 투자자이다. 경제학을 전공했고 철학적이고 통찰력 있는 사고를 통한 투자를 한다. 자선 사업가로도 일하고 있다.
+Personality: 명철한, 엉뚱한, 똑똑한
+Location: 워렌버핏은 다음과 같은 장소가 있는 주택에 거주한다: {거실, 부엌, 침실, 오피스, 보일러실, 화장실, 지하실, 복도}.
+Currently: 워렌은 버크셔 헤서웨이의 회장이다. 그는 투자와 경영에 대해 책임지고 있다. 세계 최고의 투자자로서 사람들을 가르치는 일도 하고 있다.
+Daily plan requirement: 워렌은 오늘 투자 보고서를 검토하고 투자할 회사를 알아볼 예정이며 중학교 학생들에게 강의를 할 예정이다.
 
-Today is Saturday May 10. From 08:00am ~09:00am, Kelly is planning on having breakfast, from 09:00am ~ 12:00pm, Kelly is planning on working on the next day's kindergarten lesson plan, and from 12:00 ~ 13pm, Kelly is planning on taking a break. 
-In 5 min increments, list the subtasks Kelly does when Kelly is working on the next day's kindergarten lesson plan from 09:00am ~ 12:00pm (total duration in minutes: 180):
-1) Kelly is reviewing the kindergarten curriculum standards. (duration in minutes: 15, minutes left: 165)
-2) Kelly is brainstorming ideas for the lesson. (duration in minutes: 30, minutes left: 135)
-3) Kelly is creating the lesson plan. (duration in minutes: 30, minutes left: 105)
-4) Kelly is creating materials for the lesson. (duration in minutes: 30, minutes left: 75)
-5) Kelly is taking a break. (duration in minutes: 15, minutes left: 60)
-6) Kelly is reviewing the lesson plan. (duration in minutes: 30, minutes left: 30)
-7) Kelly is making final changes to the lesson plan. (duration in minutes: 15, minutes left: 15)
-8) Kelly is printing the lesson plan. (duration in minutes: 10, minutes left: 5)
-9) Kelly is putting the lesson plan in her bag. (duration in minutes: 5, minutes left: 0)
+오늘은 2월 10일이다. 08:00am ~ 09:00am, 워렌을 아침을 먹는다, 09:00am ~ 12:00pm, 워렌은 사업 보고서를 검토한다, 12:00 ~ 13pm, 투자할 회사를 알아본다. 
+5분 단위로 워렌이 오늘 09:00am ~ 12:00pm 시간동안 하는 세부 일정을 정리해라. (total duration in minutes: 180):
+1) 워렌은 포스코에 투자 검토한다 (duration in minutes: 15, minutes left: 165)
+2) 워렌은 맥도날드에서 아침을 먹는다 (duration in minutes: 30, minutes left: 135)
+3) 워렌은 애플에 지난 분기 현황을 검토한다 (duration in minutes: 30, minutes left: 105)
+4) 워렌은 중학교 학생들에게 삶과 투자에 대한 강의를 한다 (duration in minutes: 30, minutes left: 75)
+5) 워렌은 일본에 투자할 회사들을 알아본다 (duration in minutes: 15, minutes left: 60)
+6) 워렌은 일본 상사 회사 투자 보고서를 검토한다 (duration in minutes: 30, minutes left: 30)
+7) 워렌은 본인의 회사의 투자 포트폴리오를 검토한다 (duration in minutes: 15, minutes left: 15)
+8) 워렌은 주주 서한 작성을 준비한다 (duration in minutes: 10, minutes left: 5)
+9) 워렌은 감자칩을 먹는다 (duration in minutes: 5, minutes left: 0)
 ---
 !<INPUT 0>!
 !<INPUT 1>!
-In 5 min increments, list the subtasks !<INPUT 2>! does when !<INPUT 3>! is !<INPUT 4>! from !<INPUT 5>! (total duration in minutes !<INPUT 6>!): 
-1) !<INPUT 7>! is
+5분 단위로 세부 일정을 한국어로 작성해 !<INPUT 2>! 는 할거야. !<INPUT 3>! 가 !<INPUT 4>! 를 !<INPUT 5>! 시간대에 행동할 때. (total duration in minutes !<INPUT 6>!): 
+1) !<INPUT 7>! 는

@@ -25,4 +25,5 @@ Currently: !<INPUT 7>!
 Daily plan requirement: !<INPUT 8>!
 
 In general, !<INPUT 9>!
+(한국어로 대답)
 Today is !<INPUT 10>!. Here is !<INPUT 11>!'s plan today in broad-strokes (with the time of the day. e.g., have a lunch at 12:00 pm, watch TV from 7 to 8 pm): 1) wake up and complete the morning routine at !<INPUT 12>!, 2)

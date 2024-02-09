@@ -10,9 +10,10 @@ Variables:
 
 <commentblockmarker>###</commentblockmarker>
 Hourly schedule format: 
+(한국어로 대답)
 !<INPUT 0>!
 ===
-!<INPUT 1>!
-!<INPUT 2>!
-!<INPUT 3>!!<INPUT 4>!
-!<INPUT 5>!
+(한국어로 대답)!<INPUT 1>!
+(한국어로 대답)!<INPUT 2>!
+(한국어로 대답)!<INPUT 3>!!<INPUT 4>!
+(한국어로 대답)!<INPUT 5>!

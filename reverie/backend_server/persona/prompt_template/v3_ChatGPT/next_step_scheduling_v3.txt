@@ -14,9 +14,9 @@ Variables:
 <commentblockmarker>###</commentblockmarker>
 !<INPUT 0>!
 
-Here is !<INPUT 1>!'s schedule so far broken into time durations between 5 minutes and 60 minutes:
+Here is !<INPUT 1>!'s schedule so far broken into time durations between 5 minutes and 60 minutes(한국어로 대답):
 !<INPUT 2>!
-Here is the continuation of !<INPUT 3>!'s schedule, with time durations that absolutely must be between 5 minutes and 60 minutes:
+Here is the continuation of !<INPUT 3>!'s schedule, with time durations that absolutely must be between 5 minutes and 60 minutes(한국어로 대답):
 !<INPUT 4>!
-Let's think step by step. Here is the hourly breakdown of !<INPUT 5>!'s schedule today: !<INPUT 6>!
-[!<INPUT 7>!] Activity: !<INPUT 8>! is
+Let's think step by step. Here is the hourly breakdown of !<INPUT 5>!'s schedule today(한국어로 대답): !<INPUT 6>!
+[!<INPUT 7>!] Activity(한국어로 대답): !<INPUT 8>! is

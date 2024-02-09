@@ -22,5 +22,5 @@ Currently: !<INPUT 7>!
 Lifestyle: !<INPUT 8>!
 
 Daily plan requirement: !<INPUT 9>!
-Today is !<INPUT 10>!. Here are 5 things that !<INPUT 11>! wants to achieve today:
+Today is !<INPUT 10>!. Here are 5 things that !<INPUT 11>! wants to achieve today(한국어로 대답):
 1.

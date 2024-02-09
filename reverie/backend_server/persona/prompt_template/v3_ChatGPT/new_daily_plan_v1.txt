@@ -16,5 +16,5 @@ Memorable things that actually happened to !<INPUT 1>! yesterday:
 !<INPUT 2>!
 
 Here the hourly breakdown of !<INPUT 3>!'s original plan yesterday: !<INPUT 4>!
-
+(한국어로 대답)
 !<INPUT 5>! (No matter what happens, Dolores is absolutely planning to stay at home all day and never go out.) Let's think step by step -- how would !<INPUT 6>! change their plan for today: 1)

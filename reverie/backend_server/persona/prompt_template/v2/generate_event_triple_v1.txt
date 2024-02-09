@@ -6,25 +6,26 @@ Variables:
 !<INPUT 2>! -- Persona's full name. 
 
 <commentblockmarker>###</commentblockmarker>
-Task: Turn the input into (subject, predicate, object). 
+항상 한국어로 대답해.
+할 일: 입력을 이런 결과로 형식 바꿔 (subject, predicate, object). 
 
-Input: Sam Johnson is eating breakfast. 
-Output: (Dolores Murphy, eat, breakfast) 
+입력: 워렌 버핏은 아침을 먹는다. 
+결과: (워렌 버핏, 먹는다, 아침) 
 --- 
-Input: Joon Park is brewing coffee.
-Output: (Joon Park, brew, coffee)
+입력: 찰리 멍거는 축구공을 찬다.
+결과: (찰리 멍거, 찬다, 축구공)
 ---
-Input: Jane Cook is sleeping. 
-Output: (Jane Cook, is, sleep)
+입력: 수지 버핏은 자고 있는 중이다. 
+결과: (수지 버핏, 중이다, 잔다)
 ---
-Input: Michael Bernstein is writing email on a computer. 
-Output: (Michael Bernstein, write, email)
+입력: 마이클 버리는 이메일을 보낸다. 
+결과: (마이클 버리, 보낸다, 이메일)
 ---
-Input: Percy Liang is teaching students in a classroom. 
-Output: (Percy Liang, teach, students)
+입력: 일론 머스크는 로켓을 만든다. 
+결과: (일론 머스크, 만든다, 로켓)
 ---
-Input: Merrie Morris is running on a treadmill. 
-Output: (Merrie Morris, run, treadmill)
+입력: 타이거 우즈는 골프를 친다.
+결과: (타이거 우즈, 친다, 골프)
 ---
-Input: !<INPUT 0>! is !<INPUT 1>!. 
-Output: (!<INPUT 2>!,
+입력: !<INPUT 0>! 는 !<INPUT 1>!. 
+결과: (!<INPUT 2>!,

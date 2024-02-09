@@ -178,8 +178,8 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
       schedule_format += f" Activity: [Fill in]\n"
     schedule_format = schedule_format[:-1]
 
-    intermission_str = f"Here the originally intended hourly breakdown of"
-    intermission_str += f" {persona.scratch.get_str_firstname()}'s schedule today: "
+    intermission_str = f"시간대별 일정은 다음과 같습니다. "
+    intermission_str += f" {persona.scratch.get_str_firstname()}'의 오늘 일정: "
     for count, i in enumerate(persona.scratch.daily_req): 
       intermission_str += f"{str(count+1)}) {i}, "
     intermission_str = intermission_str[:-2]
@@ -190,13 +190,13 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
       for count, i in enumerate(p_f_ds_hourly_org): 
         prior_schedule += f"[(ID:{get_random_alphanumeric()})" 
         prior_schedule += f" {persona.scratch.get_str_curr_date_str()} --"
-        prior_schedule += f" {hour_str[count]}] Activity:"
+        prior_schedule += f" {hour_str[count]}] 일정:"
         prior_schedule += f" {persona.scratch.get_str_firstname()}"
         prior_schedule += f" is {i}\n"
 
     prompt_ending = f"[(ID:{get_random_alphanumeric()})"
     prompt_ending += f" {persona.scratch.get_str_curr_date_str()}"
-    prompt_ending += f" -- {curr_hour_str}] Activity:"
+    prompt_ending += f" -- {curr_hour_str}] 일정:"
     prompt_ending += f" {persona.scratch.get_str_firstname()} is"
 
     if intermission2: 

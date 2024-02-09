@@ -8,5 +8,5 @@ Variables:
 <commentblockmarker>###</commentblockmarker>
 !<INPUT 0>!
 
-In general, !<INPUT 1>!
-!<INPUT 2>!'s wake up hour:
+일반적인 일상 !<INPUT 1>!
+!<INPUT 2>!의 기상시간:

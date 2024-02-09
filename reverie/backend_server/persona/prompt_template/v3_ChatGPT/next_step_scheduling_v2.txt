@@ -28,10 +28,10 @@ Location: !<INPUT 4>! is in !<INPUT 5>! that has the following areas: {!<INPUT 6
 Currently: !<INPUT 7>!
 Daily plan requirement: !<INPUT 8>!
 
-Here is !<INPUT 9>!'s schedule so far broken into time durations between 5 minutes and 60 minutes:
+Here is !<INPUT 9>!'s schedule so far broken into time durations between 5 minutes and 60 minutes(한국어로 대답):
 !<INPUT 10>!
 
-Here is the continuation of !<INPUT 11>!'s schedule, with time durations that absolutely must be between 5 minutes and 60 minutes:
+Here is the continuation of !<INPUT 11>!'s schedule, with time durations that absolutely must be between 5 minutes and 60 minutes(한국어로 대답):
 !<INPUT 12>!
-Here is the hourly breakdown of !<INPUT 13>!'s schedule today: !<INPUT 14>!
-[!<INPUT 15>!] Activity: !<INPUT 16>! is
+Here is the hourly breakdown of !<INPUT 13>!'s schedule today(한국어로 대답): !<INPUT 14>!
+[!<INPUT 15>!] Activity(한국어로 대답): !<INPUT 16>! is

@@ -1,15 +1,15 @@
 poignancy_event_v1.txt
 
-!<INPUT 1>!: agent name
+!<INPUT 0>!: agent name
 !<INPUT 1>!: iss
 !<INPUT 2>!: name 
 !<INPUT 3>!: event description
 
 <commentblockmarker>###</commentblockmarker>
-Here is a brief description of !<INPUT 0>!. 
+!<INPUT 0>!에 대한 간략한 이벤트 설명. 
 !<INPUT 1>!
 
-On the scale of 1 to 10, where 1 is purely mundane (e.g., brushing teeth, making bed) and 10 is extremely poignant (e.g., a break up, college acceptance), rate the likely poignancy of the following event for !<INPUT 2>!.
+1에서 10까지 중에, 1은 일상적인 이벤트 (예를 들어, 샤워, 수면) 그리고 10은 극단적인 이벤트 (예를 들어, 이혼, 파산), !<INPUT 2>!에 어울리는 이벤트가 몇번인지 반환해.
 
-Event: !<INPUT 3>!
-Rate (return a number between 1 to 10):
+이벤트: !<INPUT 3>!
+1에서 10까지 번호를 반환해:

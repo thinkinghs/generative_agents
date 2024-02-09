@@ -10,25 +10,25 @@ Variables:
 !<INPUT 8>! -- curr action description
 !<INPUT 9>! -- Persona name
 <commentblockmarker>###</commentblockmarker>
-Task -- choose an appropriate area  from the area options for a task at hand. 
+할 일 -- 주어진 할 일을 하기에 적절한 장소를 선택해. 
 
-Sam Kim lives in {Sam Kim's house} that has Sam Kim's room, bathroom, kitchen.
-Sam Kim is currently in {Sam Kim's house} that has Sam Kim's room, bathroom, kitchen. 
-Area options: {Sam Kim's house, The Rose and Crown Pub, Hobbs Cafe, Oak Hill College, Johnson Park, Harvey Oak Supply Store, The Willows Market and Pharmacy}.
-* Stay in the current area if the activity can be done there. Only go out if the activity needs to take place in another place.
-* Must be one of the "Area options," verbatim.
-For taking a walk, Sam Kim should go to the following area: {Johnson Park}
+나폴레옹 보나파르트는 {나폴레옹 보나파르트의 아파트}에 살고 여기에는 방, 화장실, 거실이 있어.
+나폴레옹 보나파르트는 지금 {나폴레옹 보나파르트의 아파트}에 있고 여기에는 방, 화장실, 거실이 있어. 
+선택 가능 위치 : {나폴레옹 보나파르트의 아파트, 스마게 주점, Hosik Cafe, 스마게 매점, 스마게 약국, 스마게 대학교 기숙사, 중앙공원}.
+* 지금 활동을 할 수 있으면 지금 장소에 있어. 지금 활동을 다른 곳에서 해야할 때만 다른 곳으로 이동 해.
+* 반드시 "선택 가능 위치" 에 있는 단어만 선택해.
+산책하고 싶다면, 나폴레옹 보나파르트는 다음 위치로 가야해: {중앙공원}
 ---
-Jane Anderson lives in {Oak Hill College Student Dormatory} that has Jane Anderson's room.
-Jane Anderson is currently in {Oak Hill College} that has a classroom, library
-Area options: {Oak Hill College Student Dormatory, The Rose and Crown Pub, Hobbs Cafe, Oak Hill College, Johnson Park, Harvey Oak Supply Store, The Willows Market and Pharmacy}. 
-* Stay in the current area if the activity can be done there. Only go out if the activity needs to take place in another place.
-* Must be one of the "Area options," verbatim.
-For eating dinner, Jane Anderson should go to the following area: {Hobbs Cafe}
+아담 스미스는 {아담 스미스의 집}에 살고 방, 화장실, 거실이 있어.
+아담 스미스는 지금 {아담 스미스의 집}에 있고 안방, 화장실, 거실이 있어. 
+선택 가능 위치 : {아담 스미스의 집, 스마게 주점, Hosik Cafe, 스마게 매점, 스마게 약국, 스마게 대학교 기숙사, 중앙공원}.
+* 지금 활동을 할 수 있으면 지금 장소에 있어. 지금 활동을 다른 곳에서 해야할 때만 다른 곳으로 이동 해.
+* 반드시 "선택 가능 위치" 에 있는 단어만 선택해.
+약을 사고 싶다면, 아담 스미스는 다음 위치로 가야해: {스마게 약국}
 ---
-!<INPUT 0>! lives in {!<INPUT 1>!} that has !<INPUT 2>!.
-!<INPUT 3>! is currently in {!<INPUT 4>!} that has !<INPUT 5>!. !<INPUT 6>!
-Area options: {!<INPUT 7>!}. 
-* Stay in the current area if the activity can be done there. Only go out if the activity needs to take place in another place.
-* Must be one of the "Area options," verbatim.
-!<INPUT 8>! is !<INPUT 9>!. For !<INPUT 10>!, !<INPUT 11>! should go to the following area: {
+!<INPUT 0>!는 {!<INPUT 1>!} 에 살고, 여기에는 !<INPUT 2>!이 있어.
+!<INPUT 3>!는 지금 {!<INPUT 4>!}에 있고, 여기에는 !<INPUT 6>!이 있어
+선택 가능 위치: {!<INPUT 7>!}. 
+* 지금 활동을 할 수 있으면 지금 장소에 있어. 지금 활동을 다른 곳에서 해야할 때만 다른 곳으로 이동 해.
+* 반드시 "선택 가능 위치" 에 있는 단어만 선택해.
+!<INPUT 8>! 를 하기 위해서는 !<INPUT 9>!는 다음 위치로 가야되: {}

@@ -6,6 +6,6 @@ Variables:
 !<INPUT 2>! -- Persona's full name. 
 
 <commentblockmarker>###</commentblockmarker>
-Task: Turn the input into (subject, predicate, object). 
+할 일: 입력을 이런 형식으로 바꿔 (subject, predicate, object). 
 
-Input: !<INPUT 0>! is !<INPUT 1>!.
+입력(한국어로 입력): !<INPUT 0>! 는 !<INPUT 1>!.

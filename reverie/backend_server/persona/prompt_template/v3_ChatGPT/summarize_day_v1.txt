@@ -8,6 +8,6 @@ Variables:
 <commentblockmarker>###</commentblockmarker>
 !<INPUT 0>!'s day today:
 !<INPUT 1>!
-
+(한국어로 대답)
 What are the three most memorable things that happened to !<INPUT 2>! today?
 1)

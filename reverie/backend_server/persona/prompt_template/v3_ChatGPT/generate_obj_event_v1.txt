@@ -8,9 +8,9 @@ Variables:
 !<INPUT 4>! -- Object name 
 
 <commentblockmarker>###</commentblockmarker>
-Task: We want to understand the state of an object that is being used by someone. 
+할 일: 누군가에 의해 사용된 오브젝트의 상태에 대해 궁금해. 
 
-Let's think step by step. 
-We want to know about !<INPUT 0>!'s state. 
-Step 1. !<INPUT 1>! is at/using the !<INPUT 2>!.
-Step 2. Describe the !<INPUT 3>!'s state: !<INPUT 4>! is
+스텝별로 생각해보자
+!<INPUT 0>!의 상태에 대해 궁금해. 
+Step 1. !<INPUT 1>! 는 !<INPUT 2>! 를 사용 중이거나 여기에 있어.
+Step 2. !<INPUT 3>!'의 상태를 서술해: !<INPUT 4>! 는

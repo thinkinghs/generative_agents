@@ -9,7 +9,8 @@ Variables:
 !<INPUT 5>! -- prompt_ending
 
 <commentblockmarker>###</commentblockmarker>
-Hourly schedule format: 
+모두 한국어로 대답해.
+시간대별 일정: 
 !<INPUT 0>!
 ===
 !<INPUT 1>!
