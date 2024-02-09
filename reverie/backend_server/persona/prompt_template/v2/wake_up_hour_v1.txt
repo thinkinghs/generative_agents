@@ -7,6 +7,6 @@ Variables:
 
 <commentblockmarker>###</commentblockmarker>
 !<INPUT 0>!
-한국어로 대답해.
+앞으로 모든 대화는 한국어로 이루어져야 해. 무조건 한국어로 대답해.
 일반적인 행동방식 !<INPUT 1>!
 !<INPUT 2>!'의 기상시간:

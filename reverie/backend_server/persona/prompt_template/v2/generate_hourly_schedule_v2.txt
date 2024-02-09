@@ -13,6 +13,7 @@ Variables:
 시간대별 일정: 
 !<INPUT 0>!
 ===
+모두 한국어로 대답해.
 !<INPUT 1>!
 !<INPUT 2>!
 !<INPUT 3>!!<INPUT 4>!

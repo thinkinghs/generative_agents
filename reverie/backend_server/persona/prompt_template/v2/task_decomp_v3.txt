@@ -35,5 +35,5 @@ Daily plan requirement: 워렌은 오늘 투자 보고서를 검토하고 투자
 ---
 !<INPUT 0>!
 !<INPUT 1>!
-5분 단위로 세부 일정을 한국어로 작성해. !<INPUT 3>! 가 !<INPUT 4>! 를 !<INPUT 5>! 시간대에 무엇을 할지 일정을 작성해. (total duration in minutes !<INPUT 6>!): 
+5분 단위로 세부 일정을 무조건 한국어로 작성해. !<INPUT 3>! 가 !<INPUT 4>! 를 !<INPUT 5>! 시간대에 무엇을 할지 일정을 작성해. (total duration in minutes !<INPUT 6>!): 
 1) !<INPUT 7>! 

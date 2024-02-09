@@ -4,7 +4,7 @@ Variables:
 !<INPUT 0>! -- Action description
 
 <commentblockmarker>###</commentblockmarker>
-Convert an action description to an emoji (important: use two or less emojis).
+행동 진술을 이모지로 표현해 (중요: 2개 이하 이모지로 표현해).
 
-Action description: !<INPUT 0>!
-Emoji:
+행동 진술: !<INPUT 0>!
+이모지:
