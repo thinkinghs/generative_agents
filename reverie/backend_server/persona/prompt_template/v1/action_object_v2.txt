@@ -3,30 +3,30 @@ Variables:
 !<INPUT 1>! -- Objects available
 
 <commentblockmarker>###</commentblockmarker>
-Current activity: sleep in bed
-Objects available: {bed, easel, closet, painting}
-Pick ONE most relevant object from the objects available: bed
+현재 활동: 침대에서 잠자기
+선택 가능한 오브젝트: {침대, 이젤, 옷장, 그림}
+가장 관련있는 오브젝트를 선택가능한 오브젝트 중 하나만 고르라: 침대
 ---
-Current activity: painting
-Objects available: {easel, closet, sink, microwave}
-Pick ONE most relevant object from the objects available: easel
+현재 활동: 그림 그리기
+선택 가능한 오브젝트: {이젤, 옷장, 싱크대, 전자렌지}
+가장 관련있는 오브젝트를 선택가능한 오브젝트 중 하나만 고르라: 이젤
 ---
-Current activity: cooking
-Objects available: {stove, sink, fridge, counter}
-Pick ONE most relevant object from the objects available: stove
+현재 활동: 요리
+선택 가능한 오브젝트: {스토브, 싱크대, 냉장고, 카운터}
+가장 관련있는 오브젝트를 선택가능한 오브젝트 중 하나만 고르라: 스토브
 ---
-Current activity: watch TV
-Objects available: {couch, TV, remote, coffee table}
-Pick ONE most relevant object from the objects available: TV
+현재 활동: TV 보기
+선택 가능한 오브젝트: {소파, TV, 리모컨, 커피 테이블}
+가장 관련있는 오브젝트를 선택가능한 오브젝트 중 하나만 고르라: TV
 ---
-Current activity: study
-Objects available: {desk, computer, chair, bookshelf}
-Pick ONE most relevant object from the objects available: desk
+현재 활동: 공부
+선택 가능한 오브젝트: {책상, 컴퓨터, 의자, 책장}
+가장 관련있는 오브젝트를 선택가능한 오브젝트 중 하나만 고르라: 책상
 ---
-Current activity: talk on the phone
-Objects available: {phone, charger, bed, nightstand}
-Pick ONE most relevant object from the objects available: phone
+현재 활동: 다른 사람과 전화
+선택 가능한 오브젝트: {전화기, 충전기, 침대, 스탠드}
+가장 관련있는 오브젝트를 선택가능한 오브젝트 중 하나만 고르라: 전화기 
 ---
-Current activity: !<INPUT 0>!
-Objects available: {!<INPUT 1>!}
-Pick ONE most relevant object from the objects available:
+현재 활동: !<INPUT 0>!
+선택 가능한 오브젝트: {!<INPUT 1>!}
+가장 관련있는 오브젝트를 선택가능한 오브젝트 중 하나만 고르라:
