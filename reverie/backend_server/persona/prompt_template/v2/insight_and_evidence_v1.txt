@@ -5,6 +5,7 @@ Variables:
 !<INPUT 1>! -- target persona name or "the conversation"
 
 <commentblockmarker>###</commentblockmarker>
+한국어로 대답해
 입력:
 !<INPUT 0>!
 

@@ -22,7 +22,7 @@ Currently: 워렌은 버크셔 헤서웨이의 회장이다. 그는 투자와 �
 Daily plan requirement: 워렌은 오늘 투자 보고서를 검토하고 투자할 회사를 알아볼 예정이며 중학교 학생들에게 강의를 할 예정이다.
 
 오늘은 2월 10일이다. 08:00am ~ 09:00am, 워렌을 아침을 먹는다, 09:00am ~ 12:00pm, 워렌은 사업 보고서를 검토한다, 12:00 ~ 13pm, 투자할 회사를 알아본다. 
-5분 단위로 워렌이 오늘 09:00am ~ 12:00pm 시간동안 하는 세부 일정을 정리해라. (total duration in minutes: 180):
+5분 단위로 워렌이 오늘 09:00am ~ 12:00pm 시간동안 하는 세부 일정을 정리해. (total duration in minutes: 180):
 1) 워렌은 포스코에 투자 검토한다 (duration in minutes: 15, minutes left: 165)
 2) 워렌은 맥도날드에서 아침을 먹는다 (duration in minutes: 30, minutes left: 135)
 3) 워렌은 애플에 지난 분기 현황을 검토한다 (duration in minutes: 30, minutes left: 105)
@@ -35,5 +35,5 @@ Daily plan requirement: 워렌은 오늘 투자 보고서를 검토하고 투자
 ---
 !<INPUT 0>!
 !<INPUT 1>!
-5분 단위로 세부 일정을 한국어로 작성해 !<INPUT 2>! 는 할거야. !<INPUT 3>! 가 !<INPUT 4>! 를 !<INPUT 5>! 시간대에 행동할 때. (total duration in minutes !<INPUT 6>!): 
-1) !<INPUT 7>! 는
+5분 단위로 세부 일정을 한국어로 작성해. !<INPUT 3>! 가 !<INPUT 4>! 를 !<INPUT 5>! 시간대에 무엇을 할지 일정을 작성해. (total duration in minutes !<INPUT 6>!): 
+1) !<INPUT 7>! 

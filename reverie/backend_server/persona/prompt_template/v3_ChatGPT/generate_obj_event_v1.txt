@@ -13,4 +13,4 @@ Variables:
 스텝별로 생각해보자
 !<INPUT 0>!의 상태에 대해 궁금해. 
 Step 1. !<INPUT 1>! 는 !<INPUT 2>! 를 사용 중이거나 여기에 있어.
-Step 2. !<INPUT 3>!'의 상태를 서술해: !<INPUT 4>! 는
+Step 2. !<INPUT 3>!의 상태를 서술해: !<INPUT 4>! 는 상태가 어떤지.

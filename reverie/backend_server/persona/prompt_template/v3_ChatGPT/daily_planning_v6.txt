@@ -8,8 +8,8 @@ Variables:
 !<INPUT 4>! -- wake_up_hour
 
 <commentblockmarker>###</commentblockmarker>
+한국어로 대답해
 !<INPUT 0>!
 
 일반적으로, !<INPUT 1>!
-(한국어로 대답)
 오늘은 !<INPUT 2>!. !<INPUT 3>!의 계획은 대략적으로 다음과 같다(시간대별로. 예를들어., 점심을 먹는다 12:00 pm, TV를 본다 7 to 8 pm): 1) 아침에 기상해서 씻고 나갈 준비를 끝낸다 !<INPUT 4>!, 2)
