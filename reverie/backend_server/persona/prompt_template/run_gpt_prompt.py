@@ -2845,7 +2845,7 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
   def get_fail_safe():
     cleaned_dict = dict()
     cleaned_dict["utterance"] = "지금은 나도 잘 모르겠어요. 다른 대화를 하고 싶어요."
-    cleaned_dict["end"] = False
+    cleaned_dict["end"] = True
     return cleaned_dict
 
   print ("11")

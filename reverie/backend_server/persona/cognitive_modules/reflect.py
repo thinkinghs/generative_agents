@@ -34,7 +34,6 @@ def generate_focal_points(persona, n=3):
 
   return run_gpt_prompt_focal_pt(persona, statements, n)[0]
 
-
 def generate_insights_and_evidence(persona, nodes, n=5): 
   if debug: print ("GNS FUNCTION: <generate_insights_and_evidence>")
 
@@ -54,7 +53,6 @@ def generate_insights_and_evidence(persona, nodes, n=5):
   except: 
     return {"this is blank": "node_1"} 
 
-
 def generate_action_event_triple(act_desp, persona): 
   """TODO 
 
@@ -69,7 +67,6 @@ def generate_action_event_triple(act_desp, persona):
   if debug: print ("GNS FUNCTION: <generate_action_event_triple>")
   return run_gpt_prompt_event_triple(act_desp, persona)[0]
 
-
 def generate_poig_score(persona, event_type, description): 
   if debug: print ("GNS FUNCTION: <generate_poig_score>")
 
@@ -82,8 +79,6 @@ def generate_poig_score(persona, event_type, description):
     return run_gpt_prompt_chat_poignancy(persona, 
                            persona.scratch.act_description)[0]
 
-
-
 def generate_planning_thought_on_convo(persona, all_utt):
   if debug: print ("GNS FUNCTION: <generate_planning_thought_on_convo>")
   return run_gpt_prompt_planning_thought_on_convo(persona, all_utt)[0]
@@ -92,9 +87,6 @@ def generate_planning_thought_on_convo(persona, all_utt):
 def generate_memo_on_convo(persona, all_utt):
   if debug: print ("GNS FUNCTION: <generate_memo_on_convo>")
   return run_gpt_prompt_memo_on_convo(persona, all_utt)[0]
-
-
-
 
 def run_reflect(persona):
   """
@@ -214,7 +206,7 @@ def reflect(persona):
       evidence = [persona.a_mem.get_last_chat(persona.scratch.chatting_with).node_id]
 
       planning_thought = generate_planning_thought_on_convo(persona, all_utt)
-      planning_thought = f"For {persona.scratch.name}'s planning: {planning_thought}"
+      planning_thought = f"{persona.scratch.name} 의 계획: {planning_thought}"
 
       created = persona.scratch.curr_time
       expiration = persona.scratch.curr_time + datetime.timedelta(days=30)
@@ -242,30 +234,4 @@ def reflect(persona):
       persona.a_mem.add_thought(created, expiration, s, p, o, 
                                 memo_thought, keywords, thought_poignancy, 
                                 thought_embedding_pair, evidence)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

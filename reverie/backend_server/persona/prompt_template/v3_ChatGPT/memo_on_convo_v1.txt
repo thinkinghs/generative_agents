@@ -7,9 +7,9 @@ Variables:
 !<INPUT 3>! -- persona name
 
 <commentblockmarker>###</commentblockmarker>
-[Conversation]
+[대화내용]
 !<INPUT 0>!
 
-Write down if there is anything from the conversation that !<INPUT 1>! might have found interesting from !<INPUT 2>!'s perspective, in a full sentence. 
+!<INPUT 1>! 의 대화로 부터 !<INPUT 2>! 의 관점으로 볼 때 관심있을만한 사항 을반드시 완전한 하나의 문장으로 답변하라.
 
 "!<INPUT 3>!
