@@ -102,7 +102,7 @@ def generate_hourly_schedule(persona, wake_up_hour):
       n_m1_activity = []
       for count, curr_hour_str in enumerate(hour_str): 
         if wake_up_hour > 0: 
-          n_m1_activity += ["sleeping"]
+          n_m1_activity += ["수면중"]
           wake_up_hour -= 1
         else: 
           n_m1_activity += [run_gpt_prompt_generate_hourly_schedule(
@@ -408,8 +408,9 @@ def generate_new_decomp_schedule(persona, inserted_act, inserted_act_dur,  start
 def revise_identity(persona): 
   p_name = persona.scratch.name
 
-  focal_points = [f"{p_name}'s plan for {persona.scratch.get_str_curr_date_str()}.",
-                  f"Important recent events for {p_name}'s life."]
+  focal_points = [f"{p_name} 의 {persona.scratch.get_str_curr_date_str()} 계획.",
+#                  f"Important recent events for {p_name}'s life."]
+                  f"{p_name} 의 인생에 있어 매우 중요한 최근의 일"]
   retrieved = new_retrieve(persona, focal_points)
 
   statements = "[Statements]\n"
@@ -498,7 +499,7 @@ def _long_term_planning(persona, new_day):
 
 
   # Added March 4 -- adding plan to the memory.
-  thought = f"This is {persona.scratch.name}'s plan for {persona.scratch.curr_time.strftime('%A %B %d')}:"
+  thought = f"이는 {persona.scratch.name}의 {persona.scratch.curr_time.strftime('%A %B %d')} 계획이다:"
   for i in persona.scratch.daily_req: 
     thought += f" {i},"
   thought = thought[:-1] + "."
@@ -542,11 +543,11 @@ def _determine_action(persona, maze):
     OUTPUT: 
       a boolean. True if we need to decompose, False otherwise. 
     """
-    if "sleep" not in act_desp and "bed" not in act_desp: 
+    if "수면" not in act_desp and "침대" not in act_desp and "sleep" not in act_desp and "bed" not in act_desp: 
       return True
-    elif "sleeping" in act_desp or "asleep" in act_desp or "in bed" in act_desp:
+    elif "수면" in act_desp or "sleep" in act_desp or "bed" in act_desp or "침대" in act_desp:
       return False
-    elif "sleep" in act_desp or "bed" in act_desp: 
+    elif "수면" in act_desp or "침대" in act_desp or "sleep" in act_desp or "bed" in act_desp: 
       if act_dura > 60: 
         return False
     return True
@@ -610,7 +611,7 @@ def _determine_action(persona, maze):
 
   if 1440 - x_emergency > 0: 
     print ("x_emergency__AAA", x_emergency)
-  persona.scratch.f_daily_schedule += [["sleeping", 1440 - x_emergency]]
+  persona.scratch.f_daily_schedule += [["수면중", 1440 - x_emergency]]
   
 
 
@@ -719,8 +720,8 @@ def _should_react(persona, retrieved, personas):
         or not init_persona.scratch.act_description): 
       return False
 
-    if ("sleeping" in target_persona.scratch.act_description 
-        or "sleeping" in init_persona.scratch.act_description): 
+    if ("수면중" in target_persona.scratch.act_description 
+        or "수면중" in init_persona.scratch.act_description): 
       return False
 
     if init_persona.scratch.curr_time.hour == 23: 
@@ -750,8 +751,8 @@ def _should_react(persona, retrieved, personas):
         or not init_persona.scratch.act_description): 
       return False
 
-    if ("sleeping" in target_persona.scratch.act_description 
-        or "sleeping" in init_persona.scratch.act_description): 
+    if ("수면중" in target_persona.scratch.act_description 
+        or "수면중" in init_persona.scratch.act_description): 
       return False
 
     # return False
@@ -1006,48 +1007,3 @@ def plan(persona, maze, personas, new_day, retrieved):
 
   return persona.scratch.act_address
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 

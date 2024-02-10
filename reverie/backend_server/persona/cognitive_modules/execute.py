@@ -46,6 +46,8 @@ def execute(persona, maze, personas, plan):
     print (plan)
     ##### TODO HS Hard coded fixed change
     plan = plan.replace("kitchen", "부엌")
+    plan = plan.replace("bedroom", "안방")
+    plan = plan.replace("hallway", "복도")
 
     if "<persona>" in plan: 
       # Executing persona-persona interaction.
@@ -81,7 +83,11 @@ def execute(persona, maze, personas, plan):
     elif "<random>" in plan: 
       # Executing a random location action.
       plan = ":".join(plan.split(":")[:-1])
-      target_tiles = maze.address_tiles[plan]
+      if plan not in maze.address_tiles:
+        target_tiles = maze.address_tiles["the Ville:중앙공원:광장:공원 정원"] #ERRORRRRRRR
+      else: 
+        target_tiles = maze.address_tiles[plan]
+
       target_tiles = random.sample(list(target_tiles), 1)
 
     else: 

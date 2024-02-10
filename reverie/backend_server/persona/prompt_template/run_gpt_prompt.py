@@ -193,12 +193,12 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
         prior_schedule += f" {persona.scratch.get_str_curr_date_str()} --"
         prior_schedule += f" {hour_str[count]}] 일정:"
         prior_schedule += f" {persona.scratch.get_str_firstname()}"
-        prior_schedule += f" is {i}\n"
+        prior_schedule += f" 은/는 {i}\n"
 
     prompt_ending = f"[(ID:{get_random_alphanumeric()})"
     prompt_ending += f" {persona.scratch.get_str_curr_date_str()}"
     prompt_ending += f" -- {curr_hour_str}] 일정:"
-    prompt_ending += f" {persona.scratch.get_str_firstname()} is"
+    prompt_ending += f" {persona.scratch.get_str_firstname()} 은/는"
 
     if intermission2: 
       intermission2 = f"\n{intermission2}"
@@ -288,13 +288,6 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
     
   return output, [output, prompt, gpt_param, prompt_input, fail_safe]
 
-
-
-
-
-
-
-
 def run_gpt_prompt_task_decomp(persona, 
                                task, 
                                duration, 
@@ -325,8 +318,8 @@ def run_gpt_prompt_task_decomp(persona,
     print (persona.scratch.f_daily_schedule_hourly_org)
     print (all_indices)
 
-    summ_str = f'Today is {persona.scratch.curr_time.strftime("%B %d, %Y")}. '
-    summ_str += f'From '
+    summ_str = f'오늘은  {persona.scratch.curr_time.strftime("%B %d, %Y")} 이다.'
+    summ_str += f'시각 '
     for index in all_indices: 
       print ("index", index)
       if index < len(persona.scratch.f_daily_schedule_hourly_org): 
@@ -340,7 +333,7 @@ def run_gpt_prompt_task_decomp(persona,
                       + datetime.timedelta(minutes=end_min)) 
         start_time_str = start_time.strftime("%H:%M%p")
         end_time_str = end_time.strftime("%H:%M%p")
-        summ_str += f"{start_time_str} ~ {end_time_str}, {persona.name} is planning on {persona.scratch.f_daily_schedule_hourly_org[index][0]}, "
+        summ_str += f"{start_time_str} ~ {end_time_str}, {persona.name} 은/는 {persona.scratch.f_daily_schedule_hourly_org[index][0]} 을 계획 중, "
         if curr_f_org_index+1 == index:
           curr_time_range = f'{start_time_str} ~ {end_time_str}'
     summ_str = summ_str[:-2] + "."
@@ -648,7 +641,7 @@ def run_gpt_prompt_action_arena(action_description,
     curr = accessible_arena_str.split(", ")
     fin_accessible_arenas = []
     for i in curr: 
-      if "'s room" in i: 
+      if "의 방" in i: 
         if persona.scratch.last_name in i: 
           fin_accessible_arenas += [i]
       else: 
@@ -863,17 +856,6 @@ def run_gpt_prompt_pronunciatio(action_description, persona, verbose=False):
   
   # return output, [output, prompt, gpt_param, prompt_input, fail_safe]
 
-
-
-
-
-
-
-
-
-
-
-
 def run_gpt_prompt_event_triple(action_description, persona, verbose=False): 
   def create_prompt_input(action_description, persona): 
     if "(" in action_description: 
@@ -950,18 +932,6 @@ def run_gpt_prompt_event_triple(action_description, persona, verbose=False):
                       prompt_input, prompt, output)
   
   return output, [output, prompt, gpt_param, prompt_input, fail_safe]
-
-
-
-
-
-
-
-
-
-
-
-
 
 def run_gpt_prompt_act_obj_desc(act_game_object, act_desp, persona, verbose=False): 
   def create_prompt_input(act_game_object, act_desp, persona): 
@@ -1084,10 +1054,6 @@ def run_gpt_prompt_act_obj_event_triple(act_game_object, act_obj_desc, persona, 
                       prompt_input, prompt, output)
   
   return output, [output, prompt, gpt_param, prompt_input, fail_safe]
-
-
-
-
 
 def run_gpt_prompt_new_decomp_schedule(persona, 
                                        main_act_dur, 
@@ -1438,22 +1404,6 @@ def run_gpt_prompt_decide_to_react(persona, target_persona, retrieved,test_input
   
   return output, [output, prompt, gpt_param, prompt_input, fail_safe]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def run_gpt_prompt_create_conversation(persona, target_persona, curr_loc,
                                        test_input=None, verbose=False): 
   def create_prompt_input(init_persona, target_persona, curr_loc, 
@@ -1582,14 +1532,6 @@ def run_gpt_prompt_create_conversation(persona, target_persona, curr_loc,
   return output, [output, prompt, gpt_param, prompt_input, fail_safe]
 
 
-
-
-
-
-
-
-
-
 def run_gpt_prompt_summarize_conversation(persona, conversation, test_input=None, verbose=False): 
   def create_prompt_input(conversation, test_input=None): 
     convo_str = ""
@@ -1600,7 +1542,7 @@ def run_gpt_prompt_summarize_conversation(persona, conversation, test_input=None
     return prompt_input
   
   def __func_clean_up(gpt_response, prompt=""):
-    ret = "conversing about " + gpt_response.strip()
+    ret = "대화중(conversing about): " + gpt_response.strip()
     return ret
 
   def __func_validate(gpt_response, prompt=""): 
@@ -1616,7 +1558,7 @@ def run_gpt_prompt_summarize_conversation(persona, conversation, test_input=None
 
   # ChatGPT Plugin ===========================================================
   def __chat_func_clean_up(gpt_response, prompt=""): ############
-    ret = "conversing about " + gpt_response.strip()
+    ret = "대화중(conversing about): " + gpt_response.strip()
     return ret
 
   def __chat_func_validate(gpt_response, prompt=""): ############
@@ -1717,14 +1659,6 @@ def run_gpt_prompt_extract_keywords(persona, description, test_input=None, verbo
                       prompt_input, prompt, output)
   
   return output, [output, prompt, gpt_param, prompt_input, fail_safe]
-
-
-
-
-
-
-
-
 
 def run_gpt_prompt_keyword_to_thoughts(persona, keyword, concept_summary, test_input=None, verbose=False): 
   def create_prompt_input(persona, keyword, concept_summary, test_input=None): 
@@ -2219,7 +2153,7 @@ def run_gpt_prompt_agent_chat_summarize_ideas(persona, target_persona, statement
       return False 
 
   def get_fail_safe(): 
-    return "..."
+    return "지금은 나도 잘 모르겠어요. 다른 대화를 하고싶은데..."
 
 
   # ChatGPT Plugin ===========================================================
@@ -2288,8 +2222,8 @@ def run_gpt_prompt_agent_chat_summarize_relationship(persona, target_persona, st
     except:
       return False 
 
-  def get_fail_safe(): 
-    return "..."
+  def get_fail_safe():
+    return "지금은 나도 잘 모르겠어요. 다른 대화를 하고싶은데..."
 
 
   # ChatGPT Plugin ===========================================================
@@ -2414,8 +2348,7 @@ def run_gpt_prompt_agent_chat(maze, persona, target_persona,
       return False 
 
   def get_fail_safe(): 
-    return "..."
-
+    return "지금은 나도 잘 모르겠어요. 다른 대화를 하고싶은데..."
 
 
 
@@ -2501,8 +2434,8 @@ def run_gpt_prompt_summarize_ideas(persona, statements, question, test_input=Non
     except:
       return False 
 
-  def get_fail_safe(): 
-    return "..."
+  def get_fail_safe():
+    return "지금은 나도 잘 모르겠어요. 다른 대화를 하고싶은데..."
 
 
   # ChatGPT Plugin ===========================================================
@@ -2576,8 +2509,8 @@ def run_gpt_prompt_generate_next_convo_line(persona, interlocutor_desc, prev_con
     except:
       return False 
 
-  def get_fail_safe(): 
-    return "..."
+  def get_fail_safe():
+    return "지금은 나도 잘 모르겠어요. 다른 대화를 하고싶은데..."
 
 
 
@@ -2647,8 +2580,8 @@ def run_gpt_prompt_generate_whisper_inner_thought(persona, whisper, test_input=N
     except:
       return False 
 
-  def get_fail_safe(): 
-    return "..."
+  def get_fail_safe():
+    return "지금은 나도 잘 모르겠어요. 다른 대화를 하고싶은데..."
 
   gpt_param = {"engine": "gpt-3.5-turbo-instruct", "max_tokens": 50, 
                "temperature": 0, "top_p": 1, "stream": False,
@@ -2685,7 +2618,7 @@ def run_gpt_prompt_planning_thought_on_convo(persona, all_utt, test_input=None, 
       return False 
 
   def get_fail_safe(): 
-    return "..."
+    return "지금은 나도 잘 모르겠어요. 다른 대화를 하고싶은데..."
 
   gpt_param = {"engine": "gpt-3.5-turbo-instruct", "max_tokens": 50, 
                "temperature": 0, "top_p": 1, "stream": False,
@@ -2721,8 +2654,8 @@ def run_gpt_prompt_memo_on_convo(persona, all_utt, test_input=None, verbose=Fals
     except:
       return False 
 
-  def get_fail_safe(): 
-    return "..."
+  def get_fail_safe():
+    return "지금은 나도 잘 모르겠어요. 다른 대화를 하고싶은데..."
 
 
   # ChatGPT Plugin ===========================================================
@@ -2845,12 +2778,13 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
       for i in persona.a_mem.seq_chat: 
         if i.object == target_persona.scratch.name: 
           v1 = int((persona.scratch.curr_time - i.created).total_seconds()/60)
-          prev_convo_insert += f'{str(v1)} minutes ago, {persona.scratch.name} and {target_persona.scratch.name} were already {i.description} This context takes place after that conversation.'
+#          prev_convo_insert += f'{str(v1)} minutes ago, {persona.scratch.name} and {target_persona.scratch.name} were already {i.description} This context takes place after that conversation.'
+          prev_convo_insert += f'{str(v1)} 분 전에, {persona.scratch.name} 와 {target_persona.scratch.name} 은/는 이미 {i.description} 의 상태였다. 이 Context 는 해당 대화 이후의 일이다.'
           break
-    if prev_convo_insert == "\n": 
+    if prev_convo_insert == "\n":
       prev_convo_insert = ""
-    if persona.a_mem.seq_chat: 
-      if int((persona.scratch.curr_time - persona.a_mem.seq_chat[-1].created).total_seconds()/60) > 480: 
+    if persona.a_mem.seq_chat:
+      if int((persona.scratch.curr_time - persona.a_mem.seq_chat[-1].created).total_seconds()/60) > 480:
         prev_convo_insert = ""
     print (prev_convo_insert)
 
@@ -2868,9 +2802,10 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
     for i in curr_chat:
       convo_str += ": ".join(i) + "\n"
     if convo_str == "": 
-      convo_str = "[The conversation has not started yet -- start it!]"
+      convo_str = "[대화가 아직 시작되지 않았다. -- 시작하라!]"
 
-    init_iss = f"Here is Here is a brief description of {init_persona.scratch.name}.\n{init_persona.scratch.get_str_iss()}"
+    init_iss = f"이곳에 {init_persona.scratch.name}의 간략한 설명이 있다.\n{init_persona.scratch.get_str_iss()}"
+#    init_iss = f"Here is Here is a brief description of {init_persona.scratch.name}.\n{init_persona.scratch.get_str_iss()}"
     prompt_input = [init_iss, init_persona.scratch.name, retrieved_str, prev_convo_insert,
       curr_location, curr_context, init_persona.scratch.name, target_persona.scratch.name,
       convo_str, init_persona.scratch.name, target_persona.scratch.name,
@@ -2909,7 +2844,7 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
 
   def get_fail_safe():
     cleaned_dict = dict()
-    cleaned_dict["utterance"] = "..."
+    cleaned_dict["utterance"] = "지금은 나도 잘 모르겠어요. 다른 대화를 하고 싶어요."
     cleaned_dict["end"] = False
     return cleaned_dict
 
@@ -2928,22 +2863,4 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   return output, [output, prompt, gpt_param, prompt_input, fail_safe]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

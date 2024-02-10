@@ -9,7 +9,4 @@ Variables:
 [Statements]
 !<INPUT 0>!
 
-Based on the statements above, summarize !<INPUT 1>! and !<INPUT 2>!'s relationship. What do they feel or know about each other?
-
-
-"
+위의 Statements 에 기반해서, !<INPUT 1>! 과 !<INPUT 2>! 의 관계를 요약해라. 서로에 대해 어떤 감정을 갖고 있고 어떤 것을 알고 있는가?

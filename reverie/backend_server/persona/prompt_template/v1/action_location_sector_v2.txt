@@ -10,11 +10,12 @@ Variables:
 !<INPUT 8>! -- curr action description
 !<INPUT 9>! -- Persona name
 <commentblockmarker>###</commentblockmarker>
-Task -- choose an appropriate area  from the area options for a task at hand. 
+Task -- 손에 쥐어진 일을 처리하기 위해 Area options 들 중에 가장 적합한 장소를 선택하라. 
 
-!<INPUT 0>! lives in {!<INPUT 1>!} that has !<INPUT 2>!.
-!<INPUT 3>! is currently in {!<INPUT 4>!} that has !<INPUT 5>!. !<INPUT 6>!
+!<INPUT 0>! 은/는 !<INPUT 2>! 을/를 갖고 있는 {!<INPUT 1>!} 에 살고 있다.
+!<INPUT 3>! 은/는 !<INPUT 5>! 을/를 갖고 있는 {!<INPUT 4>!} 에 있다. !<INPUT 6>!
 Area options (class label): {!<INPUT 7>!}. 
-* Stay in the current area if the activity can be done there. Only go out if the activity needs to take place in another place.
-* Must be one of the "Area options," verbatim.
+* 현재 장소에서 현재 일을 끝마칠 수 있다면 현재 장소에 머물러라. 반드시 다른 장소에 가야만 하는 경우 다른 장소로 간다.
+* 그대로 반드시 "Area options" 내에서 선택해야 한다.
 Classification Task: !<INPUT 8>! is !<INPUT 9>! as a part of !<INPUT 10>!. Pick one of the choices given in the Area options that !<INPUT 11>! should go to. 
+Classification Task: !<INPUT 8>! 은/는 !<INPUT 10>! 의 부분 중 하나인 !<INPUT 9>! 이다. !<INPUT 11>! 이 반드시 가야만 하는 Area options 중에 하나를 골라라. 

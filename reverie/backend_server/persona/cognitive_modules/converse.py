@@ -105,13 +105,13 @@ def agent_chat_v1(maze, init_persona, target_persona):
 
 def generate_one_utterance(maze, init_persona, target_persona, retrieved, curr_chat): 
   # Chat version optimized for speed via batch generation
-  curr_context = (f"{init_persona.scratch.name} " + 
-              f"was {init_persona.scratch.act_description} " + 
-              f"when {init_persona.scratch.name} " + 
-              f"saw {target_persona.scratch.name} " + 
-              f"in the middle of {target_persona.scratch.act_description}.\n")
+  curr_context = (f"{init_persona.scratch.name} 은/는 과거" + 
+              f"{init_persona.scratch.act_description} 였었다." + 
+              f"{init_persona.scratch.name} 가 " + 
+              f"{target_persona.scratch.name} 를 봤을 때" + 
+              f"{target_persona.scratch.act_description} 행위 중 이었다.\n")
   curr_context += (f"{init_persona.scratch.name} " +
-              f"is initiating a conversation with " +
+              f"는 다음의 인물과 대화를 시작하려 한다: " +
               f"{target_persona.scratch.name}.")
 
   print ("July 23 5")
@@ -137,11 +137,11 @@ def agent_chat_v2(maze, init_persona, target_persona):
       last_chat += ": ".join(i) + "\n"
     if last_chat: 
       focal_points = [f"{relationship}", 
-                      f"{target_persona.scratch.name} is {target_persona.scratch.act_description}", 
+                      f"{target_persona.scratch.name} 은/는 {target_persona.scratch.act_description}", 
                       last_chat]
     else: 
       focal_points = [f"{relationship}", 
-                      f"{target_persona.scratch.name} is {target_persona.scratch.act_description}"]
+                      f"{target_persona.scratch.name} 은/는 {target_persona.scratch.act_description}"]
     retrieved = new_retrieve(init_persona, focal_points, 15)
     utt, end = generate_one_utterance(maze, init_persona, target_persona, retrieved, curr_chat)
 
@@ -159,11 +159,11 @@ def agent_chat_v2(maze, init_persona, target_persona):
       last_chat += ": ".join(i) + "\n"
     if last_chat: 
       focal_points = [f"{relationship}", 
-                      f"{init_persona.scratch.name} is {init_persona.scratch.act_description}", 
+                      f"{init_persona.scratch.name} 은/는 {init_persona.scratch.act_description}", 
                       last_chat]
     else: 
       focal_points = [f"{relationship}", 
-                      f"{init_persona.scratch.name} is {init_persona.scratch.act_description}"]
+                      f"{init_persona.scratch.name} 은/는 {init_persona.scratch.act_description}"]
     retrieved = new_retrieve(target_persona, focal_points, 15)
     utt, end = generate_one_utterance(maze, target_persona, init_persona, retrieved, curr_chat)
 

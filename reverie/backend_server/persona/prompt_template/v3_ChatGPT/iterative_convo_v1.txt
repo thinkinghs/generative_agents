@@ -16,31 +16,31 @@ Variables:
 !<INPUT 12>! -- persona name
 !<INPUT 13>! -- persona name
 <commentblockmarker>###</commentblockmarker>
-Context for the task: 
+Task 를 위한 Context:
 
 PART 1. 
 !<INPUT 0>!
 
-Here is the memory that is in !<INPUT 1>!'s head: 
+!<INPUT 1>! 의 머릿속에 남아있는 기억은 다음과 같다: 
 !<INPUT 2>!
 
 PART 2. 
-Past Context: 
+과거의 Context:
 !<INPUT 3>!
 
-Current Location: !<INPUT 4>!
+현재 위치: !<INPUT 4>!
 
-Current Context: 
+현재의 Context: 
 !<INPUT 5>!
 
-!<INPUT 6>! and !<INPUT 7>! are chatting. Here is their conversation so far: 
+!<INPUT 6>! 그리고 !<INPUT 7>! 은 대화중이다. 그리고 아래는 지금까지의 대화이다: 
 !<INPUT 8>!
 
 ---
-Task: Given the above, what should !<INPUT 9>! say to !<INPUT 10>! next in the conversation? And did it end the conversation?
+Task: 위의 정보를 종합해봤을 때, !<INPUT 9>! 은 !<INPUT 10>! 에게 다음에 이어질 대화로 뭐라 말해야 하는가? 그리고 대화는 종료되었는가?
 
-Output format: Output a json of the following format: 
+답변 format: 아래의 json format 으로 답변하라: 
 {
-"!<INPUT 11>!": "<!<INPUT 12>!'s utterance>",
+"!<INPUT 11>!": "<!<INPUT 12>!의 대화내용>",
 "Did the conversation end with !<INPUT 13>!'s utterance?": "<json Boolean>"
 }
