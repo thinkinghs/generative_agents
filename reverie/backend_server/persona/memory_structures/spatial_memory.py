@@ -102,11 +102,23 @@ class MemoryTree:
       return ""
 
     try: 
+      curr_arena = curr_arena.replace("kitchen", "부엌")
+      curr_arena = curr_arena.replace("bedroom", "안방")
+      curr_arena = curr_arena.replace("hallway", "복도")
+      curr_arena = curr_arena.replace("bathroom", "남자 화장실")
+      curr_arena = curr_arena.replace("classroom", "교실")
+      print("%s:%s:%s"%(curr_world, curr_sector, curr_arena))
+
       x = ", ".join(list(self.tree[curr_world][curr_sector][curr_arena]))
     except:
       priority_picks = list(self.tree[curr_world][curr_sector].keys())
-      pick = priority_picks[0]
- 
+      if len(priority_picks) <= 0:
+          curr_world = "the Ville"
+          curr_sector = "Hosik Cafe"
+          pick = "cafe"
+      else:
+          pick = priority_picks[0]
+
       x = ", ".join(list(self.tree[curr_world][curr_sector][pick]))
     return x
 

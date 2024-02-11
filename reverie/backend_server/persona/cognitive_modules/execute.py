@@ -49,6 +49,7 @@ def execute(persona, maze, personas, plan):
     plan = plan.replace("bedroom", "안방")
     plan = plan.replace("hallway", "복도")
     plan = plan.replace("bathroom", "남자 화장실")
+    plan = plan.replace("classroom", "교실")
 
     if "<persona>" in plan: 
       # Executing persona-persona interaction.

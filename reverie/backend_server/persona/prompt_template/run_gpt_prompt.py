@@ -525,9 +525,6 @@ def run_gpt_prompt_action_sector(action_description,
     # END MAR 11 TEMP
 
     prompt_input += [accessible_sector_str]
-
-
-
     action_description_1 = action_description
     action_description_2 = action_description
     if "(" in action_description: 
@@ -539,12 +536,6 @@ def run_gpt_prompt_action_sector(action_description,
     prompt_input += [action_description_2]
     prompt_input += [persona.scratch.get_str_name()]
     return prompt_input
-
-
-    
-
-    
-
 
   def __func_clean_up(gpt_response, prompt=""):
     cleaned_response = gpt_response.split("}")[0]
@@ -560,7 +551,7 @@ def run_gpt_prompt_action_sector(action_description,
     return True
   
   def get_fail_safe(): 
-    fs = ("kitchen")
+    fs = ("부엌")
     return fs
 
 
@@ -592,10 +583,6 @@ def run_gpt_prompt_action_sector(action_description,
   #   return output, [output, prompt, gpt_param, prompt_input, fail_safe]
   # # ChatGPT Plugin ===========================================================
 
-
-
-
-
   gpt_param = {"engine": "gpt-3.5-turbo-instruct", "max_tokens": 15, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
@@ -606,6 +593,14 @@ def run_gpt_prompt_action_sector(action_description,
   fail_safe = get_fail_safe()
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
+  ##### TODO HS Hard coded fixed change
+  output = output.replace("kitchen", "부엌")
+  output = output.replace("bedroom", "안방")
+  output = output.replace("hallway", "복도")
+  output = output.replace("bathroom", "남자 화장실")
+  output = output.replace("classroom", "교실")
+  print ("!!!!!!!!!!!!!!!!! Modified Output: " + output)
+
   y = f"{maze.access_tile(persona.scratch.curr_tile)['world']}"
   x = [i.strip() for i in persona.s_mem.get_str_accessible_sectors(y).split(",")]
   if output not in x: 
@@ -690,7 +685,7 @@ def run_gpt_prompt_action_arena(action_description,
     return True
   
   def get_fail_safe(): 
-    fs = ("kitchen")
+    fs = ("부엌")
     return fs
 
   gpt_param = {"engine": "gpt-3.5-turbo-instruct", "max_tokens": 15, 
@@ -704,6 +699,14 @@ def run_gpt_prompt_action_arena(action_description,
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
   print (output)
+  ##### TODO HS Hard coded fixed change
+  output = output.replace("kitchen", "부엌")
+  output = output.replace("bedroom", "안방")
+  output = output.replace("hallway", "복도")
+  output = output.replace("bathroom", "남자 화장실")
+  output = output.replace("classroom", "교실")
+  print ("!!!!!!!!!!!!!!!!! Modified Output: " + output)
+
   # y = f"{act_world}:{act_sector}"
   # x = [i.strip() for i in persona.s_mem.get_str_accessible_sector_arenas(y).split(",")]
   # if output not in x: 
@@ -1236,22 +1239,22 @@ def run_gpt_prompt_decide_to_talk(persona, target_persona, retrieved,test_input=
       init_act_desc = init_act_desc.split("(")[-1][:-1]
     
     if len(init_persona.scratch.planned_path) == 0 and "waiting" not in init_act_desc: 
-      init_p_desc = f"{init_persona.name} is already {init_act_desc}"
+      init_p_desc = f"{init_persona.name} 은/는 이미 {init_act_desc} 중 이다."
     elif "waiting" in init_act_desc:
-      init_p_desc = f"{init_persona.name} is {init_act_desc}"
+      init_p_desc = f"{init_persona.name} 은/는 {init_act_desc} 이다."
     else: 
-      init_p_desc = f"{init_persona.name} is on the way to {init_act_desc}"
+      init_p_desc = f"{init_persona.name} 은/는 {init_act_desc} 하려 한다."
 
     target_act_desc = target_persona.scratch.act_description
     if "(" in target_act_desc: 
       target_act_desc = target_act_desc.split("(")[-1][:-1]
     
     if len(target_persona.scratch.planned_path) == 0 and "waiting" not in init_act_desc: 
-      target_p_desc = f"{target_persona.name} is already {target_act_desc}"
+      target_p_desc = f"{target_persona.name} 은/는 이미 {target_act_desc} 중 이다"
     elif "waiting" in init_act_desc:
-      target_p_desc = f"{init_persona.name} is {init_act_desc}"
+      target_p_desc = f"{init_persona.name} 은/는 {init_act_desc} 이다."
     else: 
-      target_p_desc = f"{target_persona.name} is on the way to {target_act_desc}"
+      target_p_desc = f"{target_persona.name} 은/는 {target_act_desc} 하려 한다."
 
 
     prompt_input = []
@@ -1335,12 +1338,12 @@ def run_gpt_prompt_decide_to_react(persona, target_persona, retrieved,test_input
       loc = ""
       if ":" in init_persona.scratch.act_address:
         loc = init_persona.scratch.act_address.split(":")[-1] + " in " + init_persona.scratch.act_address.split(":")[-2]
-      init_p_desc = f"{init_persona.name} is already {init_act_desc} at {loc}"
+      init_p_desc = f"{init_persona.name} 은/는 이미 {loc} 에 있으며 {init_act_desc} 중 이다."
     else: 
       loc = ""
       if ":" in init_persona.scratch.act_address:
         loc = init_persona.scratch.act_address.split(":")[-1] + " in " + init_persona.scratch.act_address.split(":")[-2]
-      init_p_desc = f"{init_persona.name} is on the way to {init_act_desc} at {loc}"
+      init_p_desc = f"{init_persona.name} 은/는 {loc} 에 있으며 {init_act_desc} 하려 한다."
 
     target_act_desc = target_persona.scratch.act_description
     if "(" in target_act_desc: 
@@ -1349,12 +1352,12 @@ def run_gpt_prompt_decide_to_react(persona, target_persona, retrieved,test_input
       loc = ""
       if ":" in target_persona.scratch.act_address:
         loc = target_persona.scratch.act_address.split(":")[-1] + " in " + target_persona.scratch.act_address.split(":")[-2]
-      target_p_desc = f"{target_persona.name} is already {target_act_desc} at {loc}"
+      target_p_desc = f"{target_persona.name} 은/는 이미 {loc} 에 있으며 {target_act_desc} 하려 한다."
     else: 
       loc = ""
       if ":" in target_persona.scratch.act_address:
         loc = target_persona.scratch.act_address.split(":")[-1] + " in " + target_persona.scratch.act_address.split(":")[-2]
-      target_p_desc = f"{target_persona.name} is on the way to {target_act_desc} at {loc}"
+      target_p_desc = f"{target_persona.name} 은/는 {loc}  에 있으며 {target_act_desc} 하려 한다."
 
     prompt_input = []
     prompt_input += [context]
@@ -1414,7 +1417,7 @@ def run_gpt_prompt_create_conversation(persona, target_persona, curr_loc,
       for i in init_persona.a_mem.seq_chat: 
         if i.object == target_persona.scratch.name: 
           v1 = int((init_persona.scratch.curr_time - i.created).total_seconds()/60)
-          prev_convo_insert += f'{str(v1)} minutes ago, they had the following conversation.\n'
+          prev_convo_insert += f'{str(v1)} 분 전에, 그들은 다음의 대화를 가졌었다.\n'
           for row in i.filling: 
             prev_convo_insert += f'{row[0]}: "{row[1]}"\n'
           break
@@ -1441,15 +1444,15 @@ def run_gpt_prompt_create_conversation(persona, target_persona, curr_loc,
 
     init_persona_curr_desc = ""
     if init_persona.scratch.planned_path: 
-      init_persona_curr_desc = f"{init_persona.name} is on the way to {init_persona.scratch.act_description}"
+      init_persona_curr_desc = f"{init_persona.name} 은/는 {init_persona.scratch.act_description} 하려 한다."
     else: 
-      init_persona_curr_desc = f"{init_persona.name} is {init_persona.scratch.act_description}"
+      init_persona_curr_desc = f"{init_persona.name} 은/는 {init_persona.scratch.act_description} 이다/"
 
     target_persona_curr_desc = ""
     if target_persona.scratch.planned_path: 
-      target_persona_curr_desc = f"{target_persona.name} is on the way to {target_persona.scratch.act_description}"
+      target_persona_curr_desc = f"{target_persona.name} 은/는 {target_persona.scratch.act_description} 하려 한다."
     else: 
-      target_persona_curr_desc = f"{target_persona.name} is {target_persona.scratch.act_description}"
+      target_persona_curr_desc = f"{target_persona.name} 은/는 {target_persona.scratch.act_description} 이다."
  
 
     curr_loc = curr_loc["arena"]
@@ -1553,7 +1556,7 @@ def run_gpt_prompt_summarize_conversation(persona, conversation, test_input=None
       return False 
 
   def get_fail_safe(): 
-    return "conversing with a housemate about morning greetings"
+    return "인물들은 깊은 공감을 나누었다."
 
 
   # ChatGPT Plugin ===========================================================
@@ -2793,14 +2796,46 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
     curr_location = f"{curr_arena} in {curr_sector}"
 
     retrieved_str = ""
-    for key, vals in retrieved.items(): 
-      for v in vals: 
+    
+
+    for key, vals in retrieved.items():
+      len_of_retrieved = len(vals)
+      start_count = len_of_retrieved - 10
+      # start from 0 or len(vals) - 10
+      start_count = 0 if start_count <= 0 else len_of_retrieved - 10
+      count = 0
+
+      for v in vals:
+        # Will retrieve only 10 recent items
+        count = count + 1
+        if (count < start_count):
+          continue
+
         retrieved_str += f"- {v.description}\n"
 
+        # Will retrieve only 10 recent items
+        if (count >= len_of_retrieved):
+          break
 
     convo_str = ""
+
+    len_of_retrieved = len(curr_chat)
+    start_count = len_of_retrieved - 30
+    start_count = 0 if start_count <= 0 else len_of_retrieved - 30
+    count = 0
+
     for i in curr_chat:
+      # Will retrieve only 30 recent items
+      count = count + 1
+      if (count < start_count):
+        continue
+
       convo_str += ": ".join(i) + "\n"
+      # Will retrieve only 30 recent items
+      if (count >= len_of_retrieved):
+        break
+
+    # The conversation has not been started "empty"
     if convo_str == "": 
       convo_str = "[대화가 아직 시작되지 않았다. -- 시작하라!]"
 
@@ -2844,7 +2879,7 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
 
   def get_fail_safe():
     cleaned_dict = dict()
-    cleaned_dict["utterance"] = "지금은 나도 잘 모르겠어요. 다른 대화를 하고 싶어요."
+    cleaned_dict["utterance"] = "오! 좋은 말씀 감사합니다. 하지만 지금 제가 하던 일이 있어 다음에 더 이야기 합시다. Hosik Cafe 에서 다음에 만날까요?"
     cleaned_dict["end"] = True
     return cleaned_dict
 
@@ -2855,10 +2890,16 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
   prompt = generate_prompt(prompt_input, prompt_template)
   print (prompt)
   fail_safe = get_fail_safe() 
-  output = ChatGPT_safe_generate_response_OLD(prompt, 3, fail_safe,
+  output = ChatGPT_safe_generate_response_OLD(prompt, 10, fail_safe,
                         __chat_func_validate, __chat_func_clean_up, verbose)
+
+  if output["utterance"] in curr_chat:
+    output["utterance"] = "정말 동의하는 바입니다. 다른 의견이 없으시다면 다음에 더 이야기 합시다. 중안공원 에서 다음에 만날까요?"
+    output["end"] = True
+
+  print ("MODIFIED!!!!!!!!!!!!!!!!!!!!!!!!")
   print (output)
-  
+ 
   gpt_param = {"engine": "gpt-3.5-turbo-instruct", "max_tokens": 50, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}

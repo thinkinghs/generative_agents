@@ -11,21 +11,28 @@ Variables:
 
 <commentblockmarker>###</commentblockmarker>
 Jane Anderson 은/는 Jane Anderson 의 집 안 의 부엌 에 있다.
-Jane Anderson 은/는 Jane Anderson 의 집 안 의 다음의 위치 중 한 곳 으로간다 : {kitchen, bedroom, bathroom}
-현재 하고 있는 일이 현재 장소에서 해결되는 일이면 현재 장소에 머물러라. 다른 사람의 방으로는 필요하지 않은 경우 갈 수 없다.
-요리를 하기 위해, Jane Anderson 은/는 Jane Anderson 의 집 안에 다음의 장소로 가야 한다:
-Answer: {kitchen}
+Jane Anderson 은/는 Jane Anderson 의 집 안 의 다음의 위치 중 한 곳 으로간다 : {부엌, 화장실, 안방}
+* 현재 하고 있는 일이 현재 장소에서 해결되는 일이면 현재 장소에 머물러라. 다른 사람의 방으로는 필요하지 않은 경우 갈 수 없다.
+* 요리를 하기 위해, Jane Anderson 은/는 Jane Anderson 의 집 안에 다음의 장소로 가야 한다:
+Answer: {부엌}
 ---
 Tom Watson 은/는 Tom Watson 의 아파트의 안 의 공용 공간 에 있다.
 Tom Watson 은/는 Hosik Cafe 의 다음의 위치 중 한 곳 으로 간다: {cafe}
-현재 하고 있는 일이 현재 장소에서 해결되는 일이면 현재 장소에 머물러라. 다른 사람의 방으로는 필요하지 않은 경우 갈 수 없다.
-커피를 얻기 위해, Tom Watson 은/는 Hosik Cafe 의 다음의 장소로 가야 한다:
+* 현재 하고 있는 일이 현재 장소에서 해결되는 일이면 현재 장소에 머물러라. 다른 사람의 방으로는 필요하지 않은 경우 갈 수 없다.
+* 커피를 얻기 위해, Tom Watson 은/는 Hosik Cafe 의 다음의 장소로 가야 한다:
 Answer: {cafe}
+---
+아담 스미스 은/는 아침맞이 준비를 하고 있다 에 있다.
+아담 스미스 은/는 아담 스미스의 집 의 다음의 위치 중 한 곳 으로 간다: {화장실, 안방} 
+* 현재 하고 있는 일이 현재 장소에서 해결되는 일이면 현재 장소에 머물러라. 다른 사람의 방으로는 필요하지 않은 경우 갈 수 없다.
+* 아침맞이 준비를 하고 있다 를 위해, 아담 스미스 은/는 아담 스미스의 집 의 다음의 장소로 가야한다: 
+Answer: {화장실}
 
 ---
 
+!<INPUT 3>! 은/는 !<INPUT 4>! 에 있다.
 !<INPUT 0>! 은/는 !<INPUT 1>! 의 다음의 위치 중 한 곳 으로 간다: {!<INPUT 2>!}
-* 현재 하고 있는 일이 현재 장소에서 해결되는 일이면 현재 장소에 머물러라.
-* 다른 사람의 방으로는 필요하지 않은 경우 갈 수 없다.
-!<INPUT 3>! 은/는 !<INPUT 4>! 에 있다. !<INPUT 5>! 를 위해, !<INPUT 6>! 은/는 !<INPUT 7>! 의 다음의 장소로 가야한다 ({!<INPUT 8>!} 안에서 반드시 골라야 함.그리고 Answer 는 반드시 curly braces 안에 있는 장소 중 에서 골라야 함. 언어는 반드시 MUST curly braces 안에 있는 것과 일치해야 함.):
+* 현재 하고 있는 일이 현재 장소에서 해결되는 일이면 현재 장소에 머물러라. 다른 사람의 방으로는 필요하지 않은 경우 갈 수 없다.
+* {!<INPUT 8>!} 안에서 반드시 골라야 함. 그리고 Answer 는 반드시 curly braces 안에 있는 장소 중 에서 골라야 함. 언어는 반드시 MUST curly braces 안에 있는 것과 일치해야 함.
+* !<INPUT 5>! 를 위해, !<INPUT 6>! 은/는 !<INPUT 7>! 의 다음의 장소로 가야한다 :
 Answer: {
