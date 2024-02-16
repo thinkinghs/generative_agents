@@ -1,0 +1,348 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "January 22, 2024, 09:16:30",
+  "curr_tile": [
+    62,
+    37
+  ],
+  "daily_plan_req": "\ud638\uc2dd \ud568 opens Hosik Cafe at 8am everyday, and works at the counter until 8pm, at which point he closes the cafe.",
+  "name": "\ud638\uc2dd \ud568",
+  "first_name": "\ud638\uc2dd",
+  "last_name": "\ud568",
+  "age": 34,
+  "innate": "friendly, outgoing, hospitable",
+  "learned": "\ud638\uc2dd \ud568 is a cafe owner of Hosik Cafe who loves to make people feel welcome. He is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves.",
+  "currently": "\ud638\uc2dd \ud568 is planning on having a Valentine's Day party at Hosik Cafe with his customers on February 14th, 2023 at 5pm. He is gathering party material, and is telling everyone to join the party at Hosik Cafe on February 14th, 2023, from 5pm to 7pm.",
+  "lifestyle": "\ud638\uc2dd \ud568 goes to bed around 11pm, awakes up around 6am.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 121,
+  "importance_ele_n": 19,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "open Hosik Cafe at 8:00 am",
+    "work at the counter until 12:00 pm",
+    "have lunch at 12:00 pm",
+    "continue working at the counter until 6:00 pm",
+    "have dinner at 6:00 pm",
+    "close the cafe at 8:00 pm",
+    "relax at home until 11:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "opening Hosik Cafe",
+      60
+    ],
+    [
+      "working at the counter at Hosik Cafe (checking inventory and restocking supplies)",
+      15
+    ],
+    [
+      "working at the counter at Hosik Cafe (greeting customers and taking their orders)",
+      30
+    ],
+    [
+      "working at the counter at Hosik Cafe (making and serving drinks)",
+      30
+    ],
+    [
+      "working at the counter at Hosik Cafe (cleaning and organizing the counter area)",
+      30
+    ],
+    [
+      "working at the counter at Hosik Cafe (taking a break)",
+      15
+    ],
+    [
+      "working at the counter at Hosik Cafe (checking and responding to emails and messages)",
+      30
+    ],
+    [
+      "working at the counter at Hosik Cafe (preparing for the Valentine's Day party)",
+      30
+    ],
+    [
+      "working at the counter at Hosik Cafe (creating a playlist for the party)",
+      15
+    ],
+    [
+      "working at the counter at Hosik Cafe (promoting the party on social media)",
+      15
+    ],
+    [
+      "working at the counter at Hosik Cafe (finalizing the party menu)",
+      30
+    ],
+    [
+      "having lunch at Hosik Cafe",
+      60
+    ],
+    [
+      "working at the counter at Hosik Cafe",
+      240
+    ],
+    [
+      "preparing for the Valentine's Day party at Hosik Cafe",
+      60
+    ],
+    [
+      "having dinner at Hosik Cafe",
+      60
+    ],
+    [
+      "hosting the Valentine's Day party at Hosik Cafe",
+      60
+    ],
+    [
+      "closing Hosik Cafe",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "going to bed",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "opening Hosik Cafe",
+      60
+    ],
+    [
+      "working at the counter at Hosik Cafe",
+      240
+    ],
+    [
+      "having lunch at Hosik Cafe",
+      60
+    ],
+    [
+      "working at the counter at Hosik Cafe",
+      240
+    ],
+    [
+      "preparing for the Valentine's Day party at Hosik Cafe",
+      60
+    ],
+    [
+      "having dinner at Hosik Cafe",
+      60
+    ],
+    [
+      "hosting the Valentine's Day party at Hosik Cafe",
+      60
+    ],
+    [
+      "closing Hosik Cafe",
+      60
+    ],
+    [
+      "relaxing at home",
+      120
+    ],
+    [
+      "going to bed",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Hosik Cafe:cafe:kitchen sink",
+  "act_start_time": "January 22, 2024, 09:15:00",
+  "act_duration": 30,
+  "act_description": "working at the counter at Hosik Cafe (cleaning and organizing the counter area)",
+  "act_pronunciatio": "\ud83e\uddf9\ud83d\udcda",
+  "act_event": [
+    "\ud638\uc2dd \ud568",
+    "clean and organize",
+    "counter area"
+  ],
+  "act_obj_description": "being cleaned and organized",
+  "act_obj_pronunciatio": "\ud83e\uddfc\ud83e\uddf9",
+  "act_obj_event": [
+    "kitchen sink",
+    "clean and organize",
+    "-"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      62,
+      35
+    ],
+    [
+      62,
+      34
+    ],
+    [
+      62,
+      33
+    ],
+    [
+      62,
+      32
+    ],
+    [
+      62,
+      31
+    ],
+    [
+      62,
+      30
+    ],
+    [
+      63,
+      30
+    ],
+    [
+      64,
+      30
+    ],
+    [
+      65,
+      30
+    ],
+    [
+      66,
+      30
+    ],
+    [
+      67,
+      30
+    ],
+    [
+      68,
+      30
+    ],
+    [
+      69,
+      30
+    ],
+    [
+      70,
+      30
+    ],
+    [
+      71,
+      30
+    ],
+    [
+      72,
+      30
+    ],
+    [
+      73,
+      30
+    ],
+    [
+      74,
+      30
+    ],
+    [
+      75,
+      30
+    ],
+    [
+      76,
+      30
+    ],
+    [
+      76,
+      29
+    ],
+    [
+      76,
+      28
+    ],
+    [
+      76,
+      27
+    ],
+    [
+      76,
+      26
+    ],
+    [
+      75,
+      26
+    ],
+    [
+      75,
+      25
+    ],
+    [
+      75,
+      24
+    ],
+    [
+      75,
+      23
+    ],
+    [
+      75,
+      22
+    ],
+    [
+      75,
+      21
+    ],
+    [
+      75,
+      20
+    ],
+    [
+      75,
+      19
+    ],
+    [
+      76,
+      19
+    ],
+    [
+      77,
+      19
+    ]
+  ]
+}

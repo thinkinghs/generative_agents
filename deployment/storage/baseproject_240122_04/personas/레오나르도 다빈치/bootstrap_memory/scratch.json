@@ -1,0 +1,175 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "January 22, 2024, 09:16:30",
+  "curr_tile": [
+    119,
+    22
+  ],
+  "daily_plan_req": "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58 goes to the library at Oak Hill College early in the morning, spends his days writing, and eats at Hosik Cafe.",
+  "name": "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+  "first_name": "\ub808\uc624\ub098\ub974\ub3c4",
+  "last_name": "\ub2e4\ube48\uce58",
+  "age": 20,
+  "innate": "kind, inquisitive, passionate",
+  "learned": "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58 is a student at Oak Hill College studying sociology. He is passionate about social justice and loves to explore different perspectives.",
+  "currently": "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58 is writing a research paper on the effects of gentrification in low-income communities.",
+  "lifestyle": "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58 goes to bed around 11pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58\uc758 \ubc29",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.99,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 118,
+  "importance_ele_n": 15,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "have breakfast at 7:30 am at Hosik Cafe",
+    "go to the library at Oak Hill College at 8:30 am to do research for his paper",
+    "spend the day writing and working on his paper",
+    "have lunch at 12:00 pm at Hosik Cafe",
+    "continue working on his paper until 5:00 pm",
+    "have dinner at 5:30 pm at Hosik Cafe",
+    "spend the evening relaxing and reading at the library until 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "at the library at Oak Hill College doing research for his paper (gathering his research materials)",
+      15
+    ],
+    [
+      "at the library at Oak Hill College doing research for his paper (organizing his research materials)",
+      30
+    ],
+    [
+      "at the library at Oak Hill College doing research for his paper (reading through his research materials)",
+      45
+    ],
+    [
+      "at the library at Oak Hill College doing research for his paper (taking notes on his research)",
+      30
+    ],
+    [
+      "at the library at Oak Hill College doing research for his paper (taking a break)",
+      15
+    ],
+    [
+      "at the library at Oak Hill College doing research for his paper (reviewing his notes)",
+      30
+    ],
+    [
+      "at the library at Oak Hill College doing research for his paper (organizing his notes into an outline)",
+      75
+    ],
+    [
+      "having lunch at Hosik Cafe",
+      60
+    ],
+    [
+      "at the library at Oak Hill College doing research for his paper",
+      240
+    ],
+    [
+      "having dinner at Hosik Cafe",
+      60
+    ],
+    [
+      "still at the library, reading and relaxing",
+      240
+    ],
+    [
+      "back at his dorm and getting ready for bed",
+      60
+    ],
+    [
+      "getting ready for bed",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "at the library at Oak Hill College doing research for his paper",
+      240
+    ],
+    [
+      "having lunch at Hosik Cafe",
+      60
+    ],
+    [
+      "at the library at Oak Hill College doing research for his paper",
+      240
+    ],
+    [
+      "having dinner at Hosik Cafe",
+      60
+    ],
+    [
+      "still at the library, reading and relaxing",
+      240
+    ],
+    [
+      "back at his dorm and getting ready for bed",
+      60
+    ],
+    [
+      "getting ready for bed",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Oak Hill College:library:library table",
+  "act_start_time": "January 22, 2024, 09:15:00",
+  "act_duration": 45,
+  "act_description": "at the library at Oak Hill College doing research for his paper (reading through his research materials)",
+  "act_pronunciatio": "\ud83d\udcda",
+  "act_event": [
+    "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+    "read",
+    "research materials"
+  ],
+  "act_obj_description": "occupied",
+  "act_obj_pronunciatio": "\ud83d\udecb\ufe0f",
+  "act_obj_event": [
+    "library table",
+    "is",
+    "occupied"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

@@ -1,0 +1,13 @@
+{
+  "fork_sim_code": "base_hsproject_240122_02_change_names",
+  "start_date": "January 22, 2024",
+  "curr_time": "January 22, 2024, 09:16:40",
+  "sec_per_step": 10,
+  "maze_name": "the_ville",
+  "persona_names": [
+    "\ud638\uc2dd \ud568",
+    "Maria Lopez",
+    "Klaus Mueller"
+  ],
+  "step": 100
+}

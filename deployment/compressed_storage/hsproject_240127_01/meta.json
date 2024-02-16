@@ -1,0 +1,18 @@
+{
+  "fork_sim_code": "base_hsproject_240127",
+  "start_date": "January 22, 2024",
+  "curr_time": "January 22, 2024, 10:23:20",
+  "sec_per_step": 10,
+  "maze_name": "the_ville",
+  "persona_names": [
+    "\ud638\uc2dd \ud568",
+    "\uc77c\ub860 \uba38\uc2a4\ud06c",
+    "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+    "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8",
+    "\uc544\ub2f4 \uc2a4\ubbf8\uc2a4",
+    "\uc544\uc774\uc791 \ub274\ud134",
+    "\uc5d0\uc774\ube0c\ub77c\ud584 \ub9c1\ucee8",
+    "\ud074\ub808\uc624 \ud30c\ud2b8\ub77c"
+  ],
+  "step": 500
+}

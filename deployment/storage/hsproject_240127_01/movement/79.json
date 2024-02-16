@@ -1,0 +1,177 @@
+{
+  "persona": {
+    "\ud638\uc2dd \ud568": {
+      "movement": [
+        79,
+        19
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f",
+      "description": "working at the counter (serving food to customers) @ the Ville:Hosik Cafe:cafe:\uce74\ud398 \uce74\uc6b4\ud130 \ub4b7\ucabd",
+      "chat": null
+    },
+    "\uc77c\ub860 \uba38\uc2a4\ud06c": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83d\udec1",
+      "description": "waking up and completing his morning routine @ the Ville:\uc2a4\ub9c8\uac8c \ub300\ud559\uad50 \uae30\uc219\uc0ac:\uc77c\ub860 \uba38\uc2a4\ud06c\uc758 \ubc29:\uce68\ub300",
+      "chat": null
+    },
+    "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58": {
+      "movement": [
+        120,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcda",
+      "description": "writing at the \ub3c4\uc11c\uad00 (reviewing his research notes) @ the Ville:\uc2a4\ub9c8\uac8c \ub300\ud559\uad50:\ub3c4\uc11c\uad00:\ucc45\uc7a5",
+      "chat": null
+    },
+    "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8": {
+      "movement": [
+        65,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about This is a conversation between Napoleon Bonaparte and Isaac Newton about checking inventory and ordering supplies for the week, including tonic water, fresh fruits for cocktails, and ice. @ <persona> \uc544\uc774\uc791 \ub274\ud134",
+      "chat": [
+        [
+          "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8",
+          "Hey Isaac, how's the inventory looking? Do we have enough supplies for the week?"
+        ],
+        [
+          "\uc544\uc774\uc791 \ub274\ud134",
+          "We have enough supplies for the week, but we could use some more tonic water. I'll make sure to order some."
+        ],
+        [
+          "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8",
+          "Can you also check if we need any other supplies?"
+        ],
+        [
+          "\uc544\uc774\uc791 \ub274\ud134",
+          "Sure, I'll check the inventory and let you know if we need any other supplies."
+        ],
+        [
+          "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8",
+          "Also, please check if we have enough fresh fruits for the cocktails."
+        ],
+        [
+          "\uc544\uc774\uc791 \ub274\ud134",
+          "I will check the inventory and let you know if we need any other supplies. I will also make sure we have enough fresh fruits for the cocktails."
+        ],
+        [
+          "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8",
+          "Also, please let me know if we need to order any other supplies."
+        ],
+        [
+          "\uc544\uc774\uc791 \ub274\ud134",
+          "I will check the inventory and let you know if we need to order any other supplies."
+        ],
+        [
+          "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8",
+          "Please also check if we have enough ice for the cocktails."
+        ],
+        [
+          "\uc544\uc774\uc791 \ub274\ud134",
+          "I will check the inventory to see if we have enough ice for the cocktails."
+        ],
+        [
+          "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8",
+          "Thanks, Isaac. Let me know if there are any issues or if we need to order anything else."
+        ],
+        [
+          "\uc544\uc774\uc791 \ub274\ud134",
+          "I have checked the inventory and we have enough tonic water for the week. We also have enough fresh fruits for the cocktails. We don't need to order any other supplies at the moment. And we have enough ice for the cocktails as well."
+        ]
+      ]
+    },
+    "\uc544\ub2f4 \uc2a4\ubbf8\uc2a4": {
+      "movement": [
+        21,
+        62
+      ],
+      "pronunciatio": "\ud83d\udcd8\ud83d\udd0e",
+      "description": "writing for his book (reviewing his notes and research materials) @ the Ville:\uc544\ub2f4 \uc2a4\ubbf8\uc2a4\uc758 \uc9d1:\uc548\ubc29:\ucc45\uc0c1",
+      "chat": null
+    },
+    "\uc544\uc774\uc791 \ub274\ud134": {
+      "movement": [
+        65,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about This is a conversation between Napoleon Bonaparte and Isaac Newton about checking inventory and ordering supplies for the week, including tonic water, fresh fruits for cocktails, and ice. @ <persona> \ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8",
+      "chat": [
+        [
+          "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8",
+          "Hey Isaac, how's the inventory looking? Do we have enough supplies for the week?"
+        ],
+        [
+          "\uc544\uc774\uc791 \ub274\ud134",
+          "We have enough supplies for the week, but we could use some more tonic water. I'll make sure to order some."
+        ],
+        [
+          "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8",
+          "Can you also check if we need any other supplies?"
+        ],
+        [
+          "\uc544\uc774\uc791 \ub274\ud134",
+          "Sure, I'll check the inventory and let you know if we need any other supplies."
+        ],
+        [
+          "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8",
+          "Also, please check if we have enough fresh fruits for the cocktails."
+        ],
+        [
+          "\uc544\uc774\uc791 \ub274\ud134",
+          "I will check the inventory and let you know if we need any other supplies. I will also make sure we have enough fresh fruits for the cocktails."
+        ],
+        [
+          "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8",
+          "Also, please let me know if we need to order any other supplies."
+        ],
+        [
+          "\uc544\uc774\uc791 \ub274\ud134",
+          "I will check the inventory and let you know if we need to order any other supplies."
+        ],
+        [
+          "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8",
+          "Please also check if we have enough ice for the cocktails."
+        ],
+        [
+          "\uc544\uc774\uc791 \ub274\ud134",
+          "I will check the inventory to see if we have enough ice for the cocktails."
+        ],
+        [
+          "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8",
+          "Thanks, Isaac. Let me know if there are any issues or if we need to order anything else."
+        ],
+        [
+          "\uc544\uc774\uc791 \ub274\ud134",
+          "I have checked the inventory and we have enough tonic water for the week. We also have enough fresh fruits for the cocktails. We don't need to order any other supplies at the moment. And we have enough ice for the cocktails as well."
+        ]
+      ]
+    },
+    "\uc5d0\uc774\ube0c\ub77c\ud584 \ub9c1\ucee8": {
+      "movement": [
+        41,
+        26
+      ],
+      "pronunciatio": "\ud83c\udf73",
+      "description": "having breakfast @ the Ville:\uc2a4\ub9c8\uac8c \ub514\uc790\uc778 \ud558\uc6b0\uc2a4:\ubd80\uc5cc:\uc694\ub9ac\ud558\ub294 \uacf5\uac04",
+      "chat": null
+    },
+    "\ud074\ub808\uc624 \ud30c\ud2b8\ub77c": {
+      "movement": [
+        53,
+        74
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcad",
+      "description": "writing and editing her children's book series (reviewing her notes and ideas for the book) @ the Ville:\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uc640 \uc544\uc774\uc791 \ub274\ud134\uc758 \uc9d1:\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uc758 \ubc29:\ucc45\uc0c1",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "January 22, 2024, 09:13:10"
+  }
+}

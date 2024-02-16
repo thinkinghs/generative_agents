@@ -1,0 +1,34 @@
+{
+  "persona": {
+    "\ud638\uc2dd \ud568": {
+      "movement": [
+        71,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcbc\ud83e\uddf0",
+      "description": "working at the counter at Hosik Cafe (checking inventory and restocking supplies) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null
+    },
+    "\uc77c\ub860 \uba38\uc2a4\ud06c": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83c\udf1e\ud83e\udd71",
+      "description": "waking up and completing his morning routine @ the Ville:Dorm for Oak Hill College:\uc77c\ub860 \uba38\uc2a4\ud06c\uc758 \ubc29:bed",
+      "chat": null
+    },
+    "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58": {
+      "movement": [
+        112,
+        47
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcc2",
+      "description": "at the library at Oak Hill College doing research for his paper (gathering his research materials) @ the Ville:Oak Hill College:library:library table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "January 22, 2024, 09:05:00"
+  }
+}

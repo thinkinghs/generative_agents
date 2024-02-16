@@ -1,0 +1,219 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "January 22, 2024, 10:23:10",
+  "curr_tile": [
+    64,
+    48
+  ],
+  "daily_plan_req": "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8 opens \uc2a4\ub9c8\uac8c \uc8fc\uc810 at 5pm everyday, and stands at the counter until 10pm, at which point he closes the bar.",
+  "name": "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8",
+  "first_name": "\ub098\ud3f4\ub808\uc639",
+  "last_name": "\ubcf4\ub098\ud30c\ub974\ud2b8",
+  "age": 42,
+  "innate": "friendly, outgoing, generous",
+  "learned": "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8 is a bartender and bar owner of \uc2a4\ub9c8\uac8c \uc8fc\uc810 who loves to make people feel welcome. He is always looking for ways to make his customers feel special.",
+  "currently": "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8 is running a beloved bar in the town that's been around for 10 years. He is also learning more about mixology and create unique cocktails.",
+  "lifestyle": "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8\ub294 \uac70\uc758 \uc790\uc815\uc5d0 \uc7a0\uc790\ub9ac\uc5d0 \ub4e4\uace0, \uc624\uc804 7\uc2dc\uc5d0 \uc77c\uc5b4\ub098\uace0, \uc624\ud6c4 4\uc2dc\uc5d0 \uc800\ub141\uc744 \uba39\ub294\ub2e4.",
+  "living_area": "the Ville:\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8\uc758 \uc544\ud30c\ud2b8:\uc548\ubc29",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 130,
+  "importance_ele_n": 53,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "arrive at \uc2a4\ub9c8\uac8c \uc8fc\uc810 around 4:00 pm to prepare for the opening",
+    "open \uc2a4\ub9c8\uac8c \uc8fc\uc810 at 5:00 pm",
+    "welcome and serve customers until 10:00 pm",
+    "close the bar and clean up",
+    "have a late dinner at the bar"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "having breakfast and checking inventory for the bar",
+      60
+    ],
+    [
+      "learning new mixology techniques and creating unique cocktails for the bar (researching new mixology techniques)",
+      30
+    ],
+    [
+      "learning new mixology techniques and creating unique cocktails for the bar (on the way to practicing new techniques)",
+      0
+    ],
+    [
+      "learning new mixology techniques and creating unique cocktails for the bar (conversing about This is a conversation between Napoleon Bonaparte and Isaac Newton about checking inventory and ordering supplies for the week, including tonic water, fresh fruits for cocktails, and ice.)",
+      6
+    ],
+    [
+      "learning new mixology techniques and creating unique cocktails for the bar (practicing new techniques)",
+      30
+    ],
+    [
+      "learning new mixology techniques and creating unique cocktails for the bar (experimenting with different ingredients)",
+      30
+    ],
+    [
+      "learning new mixology techniques and creating unique cocktails for the bar (taste testing the cocktails)",
+      15
+    ],
+    [
+      "learning new mixology techniques and creating unique cocktails for the bar (making final adjustments to the cocktails)",
+      15
+    ],
+    [
+      "learning new mixology techniques and creating unique cocktails for the bar (taking a break)",
+      15
+    ],
+    [
+      "learning new mixology techniques and creating unique cocktails for the bar (creating a list of ingredients needed for the new cocktails)",
+      15
+    ],
+    [
+      "learning new mixology techniques and creating unique cocktails for the bar (checking inventory for the bar)",
+      24
+    ],
+    [
+      "having lunch and checking inventory for the bar",
+      120
+    ],
+    [
+      "finalizing the menu for the day and preparing ingredients for the cocktails",
+      60
+    ],
+    [
+      "preparing ingredients for the cocktails and setting up the bar for the evening",
+      60
+    ],
+    [
+      "preparing the bar for the evening and checking inventory",
+      60
+    ],
+    [
+      "opening \uc2a4\ub9c8\uac8c \uc8fc\uc810 and welcoming customers",
+      60
+    ],
+    [
+      "welcoming and serving customers at \uc2a4\ub9c8\uac8c \uc8fc\uc810",
+      240
+    ],
+    [
+      "closing \uc2a4\ub9c8\uac8c \uc8fc\uc810 and cleaning up",
+      60
+    ],
+    [
+      "having a late dinner at the bar",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "having breakfast and checking inventory for the bar",
+      60
+    ],
+    [
+      "learning new mixology techniques and creating unique cocktails for the bar",
+      180
+    ],
+    [
+      "having lunch and checking inventory for the bar",
+      120
+    ],
+    [
+      "finalizing the menu for the day and preparing ingredients for the cocktails",
+      60
+    ],
+    [
+      "preparing ingredients for the cocktails and setting up the bar for the evening",
+      60
+    ],
+    [
+      "preparing the bar for the evening and checking inventory",
+      60
+    ],
+    [
+      "opening \uc2a4\ub9c8\uac8c \uc8fc\uc810 and welcoming customers",
+      60
+    ],
+    [
+      "welcoming and serving customers at \uc2a4\ub9c8\uac8c \uc8fc\uc810",
+      240
+    ],
+    [
+      "closing \uc2a4\ub9c8\uac8c \uc8fc\uc810 and cleaning up",
+      60
+    ],
+    [
+      "having a late dinner at the bar",
+      60
+    ]
+  ],
+  "act_address": "the Ville:\uc2a4\ub9c8\uac8c \ub9e4\uc810:\ub9e4\uc810:\ub9e4\uc810 \uc120\ubc18",
+  "act_start_time": "January 22, 2024, 10:14:00",
+  "act_duration": 30,
+  "act_description": "learning new mixology techniques and creating unique cocktails for the bar (experimenting with different ingredients)",
+  "act_pronunciatio": "\ud83e\uddea",
+  "act_event": [
+    "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8",
+    "experiment",
+    "different ingredients"
+  ],
+  "act_obj_description": "experimenting with different ingredients",
+  "act_obj_pronunciatio": "\ud83e\uddea\ud83e\uddea",
+  "act_obj_event": [
+    "\ub9e4\uc810 \uc120\ubc18",
+    "experiment",
+    "different ingredients"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "\uc544\uc774\uc791 \ub274\ud134": 384
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

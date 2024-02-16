@@ -1,0 +1,353 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "January 22, 2024, 11:02:40",
+  "curr_tile": [
+    55,
+    62
+  ],
+  "daily_plan_req": "\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\ub294 \ud654\uc131 \uc2dd\ubbfc\uc9c0 \uc2dc\ub300\uc5d0 \ubb3c\ub9ac\ud559\uc774 \uc678\uad50 \uc815\ucc45\uc5d0 \ubbf8\uce60 \uc601\ud5a5\ub825\uc5d0 \ub300\ud574 \uc544\uc774\uc791 \ub274\ud134\uacfc \uc774\uc57c\uae30 \ud55c\ub2e4.",
+  "name": "\ud074\ub808\uc624 \ud30c\ud2b8\ub77c",
+  "first_name": "\ud074\ub808\uc624",
+  "last_name": "\ud30c\ud2b8\ub77c",
+  "age": 30,
+  "innate": "\uce5c\uc808\ud55c, \uc778\ub0b4\uc2ec \uc788\ub294, \uc678\uad50\ub825 \uc788\ub294",
+  "learned": "\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\ub294 \uc678\uad50\ud559\uacfc\ub97c \uc804\uacf5\ud558\uc600\ub2e4. \uadf8\ub140\ub294 \ud654\uc131 \uc2dd\ubbfc\uc9c0 \uc2dc\ub300\uc5d0 \uc6b0\uc8fc\uc5d0\uc11c\uc758 \uc678\uad50 \uad00\uacc4\uc5d0 \ub300\ud574 \uc5f0\uad6c\ud558\uace0 \uc788\ub2e4. \ud55c\uad6d\uc5b4\ub85c \ub300\ud654\ud55c\ub2e4.",
+  "currently": "\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\ub294 \uc544\uc774\uc791 \ub274\ud134\uacfc \uac19\uc740 \uc9d1\uc5d0 \uc0b0\ub2e4, \ud654\uc131 \uc2dd\ubbfc\uc9c0 \uc2dc\ub300\uac00 \ub418\uba74 \uc5b4\ub5a4 \uc678\uad50 \uc804\ub7b5\uc774 \ud544\uc694\ud560\uc9c0\uc5d0 \ub300\ud574 \uc5f0\uad6c\ud55c\ub2e4. \uadf8\ub140\ub294 \uc911\ub825\uc7a5\uc774 \uc678\uad50\uc5d0\ub3c4 \uc601\ud5a5\ub825\uc744 \ubbf8\uce60 \uc218 \uc788\uc74c\uc744 \uc544\uc774\uc791 \ub274\ud134\uacfc\uc758 \ub300\ud654\ub97c \ud1b5\ud574 \uc54c\uac8c \ub41c\ub2e4. \ud55c\uad6d\uc5b4\ub85c \ub300\ud654\ud55c\ub2e4.",
+  "lifestyle": "\ud074\ub808\uc624 \ud30c\ud2b8\ub77c \ubc24 10\uc2dc\uc5d0 \uc790\ub7ec \uac04\ub2e4, \uc544\uce68 7\uc2dc\uc5d0 \uc77c\uc5b4\ub098 \uc544\uce68 10\uc2dc\uc5d0 \uc911\uc559\uacf5\uc6d0\uc5d0 \uac00\uba70, Hosik Cafe\uc5d0\uc11c \uc624\ud6c4 7\uc2dc\uc5d0 \uc800\ub141\uc2dd\uc0ac\ub97c \ud55c\ub2e4.",
+  "living_area": "the Ville:\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uc640 \uc544\uc774\uc791 \ub274\ud134\uc758 \uc9d1:\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uc758 \ubc29",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 240,
+  "importance_ele_n": 8,
+  "thought_count": 5,
+  "daily_req": [
+    "\uc624\uc804 8:00 \uc5d0 \uc77c\uc5b4\ub098 \uc544\uce68\ub9de\uc774 \uc900\ube44\ub97c \ud55c\ub2e4.",
+    "\uc624\uc804 10\uc2dc\uc5d0 \uc911\uc559\uacf5\uc6d0\uc73c\ub85c \ucd9c\ubc1c\ud574\uc11c \uc0b0\ucc45\ud558\uac70\ub098 \uc6b4\ub3d9\ud55c\ub2e4",
+    "\uc624\ud6c4 1\uc2dc\uc5d0 \ubcf5\uc7a1\ud55c \uc5f0\uad6c\ub97c \uc704\ud574 Hosik Cafe\ub85c \uc774\ub3d9\ud558\uace0 \uc77c\uc744 \uc2dc\uc791\ud55c\ub2e4 1:00 pm",
+    "\uc2dc\uac04\uc5d0 \ub530\ub77c\uc11c \uc77c\uc744 \ud558\uba74\uc11c 6:00 pm\uc5d0\uc11c 7:00 pm \uc0ac\uc774\uc5d0 \uc800\ub141 \uc2dd\uc0ac\ub97c \ud55c\ub2e4",
+    "\uc800\ub141 \uc2dd\uc0ac\uac00 \ub05d\ub098\uba74 \uc77c\uc744 \uc774\uc5b4\uc11c \ud558\uace0 \ud558\ub8e8 \uc77c\uacfc\ub97c \ub9c8\ubb34\ub9ac\ud55c\ub2e4 10:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "preparing for the day",
+      60
+    ],
+    [
+      "conducting research on the effects of physics on interplanetary diplomacy (\ub294 \uc544\uce68\uc2dd\uc0ac\ub97c \ud558\uace0 \uc911\uc559\uacf5\uc6d0\uc5d0 \uac04\ub2e4)",
+      30
+    ],
+    [
+      "conducting research on the effects of physics on interplanetary diplomacy (\uc544\uc774\uc791 \ub274\ud134\uacfc \ub9cc\ub098 \ud654\uc131 \uc2dd\ubbfc\uc9c0 \uc2dc\ub300\uc5d0 \ubb3c\ub9ac\ud559\uc774 \uc678\uad50 \uc815\ucc45\uc5d0 \ubbf8\uce60 \uc601\ud5a5\ub825\uc5d0 \ub300\ud574 \uc774\uc57c\uae30\ud55c\ub2e4)",
+      60
+    ],
+    [
+      "conducting research on the effects of physics on interplanetary diplomacy (\uc5f0\uad6c\ub97c \uc2dc\uc791\ud55c\ub2e4)",
+      30
+    ],
+    [
+      "conducting research on the effects of physics on interplanetary diplomacy (\uc810\uc2ec\uc744 \uba39\ub294\ub2e4)",
+      30
+    ],
+    [
+      "conducting research on the effects of physics on interplanetary diplomacy (\uc5f0\uad6c\ub97c \uacc4\uc18d\ud55c\ub2e4)",
+      30
+    ],
+    [
+      "having lunch at Hosik Cafe (\ub294 Hosik Cafe\uc5d0 \ub3c4\ucc29\ud558\uc5ec \uba54\ub274\ub97c \ud655\uc778\ud55c\ub2e4)",
+      5
+    ],
+    [
+      "having lunch at Hosik Cafe (\uc120\ud0dd\ud55c \uc74c\uc2dd\uc744 \uc8fc\ubb38\ud55c\ub2e4)",
+      5
+    ],
+    [
+      "having lunch at Hosik Cafe (\ub098\uc624\uae30 \uc804\uae4c\uc9c0 \uae30\ub2e4\ub9b0\ub2e4)",
+      10
+    ],
+    [
+      "having lunch at Hosik Cafe (\uba39\uc73c\uba70 \uc544\uc774\uc791 \ub274\ud134\uacfc\uc758 \ub300\ud654\ub97c \uc900\ube44\ud55c\ub2e4)",
+      15
+    ],
+    [
+      "having lunch at Hosik Cafe (\ub274\ud134\uacfc \ub300\ud654\ub97c \ub098\ub208\ub2e4)",
+      20
+    ],
+    [
+      "having lunch at Hosik Cafe (\ub9c8\uce58\uace0 Hosik Cafe\ub97c \ub5a0\ub09c\ub2e4)",
+      5
+    ],
+    [
+      "conducting research at Hosik Cafe",
+      240
+    ],
+    [
+      "having dinner at Hosik Cafe",
+      60
+    ],
+    [
+      "conducting research at Hosik Cafe",
+      60
+    ],
+    [
+      "having dinner at Hosik Cafe",
+      60
+    ],
+    [
+      "conducting research at Hosik Cafe",
+      120
+    ],
+    [
+      "finishing up her work and getting ready for bed",
+      60
+    ],
+    [
+      "getting ready for bed and reflecting on her day",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "preparing for the day",
+      60
+    ],
+    [
+      "conducting research on the effects of physics on interplanetary diplomacy",
+      180
+    ],
+    [
+      "having lunch at Hosik Cafe",
+      60
+    ],
+    [
+      "conducting research at Hosik Cafe",
+      240
+    ],
+    [
+      "having dinner at Hosik Cafe",
+      60
+    ],
+    [
+      "conducting research at Hosik Cafe",
+      60
+    ],
+    [
+      "having dinner at Hosik Cafe",
+      60
+    ],
+    [
+      "conducting research at Hosik Cafe",
+      120
+    ],
+    [
+      "finishing up her work and getting ready for bed",
+      60
+    ],
+    [
+      "getting ready for bed and reflecting on her day",
+      60
+    ]
+  ],
+  "act_address": "the Ville:\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uc640 \uc544\uc774\uc791 \ub274\ud134\uc758 \uc9d1:kitchen:\ucc45\uc0c1",
+  "act_start_time": "January 22, 2024, 11:00:00",
+  "act_duration": 30,
+  "act_description": "conducting research on the effects of physics on interplanetary diplomacy (\uc810\uc2ec\uc744 \uba39\ub294\ub2e4)",
+  "act_pronunciatio": "\ud83c\udf7d",
+  "act_event": [
+    "\ud074\ub808\uc624 \ud30c\ud2b8\ub77c",
+    "\ud074\ub808\uc624 \ud30c\ud2b8\ub77c",
+    "is"
+  ],
+  "act_obj_description": "<fill in>",
+  "act_obj_pronunciatio": "\u2708\ufe0f",
+  "act_obj_event": [
+    "\ucc45\uc0c1",
+    "\ucc45\uc0c1",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      55,
+      60
+    ],
+    [
+      54,
+      60
+    ],
+    [
+      53,
+      60
+    ],
+    [
+      52,
+      60
+    ],
+    [
+      51,
+      60
+    ],
+    [
+      50,
+      60
+    ],
+    [
+      50,
+      59
+    ],
+    [
+      49,
+      59
+    ],
+    [
+      49,
+      58
+    ],
+    [
+      48,
+      58
+    ],
+    [
+      47,
+      58
+    ],
+    [
+      47,
+      57
+    ],
+    [
+      46,
+      57
+    ],
+    [
+      46,
+      56
+    ],
+    [
+      46,
+      55
+    ],
+    [
+      45,
+      55
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      42,
+      53
+    ],
+    [
+      41,
+      53
+    ],
+    [
+      40,
+      53
+    ],
+    [
+      39,
+      53
+    ],
+    [
+      38,
+      53
+    ],
+    [
+      37,
+      53
+    ],
+    [
+      36,
+      53
+    ],
+    [
+      35,
+      53
+    ],
+    [
+      34,
+      53
+    ],
+    [
+      33,
+      53
+    ],
+    [
+      32,
+      53
+    ],
+    [
+      31,
+      53
+    ],
+    [
+      31,
+      52
+    ],
+    [
+      31,
+      51
+    ],
+    [
+      31,
+      50
+    ],
+    [
+      31,
+      49
+    ]
+  ]
+}

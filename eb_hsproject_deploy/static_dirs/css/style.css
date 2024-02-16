@@ -1,0 +1,28 @@
+html,
+body,
+#main-wrapper {
+  width: 100%;
+  display: table;
+}
+
+#main-table-row {
+  display: "table-row"
+}
+
+#game-container {
+  padding: 10px;
+  width: 2850px;
+  height: 1200px;
+}
+
+#game-container {
+  display: table-cell;
+}
+
+#game-container>canvas {
+  border-radius: 5px;
+}
+
+#char-controller {
+  display: table-cell;
+}

@@ -1,0 +1,201 @@
+{
+  "persona": {
+    "\ud638\uc2dd \ud568": {
+      "movement": [
+        76,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about conversing about attending a Valentine's Day party at the cafe and making reservations @ <persona> \ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+      "chat": [
+        [
+          "\ud638\uc2dd \ud568",
+          "Hello Leonardo! I see you've taken a break from writing. How's your day going so far?"
+        ],
+        [
+          "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+          "Hello! My day is going well so far. How about yours?"
+        ],
+        [
+          "\ud638\uc2dd \ud568",
+          "I've been busy preparing for the Valentine's Day party at the cafe. Have you ever been to one of our parties before?"
+        ],
+        [
+          "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+          "No, I haven't been to one of your parties before. What can I expect at the Valentine's Day party?"
+        ],
+        [
+          "\ud638\uc2dd \ud568",
+          "At the Valentine's Day party, we will have live music, delicious food, and a warm and inviting atmosphere. It's a great opportunity to relax and meet new people. I hope you can join us!"
+        ],
+        [
+          "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+          "The Valentine's Day party sounds fun! I would love to join and experience the live music and delicious food."
+        ],
+        [
+          "\ud638\uc2dd \ud568",
+          "That's great to hear! I'm glad you're interested in joining the party. It will be a wonderful evening. The party will start at 5pm and go on until 7pm. I'll make sure to reserve a spot for you. See you there!"
+        ],
+        [
+          "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+          "Thank you for reserving a spot for me. I'm looking forward to the party!"
+        ],
+        [
+          "\ud638\uc2dd \ud568",
+          "Great! I'll see you at the party then. Have a great day!"
+        ],
+        [
+          "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+          "Thank you for reserving a spot for me. I'm looking forward to the party!"
+        ],
+        [
+          "\ud638\uc2dd \ud568",
+          "Since you haven't been to our parties before, I can assure you that it will be a memorable experience. We put a lot of effort into creating a warm and inviting atmosphere for everyone to enjoy. The live music and delicious food will definitely make it a night to remember. I hope to see you there!"
+        ],
+        [
+          "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+          "I have a few more hours of writing to do, but I will definitely make it to the party. Thank you again for reserving a spot for me!"
+        ],
+        [
+          "\ud638\uc2dd \ud568",
+          "Great! I'll see you at the party then. Have a great day!"
+        ],
+        [
+          "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+          "Thank you for reserving a spot for me. I'll see you at the party then. Have a great day!"
+        ],
+        [
+          "\ud638\uc2dd \ud568",
+          "That's great! I'll see you at the party then. Have a great day!"
+        ]
+      ]
+    },
+    "\uc77c\ub860 \uba38\uc2a4\ud06c": {
+      "movement": [
+        122,
+        51
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2640",
+      "description": "attending physics lecture (walking to the physics lecture hall) @ the Ville:\uc2a4\ub9c8\uac8c \ub300\ud559\uad50:\uad50\uc2e4:\uad50\uc2e4 \uac15\uc5f0\ub300",
+      "chat": null
+    },
+    "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58": {
+      "movement": [
+        75,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about conversing about attending a Valentine's Day party at the cafe and making reservations @ <persona> \ud638\uc2dd \ud568",
+      "chat": [
+        [
+          "\ud638\uc2dd \ud568",
+          "Hello Leonardo! I see you've taken a break from writing. How's your day going so far?"
+        ],
+        [
+          "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+          "Hello! My day is going well so far. How about yours?"
+        ],
+        [
+          "\ud638\uc2dd \ud568",
+          "I've been busy preparing for the Valentine's Day party at the cafe. Have you ever been to one of our parties before?"
+        ],
+        [
+          "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+          "No, I haven't been to one of your parties before. What can I expect at the Valentine's Day party?"
+        ],
+        [
+          "\ud638\uc2dd \ud568",
+          "At the Valentine's Day party, we will have live music, delicious food, and a warm and inviting atmosphere. It's a great opportunity to relax and meet new people. I hope you can join us!"
+        ],
+        [
+          "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+          "The Valentine's Day party sounds fun! I would love to join and experience the live music and delicious food."
+        ],
+        [
+          "\ud638\uc2dd \ud568",
+          "That's great to hear! I'm glad you're interested in joining the party. It will be a wonderful evening. The party will start at 5pm and go on until 7pm. I'll make sure to reserve a spot for you. See you there!"
+        ],
+        [
+          "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+          "Thank you for reserving a spot for me. I'm looking forward to the party!"
+        ],
+        [
+          "\ud638\uc2dd \ud568",
+          "Great! I'll see you at the party then. Have a great day!"
+        ],
+        [
+          "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+          "Thank you for reserving a spot for me. I'm looking forward to the party!"
+        ],
+        [
+          "\ud638\uc2dd \ud568",
+          "Since you haven't been to our parties before, I can assure you that it will be a memorable experience. We put a lot of effort into creating a warm and inviting atmosphere for everyone to enjoy. The live music and delicious food will definitely make it a night to remember. I hope to see you there!"
+        ],
+        [
+          "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+          "I have a few more hours of writing to do, but I will definitely make it to the party. Thank you again for reserving a spot for me!"
+        ],
+        [
+          "\ud638\uc2dd \ud568",
+          "Great! I'll see you at the party then. Have a great day!"
+        ],
+        [
+          "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58",
+          "Thank you for reserving a spot for me. I'll see you at the party then. Have a great day!"
+        ],
+        [
+          "\ud638\uc2dd \ud568",
+          "That's great! I'll see you at the party then. Have a great day!"
+        ]
+      ]
+    },
+    "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8": {
+      "movement": [
+        61,
+        25
+      ],
+      "pronunciatio": "\ud83c\udfaf",
+      "description": "learning new mixology techniques and creating unique cocktails for the bar (practicing new techniques) @ the Ville:\uc2a4\ub9c8\uac8c \uc8fc\uc810:\uc8fc\uc810:\ub9c8\uc774\ud06c",
+      "chat": null
+    },
+    "\uc544\ub2f4 \uc2a4\ubbf8\uc2a4": {
+      "movement": [
+        21,
+        62
+      ],
+      "pronunciatio": "\u270d\ufe0f",
+      "description": "writing for his book (writing the first draft of the chapter) @ the Ville:\uc544\ub2f4 \uc2a4\ubbf8\uc2a4\uc758 \uc9d1:\uc548\ubc29:\ucc45\uc0c1",
+      "chat": null
+    },
+    "\uc544\uc774\uc791 \ub274\ud134": {
+      "movement": [
+        61,
+        48
+      ],
+      "pronunciatio": "\ud83d\udd0e\u2728",
+      "description": "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (helping a customer find a specific item) @ the Ville:\uc2a4\ub9c8\uac8c \ub9e4\uc810:\ub9e4\uc810:\ub9e4\uc810 \uc120\ubc18",
+      "chat": null
+    },
+    "\uc5d0\uc774\ube0c\ub77c\ud584 \ub9c1\ucee8": {
+      "movement": [
+        39,
+        28
+      ],
+      "pronunciatio": "\ud83d\udd0d",
+      "description": "working on animation project for client (reviewing the client's project requirements) @ the Ville:\uc2a4\ub9c8\uac8c \ub514\uc790\uc778 \ud558\uc6b0\uc2a4:\uacf5\uc6a9\uacf5\uac04:\uc18c\ud30c \ud14c\uc774\ube14",
+      "chat": null
+    },
+    "\ud074\ub808\uc624 \ud30c\ud2b8\ub77c": {
+      "movement": [
+        53,
+        74
+      ],
+      "pronunciatio": "\u270d\ufe0f",
+      "description": "writing and editing her children's book series (writing the first draft of the book) @ the Ville:\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uc640 \uc544\uc774\uc791 \ub274\ud134\uc758 \uc9d1:\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uc758 \ubc29:\ucc45\uc0c1",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "January 22, 2024, 10:01:20"
+  }
+}

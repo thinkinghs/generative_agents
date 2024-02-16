@@ -1,0 +1,210 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "January 22, 2024, 11:02:40",
+  "curr_tile": [
+    62,
+    75
+  ],
+  "daily_plan_req": "\uc544\uc774\uc791 \ub274\ud134\uc740 \uc2a4\ub9c8\uac8c \ub9e4\uc810\uc744 \uc624\uc804 8\uc2dc\uc5d0 \uc5f4\uace0, \ub9e4\uc810 \uce74\uc6b4\ud130 \ub4b7\ud3b8\uc5d0 \uc11c\uc788\ub294\ub2e4, \uc800\ub141 6\uc2dc\uc5d0 \ub9e4\uc810\uc744 \ub2eb\uace0, \uc800\ub141 7\uc2dc\uc5d0 \uc2a4\ub9c8\uac8c \uc8fc\uc810\uc73c\ub85c \uac00\uc11c \ub9e5\uc8fc\ub97c \ub9c8\uc2e0\ub2e4.",
+  "name": "\uc544\uc774\uc791 \ub274\ud134",
+  "first_name": "\uc544\uc774\uc791",
+  "last_name": "\ub274\ud134",
+  "age": 38,
+  "innate": "\ucc9c\uc7ac\uc801\uc778, \ub9ac\ub354\uc2ed\uc788\ub294, \uc2e0\uc559\uc2ec \uae4a\uc740",
+  "learned": "\uc544\uc774\uc791 \ub274\ud134\uc740 \uc2a4\ub9c8\uac8c \ub9e4\uc810 \uc8fc\uc778\uc774\uba74\uc11c \uc138\uacc4\uc5d0\uc11c \uac00\uc7a5 \ub611\ub611\ud55c \ubb3c\ub9ac\ud559\uc790\uc774\ub2e4. \ud654\uc131\uc73c\ub85c \uac00\uae30 \uc704\ud574 \uc911\ub825\uc744 \uc774\uc6a9\ud55c \ucd5c\uc801\uc758 \ub85c\ucf13 \ube44\ud589 \uada4\ub3c4\ub97c \uc2a4\ub9c8\uac8c \ub9e4\uc810\uc5d0\uc11c \uc5f0\uad6c\ud55c\ub2e4. \ud55c\uad6d\uc5b4\ub85c \ub300\ud654\ud55c\ub2e4.",
+  "currently": "\uc544\uc774\uc791 \ub274\ud134 \uc2a4\ub9c8\uac8c \ub9e4\uc810 \uc8fc\uc778\uc73c\ub85c \uc77c\ud558\uc9c0\ub9cc \uc678\ubd80 \uc138\uacc4\uc5d0 \uc815\uccb4\ub97c \uc228\uae34 \ucc9c\uc7ac \ubb3c\ub9ac\ud559\uc790\ub85c \uc911\ub825\uc5d0 \ub300\ud574 \uc5f0\uad6c\ud55c\ub2e4, \ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uc640 \uac19\uc774 \uc0b0\ub2e4. \uc6b0\uc8fc\uc5d0\uc11c\uc758 \uc911\ub825\uc5d0 \ub300\ud55c \ub17c\ubb38\uc744 \uc4f0\uace0 \uc788\ub2e4. \ud55c\uad6d\uc5b4\ub85c \ub300\ud654\ud55c\ub2e4.",
+  "lifestyle": "\uc544\uc774\uc791 \ub274\ud134\ub294 \ubc24 10\uc2dc\uc5d0 \uc7a0\ub4e4\uba70, \uc544\uce68 7\uc2dc\uc5d0 \uc77c\uc5b4\ub098\uc11c \uc544\uce68 9\uc2dc\uc5d0 \uc911\uc559\uacf5\uc6d0\uc5d0 \uac00\uba70, Hosik Cafe\uc5d0\uc11c \uc624\ud6c4 7\uc2dc\uc5d0 \uc800\ub141\uc2dd\uc0ac\ub97c \ud55c\ub2e4.",
+  "living_area": "the Ville:\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uc640 \uc544\uc774\uc791 \ub274\ud134\uc758 \uc9d1:\uc544\uc774\uc791 \ub274\ud134\uc758 \ubc29",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 124,
+  "importance_ele_n": 59,
+  "thought_count": 5,
+  "daily_req": [
+    "\uc624\uc804 8:00 \uc5d0 \uc77c\uc5b4\ub098 \uc544\uce68\ub9de\uc774 \uc900\ube44\ub97c \ud55c\ub2e4.",
+    "\uc2a4\ub9c8\uac8c \ub9e4\uc810\uc5d0 \ub3c4\ucc29\ud574\uc11c \ub9e4\uc810\uc744 \uc5f4\uace0 \uc77c\uc744 \uc2dc\uc791\ud55c\ub2e4 8:30 am",
+    "\uc911\uc559\uacf5\uc6d0\uc5d0\uc11c \uc0b0\ucc45\ud558\uba74\uc11c \uc544\uce68 \uc2dd\uc0ac\ub97c \uc990\uae34\ub2e4 9:00 am",
+    "\uc2a4\ub9c8\uac8c \ub9e4\uc810\uc5d0\uc11c \uc77c\uc744 \uacc4\uc18d\ud55c\ub2e4 10:00 am",
+    "\uc624\ud6c4\uc5d0\ub294 \ubb3c\ub9ac\ud559 \uc5f0\uad6c\ub97c \uc704\ud574 \ub3c5\uc11c\uc2e4\uc5d0 \uac00\uc11c \ucc45\uc744 \uc77d\uace0 \ub17c\ubb38\uc744 \uc4f4\ub2e4 2:00 pm",
+    "\uc810\uc2ec\uc740 \ub3c5\uc11c\uc2e4\uc5d0\uc11c \uac00\uc838\uc628 \ub3c4\uc2dc\ub77d\uc744 \uba39\ub294\ub2e4 12:30 pm",
+    "\ub17c\ubb38 \uc4f0\uae30\ub97c \ub9c8\uce58\uace0 \ub9e4\uc810\uc73c\ub85c \ub3cc\uc544\uac04\ub2e4 4:00 pm",
+    "\uc2a4\ub9c8\uac8c \ub9e4\uc810\uc5d0\uc11c \uc77c\uc744 \uacc4\uc18d\ud558\uace0 \uc800\ub141 \uc2dd\uc0ac\ub97c \uc900\ube44\ud55c\ub2e4 5:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "working at Smage convenience store (on the way to working at Smage convenience stor)",
+      120
+    ],
+    [
+      "working at Smage convenience store (conversing about This is a conversation about researching the economic system on Mars and Adam Smith offering to share his findings after reading a paper on the topic)",
+      4
+    ],
+    [
+      "working on his physics research at the library (\ub274\ud134\uc740 \uc911\ub825\uc5d0 \ub300\ud55c \ub17c\ubb38\uc744 \uc4f4\ub2e4) (\ub274\ud134\uc740 \uc911\ub825\uc5d0 \ub300\ud55c \ub17c\ubb38\uc744 \uc4f4\ub2e4)",
+      45
+    ],
+    [
+      "working on his physics research at the library (on the way to \uc911\ub825\uc5d0 \ub300\ud55c \uc2e4\ud5d8\uc744 \uc9c4\ud589\ud55c\ub2e4)",
+      0
+    ],
+    [
+      "working on his physics research at the library (conversing about The conversation is about discussing research findings on Mars' economic system and how their ideas can be developed during dinner.)",
+      4
+    ],
+    [
+      "working on his physics research at the library (\uc911\ub825\uc744 \uc774\uc6a9\ud55c \ub85c\ucf13 \ube44\ud589 \uada4\ub3c4\ub97c \uc5f0\uad6c\ud55c\ub2e4)",
+      30
+    ],
+    [
+      "working on his physics research at the library (\uc911\ub825\uc5d0 \ub300\ud55c \uc2e4\ud5d8\uc744 \uc9c4\ud589\ud55c\ub2e4)",
+      20
+    ],
+    [
+      "working on his physics research at the library (\uc911\ub825\uc5d0 \ub300\ud55c \uc2e4\ud5d8 \uacb0\uacfc\ub97c \ubd84\uc11d\ud55c\ub2e4)",
+      10
+    ],
+    [
+      "wrapping up his work and preparing to leave the library.",
+      7
+    ],
+    [
+      "having lunch at the library",
+      120
+    ],
+    [
+      "working on his physics research at the library",
+      120
+    ],
+    [
+      "working at Smage convenience store",
+      120
+    ],
+    [
+      "having dinner at Smage convenience store",
+      60
+    ],
+    [
+      "having dinner with Cleo Petra at Smage bar",
+      60
+    ],
+    [
+      "closing Smage convenience store and heading to Smage bar",
+      60
+    ],
+    [
+      "having dinner with Cleo Petra at Smage bar",
+      60
+    ],
+    [
+      "closing Smage convenience store and heading to Smage bar",
+      60
+    ],
+    [
+      "getting ready for bed",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -4
+    ],
+    [
+      "sleeping",
+      4
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "working at Smage convenience store",
+      120
+    ],
+    [
+      "working on his physics research at the library",
+      120
+    ],
+    [
+      "having lunch at the library",
+      120
+    ],
+    [
+      "working on his physics research at the library",
+      120
+    ],
+    [
+      "working at Smage convenience store",
+      120
+    ],
+    [
+      "having dinner at Smage convenience store",
+      60
+    ],
+    [
+      "having dinner with Cleo Petra at Smage bar",
+      60
+    ],
+    [
+      "closing Smage convenience store and heading to Smage bar",
+      60
+    ],
+    [
+      "having dinner with Cleo Petra at Smage bar",
+      60
+    ],
+    [
+      "closing Smage convenience store and heading to Smage bar",
+      60
+    ],
+    [
+      "getting ready for bed",
+      60
+    ]
+  ],
+  "act_address": "the Ville:\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uc640 \uc544\uc774\uc791 \ub274\ud134\uc758 \uc9d1:\uc544\uc774\uc791 \ub274\ud134\uc758 \ubc29:\uae30\ud0c0",
+  "act_start_time": "January 22, 2024, 10:18:00",
+  "act_duration": 45,
+  "act_description": "working on his physics research at the library (\ub274\ud134\uc740 \uc911\ub825\uc5d0 \ub300\ud55c \ub17c\ubb38\uc744 \uc4f4\ub2e4) (\ub274\ud134\uc740 \uc911\ub825\uc5d0 \ub300\ud55c \ub17c\ubb38\uc744 \uc4f4\ub2e4)",
+  "act_pronunciatio": "\u270d\ufe0f",
+  "act_event": [
+    "\uc544\uc774\uc791 \ub274\ud134",
+    "\uc544\uc774\uc791 \ub274\ud134",
+    "is"
+  ],
+  "act_obj_description": "<fill in>",
+  "act_obj_pronunciatio": "\ud83c\udfcb\ufe0f\u200d",
+  "act_obj_event": [
+    "\uae30\ud0c0",
+    "\uae30\ud0c0",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "\uc544\ub2f4 \uc2a4\ubbf8\uc2a4": 141,
+    "\ud638\uc2dd \ud568": 531
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

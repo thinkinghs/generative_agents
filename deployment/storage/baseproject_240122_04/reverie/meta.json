@@ -1,0 +1,13 @@
+{
+  "fork_sim_code": "base_hsproject_240122_03_change_place",
+  "start_date": "January 22, 2024",
+  "curr_time": "January 22, 2024, 09:16:40",
+  "sec_per_step": 10,
+  "maze_name": "the_ville",
+  "persona_names": [
+    "\ud638\uc2dd \ud568",
+    "\uc77c\ub860 \uba38\uc2a4\ud06c",
+    "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58"
+  ],
+  "step": 100
+}

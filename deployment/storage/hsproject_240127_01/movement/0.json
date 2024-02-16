@@ -1,0 +1,79 @@
+{
+  "persona": {
+    "\ud638\uc2dd \ud568": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83d\udc4b",
+      "description": "working at the counter (greeting customers as they enter the cafe) @ the Ville:Hosik Cafe:cafe:\uce74\ud398 \uce74\uc6b4\ud130 \ub4b7\ucabd",
+      "chat": null
+    },
+    "\uc77c\ub860 \uba38\uc2a4\ud06c": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83d\udec1",
+      "description": "waking up and completing his morning routine @ the Ville:\uc2a4\ub9c8\uac8c \ub300\ud559\uad50 \uae30\uc219\uc0ac:\uc77c\ub860 \uba38\uc2a4\ud06c\uc758 \ubc29:\uce68\ub300",
+      "chat": null
+    },
+    "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58": {
+      "movement": [
+        127,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83d\udcda",
+      "description": "writing at the \ub3c4\uc11c\uad00 (setting up his laptop and materials at his designated study area) @ the Ville:\uc2a4\ub9c8\uac8c \ub300\ud559\uad50 \uae30\uc219\uc0ac:\ud734\uac8c\uc2e4:\uc18c\ud30c \ud14c\uc774\ube14",
+      "chat": null
+    },
+    "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8": {
+      "movement": [
+        54,
+        14
+      ],
+      "pronunciatio": "\ud83d\udd0d",
+      "description": "learning new mixology techniques and creating unique cocktails for the bar (researching new mixology techniques) @ the Ville:\uc2a4\ub9c8\uac8c \ub9e4\uc810:\ub9e4\uc810:\ub9e4\uc810 \uce74\uc6b4\ud130 \ub4b7\ud3b8",
+      "chat": null
+    },
+    "\uc544\ub2f4 \uc2a4\ubbf8\uc2a4": {
+      "movement": [
+        21,
+        65
+      ],
+      "pronunciatio": "\ud83d\udcd8\ud83d\udd0e",
+      "description": "writing for his book (reviewing his notes and research materials) @ the Ville:\uc544\ub2f4 \uc2a4\ubbf8\uc2a4\uc758 \uc9d1:\uc548\ubc29:\ucc45\uc0c1",
+      "chat": null
+    },
+    "\uc544\uc774\uc791 \ub274\ud134": {
+      "movement": [
+        58,
+        74
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\uded2",
+      "description": "managing \uc2a4\ub9c8\uac8c \ub9e4\uc810 and helping customers find supplies (checking inventory and restocking shelves) @ the Ville:\uc2a4\ub9c8\uac8c \ub9e4\uc810:\ub9e4\uc810:\ub9e4\uc810 \uc120\ubc18",
+      "chat": null
+    },
+    "\uc5d0\uc774\ube0c\ub77c\ud584 \ub9c1\ucee8": {
+      "movement": [
+        37,
+        18
+      ],
+      "pronunciatio": "\ud83c\udf73",
+      "description": "having breakfast @ the Ville:\uc2a4\ub9c8\uac8c \ub514\uc790\uc778 \ud558\uc6b0\uc2a4:\ubd80\uc5cc:\uc694\ub9ac\ud558\ub294 \uacf5\uac04",
+      "chat": null
+    },
+    "\ud074\ub808\uc624 \ud30c\ud2b8\ub77c": {
+      "movement": [
+        53,
+        74
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcad",
+      "description": "writing and editing her children's book series (reviewing her notes and ideas for the book) @ the Ville:\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uc640 \uc544\uc774\uc791 \ub274\ud134\uc758 \uc9d1:\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uc758 \ubc29:\ucc45\uc0c1",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "January 22, 2024, 09:00:00"
+  }
+}

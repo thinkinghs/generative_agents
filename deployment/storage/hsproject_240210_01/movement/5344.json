@@ -1,0 +1,79 @@
+{
+  "persona": {
+    "\ud638\uc2dd \ud568": {
+      "movement": [
+        72,
+        14
+      ],
+      "pronunciatio": "\ud83d\udca4",
+      "description": "\uc218\uba74\uc911 @ the Ville:\ud638\uc2dd \ub9e8\uc158:\uc548\ubc29:\uce68\ub300",
+      "chat": null
+    },
+    "\uc77c\ub860 \uba38\uc2a4\ud06c": {
+      "movement": [
+        127,
+        54
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udcad",
+      "description": "\uc5f0\uad6c\uc2e4\uc5d0\uc11c \uc77c\uc744 \uc9c4\ud589\ud55c\ub2e4 (\ubc1c\uc0ac \uc2dc\ubbac\ub808\uc774\uc158 \uacb0\uacfc\ub97c \ubc14\ud0d5\uc73c\ub85c \uac1c\uc120 \ubc29\uc548\uc744 \ub17c\uc758\ud55c\ub2e4) @ the Ville:\uc2a4\ub9c8\uac8c \ub300\ud559\uad50 \uae30\uc219\uc0ac:\uc77c\ub860 \uba38\uc2a4\ud06c\uc758 \ubc29:\ucef4\ud4e8\ud130",
+      "chat": null
+    },
+    "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58": {
+      "movement": [
+        127,
+        46
+      ],
+      "pronunciatio": "\ud83d\udcad",
+      "description": "\uc624\ub298 \ud558\ub8e8\ub97c \ub9c8\ubb34\ub9ac\ud558\uace0 \uc7a0\uc5d0 \ub4e0\ub2e4 (\ud558\ub8e8\ub97c \ub3cc\uc544\ubcf4\uace0 \ub9c8\uc74c\uc758 \uc900\ube44\ub97c \ud55c\ub2e4) @ the Ville:\uc2a4\ub9c8\uac8c \ub300\ud559\uad50 \uae30\uc219\uc0ac:\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58\uc758 \ubc29:\uce68\ub300",
+      "chat": null
+    },
+    "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8": {
+      "movement": [
+        53,
+        14
+      ],
+      "pronunciatio": "\ud83d\udca4",
+      "description": "\uc218\uba74\uc911 @ the Ville:\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8\uc758 \uc544\ud30c\ud2b8:bedroom:\uce68\ub300",
+      "chat": null
+    },
+    "\uc544\ub2f4 \uc2a4\ubbf8\uc2a4": {
+      "movement": [
+        21,
+        65
+      ],
+      "pronunciatio": "\ud83d\udca4",
+      "description": "\uc218\uba74\uc911 @ the Ville:\uc544\ub2f4 \uc2a4\ubbf8\uc2a4\uc758 \uc9d1:\uc548\ubc29:\uce68\ub300",
+      "chat": null
+    },
+    "\uc544\uc774\uc791 \ub274\ud134": {
+      "movement": [
+        57,
+        74
+      ],
+      "pronunciatio": "\ud83d\udca4",
+      "description": "\uc218\uba74\uc911 @ the Ville:\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uc640 \uc544\uc774\uc791 \ub274\ud134\uc758 \uc9d1:\uc544\uc774\uc791 \ub274\ud134\uc758 \ubc29:\uce68\ub300",
+      "chat": null
+    },
+    "\uc5d0\uc774\ube0c\ub77c\ud584 \ub9c1\ucee8": {
+      "movement": [
+        36,
+        25
+      ],
+      "pronunciatio": "\ud83d\udca4",
+      "description": "\uc218\uba74\uc911 @ the Ville:\uc2a4\ub9c8\uac8c \ub514\uc790\uc778 \ud558\uc6b0\uc2a4:kitchen:\ub0c9\uc7a5\uace0",
+      "chat": null
+    },
+    "\ud074\ub808\uc624 \ud30c\ud2b8\ub77c": {
+      "movement": [
+        55,
+        74
+      ],
+      "pronunciatio": "\ud83d\udca4",
+      "description": "\uc218\uba74\uc911 @ the Ville:\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uc640 \uc544\uc774\uc791 \ub274\ud134\uc758 \uc9d1:\ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uc758 \ubc29:\uce68\ub300",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "January 22, 2024, 22:50:40"
+  }
+}

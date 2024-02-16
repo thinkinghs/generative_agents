@@ -1,0 +1,79 @@
+{
+  "persona": {
+    "\ud638\uc2dd \ud568": {
+      "movement": [
+        26,
+        49
+      ],
+      "pronunciatio": "\ud83d\udc68\u200d\ud83c\udf73",
+      "description": "Hosik Cafe \ub97c \uc6b4\uc601\ud55c\ub2e4 (Hosik Cafe \uc5d0\uc11c \uc694\ub9ac\ub97c \uc900\ube44\ud558\uace0 \uc190\ub2d8\ub4e4\uc5d0\uac8c \uc81c\uacf5\ud55c\ub2e4) @ the Ville:Hosik Cafe:kitchen:\uc694\ub9ac\ud558\ub294 \uacf5\uac04",
+      "chat": null
+    },
+    "\uc77c\ub860 \uba38\uc2a4\ud06c": {
+      "movement": [
+        34,
+        50
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udce2",
+      "description": "\uc911\uc559\uacf5\uc6d0\uc5d0\uc11c \uc5f0\uc124\uc744 \ud55c\ub2e4 (\uc5f0\uc124\uc744 \ud55c\ub2e4) @ the Ville:\uc911\uc559\uacf5\uc6d0:\uad11\uc7a5:\uacf5\uc6d0 \uc815\uc6d0",
+      "chat": null
+    },
+    "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58": {
+      "movement": [
+        127,
+        46
+      ],
+      "pronunciatio": "\ud83d\udca4",
+      "description": "\uc218\uba74\uc911 @ the Ville:\uc2a4\ub9c8\uac8c \ub300\ud559\uad50 \uae30\uc219\uc0ac:\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58\uc758 \ubc29:\uce68\ub300",
+      "chat": null
+    },
+    "\ub098\ud3f4\ub808\uc639 \ubcf4\ub098\ud30c\ub974\ud2b8": {
+      "movement": [
+        34,
+        46
+      ],
+      "pronunciatio": "\ud83d\udea9\ud83d\udca1",
+      "description": "\uc911\uc559\uacf5\uc6d0\uc5d0\uc11c \uad50\uc721\ud65c\ub3d9\uc744 \ud55c\ub2e4 (\ud601\uba85\uac00 \uc815\uc2e0\uc5d0 \ub300\ud574 \uc774\uc57c\uae30\ud55c\ub2e4) @ the Ville:\uc911\uc559\uacf5\uc6d0:\uad11\uc7a5:\uacf5\uc6d0 \uc815\uc6d0",
+      "chat": null
+    },
+    "\uc544\ub2f4 \uc2a4\ubbf8\uc2a4": {
+      "movement": [
+        66,
+        30
+      ],
+      "pronunciatio": "\u270d\ufe0f\ud83d\udcc4",
+      "description": "\uc2a4\ub9c8\uac8c \ub300\ud559\uad50 \ub3c4\uc11c\uad00\uc5d0\uc11c \uc5f0\uad6c\ud55c\ub2e4 (\uc740 \ud654\uc131\uc5d0\uc11c\uc758 \uacbd\uc81c \uc2dc\uc2a4\ud15c\uc5d0 \ub300\ud55c \ub17c\ubb38\uc744 \uc791\uc131\ud55c\ub2e4) @ the Ville:\uc544\ub2f4 \uc2a4\ubbf8\uc2a4\uc758 \uc9d1:\uc548\ubc29:\ucc45\uc0c1",
+      "chat": null
+    },
+    "\uc544\uc774\uc791 \ub274\ud134": {
+      "movement": [
+        62,
+        37
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcdd",
+      "description": "\uc911\uc559\uacf5\uc6d0\uc5d0\uc11c \uc5f0\uad6c\ub97c \uc2dc\uc791\ud55c\ub2e4 (\uc740 \uc911\ub825\uc5d0 \ub300\ud55c \ub17c\ubb38\uc744 \uc4f4\ub2e4) @ the Ville:\uc911\uc559\uacf5\uc6d0:\uad11\uc7a5:\uacf5\uc6d0 \uc815\uc6d0",
+      "chat": null
+    },
+    "\uc5d0\uc774\ube0c\ub77c\ud584 \ub9c1\ucee8": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\ude0a",
+      "description": "Hosik Cafe\uc5d0\uc11c \uc778\ub958\uc640 \uc678\uacc4\uc778\uc758 \ud3c9\ub4f1\uc5d0 \ub300\ud574 \ub17c\uc758\ud55c\ub2e4 (\ud568\uacfc \ud568\uaed8 \uc810\uc2ec\uc744 \uba39\ub294\ub2e4) @ the Ville:Hosik Cafe:cafe:\ubd80\uc5cc \uc2f1\ud06c\ub300",
+      "chat": null
+    },
+    "\ud074\ub808\uc624 \ud30c\ud2b8\ub77c": {
+      "movement": [
+        76,
+        29
+      ],
+      "pronunciatio": "\ud83d\udde3\ud83d\udcad",
+      "description": "\uc911\uc559\uacf5\uc6d0\uc5d0\uc11c \uc5f0\uc124\uc744 \ub4e3\ub294\ub2e4 (\ub300\ud654\uc911(conversing about): \uc5d0\uc774\ube0c\ub77c\ud584 \ub9c1\ucee8\uc740 \ud074\ub808\uc624 \ud30c\ud2b8\ub77c\uac00 \ud30c\ub780\uc0c9\uc758 \uc637\uc744 \uc785\uc5c8\ub2e4\uace0 \ub9d0\ud588\ub2e4.) @ the Ville:\uc911\uc559\uacf5\uc6d0:\uad11\uc7a5:\uacf5\uc6d0 \uc815\uc6d0",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "January 22, 2024, 09:44:10"
+  }
+}

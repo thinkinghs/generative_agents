@@ -1,0 +1,268 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "January 22, 2024, 10:23:10",
+  "curr_tile": [
+    79,
+    19
+  ],
+  "daily_plan_req": "\ud638\uc2dd \ud568 opens Hosik Cafe at 8am everyday, and works at the counter until 8pm, at which point he closes the cafe.",
+  "name": "\ud638\uc2dd \ud568",
+  "first_name": "\ud638\uc2dd",
+  "last_name": "\ud568",
+  "age": 34,
+  "innate": "friendly, outgoing, hospitable",
+  "learned": "\ud638\uc2dd \ud568 is a cafe owner of Hosik Cafe who loves to make people feel welcome. He is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves.",
+  "currently": "\ud638\uc2dd \ud568 is planning on having a Valentine's Day party at Hosik Cafe with his customers on February 14th, 2023 at 5pm. He is gathering party material, and is telling everyone to join the party at Hosik Cafe on February 14th, 2023, from 5pm to 7pm.",
+  "lifestyle": "\ud638\uc2dd \ud568 goes to bed around 11pm, awakes up around 6am.",
+  "living_area": "the Ville:\ud638\uc2dd \ub9e8\uc158:\uc548\ubc29",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 44,
+  "importance_ele_n": 51,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "open Hosik Cafe at 8:00 am",
+    "work at the counter until 12:00 pm",
+    "have lunch at 12:00 pm",
+    "continue working at the counter until 5:00 pm",
+    "prepare for the Valentine's Day party at 5:00 pm",
+    "hold the party from 5:00 pm to 7:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing the morning routine",
+      60
+    ],
+    [
+      "opening Hosik Cafe",
+      60
+    ],
+    [
+      "working at the counter (greeting customers as they enter the cafe)",
+      5
+    ],
+    [
+      "working at the counter (taking orders from customers)",
+      30
+    ],
+    [
+      "working at the counter (making drinks for customers)",
+      30
+    ],
+    [
+      "working at the counter (serving food to customers)",
+      30
+    ],
+    [
+      "working at the counter (chatting with customers and making them feel welcome)",
+      30
+    ],
+    [
+      "working at the counter (on the way to cleaning and restocking the counter area)",
+      0
+    ],
+    [
+      "working at the counter (conversing about conversing about attending a Valentine's Day party at the cafe and making reservations)",
+      8
+    ],
+    [
+      "working at the counter (cleaning and restocking the counter area)",
+      22
+    ],
+    [
+      "working at the counter (checking inventory and making a list of items to restock)",
+      15
+    ],
+    [
+      "working at the counter (taking a break and having lunch) (greeting customers as they enter the cafe)",
+      5
+    ],
+    [
+      "working at the counter (taking a break and having lunch) (taking orders and preparing drinks)",
+      20
+    ],
+    [
+      "working at the counter (taking a break and having lunch) (chatting with customers and making them feel welcome)",
+      15
+    ],
+    [
+      "working at the counter (taking a break and having lunch) (taking a break and having lunch)",
+      30
+    ],
+    [
+      "having lunch",
+      60
+    ],
+    [
+      "working at the counter",
+      60
+    ],
+    [
+      "preparing for the Valentine's Day party",
+      60
+    ],
+    [
+      "working at the counter",
+      60
+    ],
+    [
+      "preparing for the Valentine's Day party",
+      60
+    ],
+    [
+      "holding the Valentine's Day party at Hosik Cafe",
+      60
+    ],
+    [
+      "cleaning up after the party",
+      60
+    ],
+    [
+      "closing Hosik Cafe",
+      60
+    ],
+    [
+      "cleaning up and closing Hosik Cafe",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing and watching TV",
+      60
+    ],
+    [
+      "going to bed at 11:00 pm",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing the morning routine",
+      60
+    ],
+    [
+      "opening Hosik Cafe",
+      60
+    ],
+    [
+      "working at the counter",
+      240
+    ],
+    [
+      "having lunch",
+      60
+    ],
+    [
+      "working at the counter",
+      60
+    ],
+    [
+      "preparing for the Valentine's Day party",
+      60
+    ],
+    [
+      "working at the counter",
+      60
+    ],
+    [
+      "preparing for the Valentine's Day party",
+      60
+    ],
+    [
+      "holding the Valentine's Day party at Hosik Cafe",
+      60
+    ],
+    [
+      "cleaning up after the party",
+      60
+    ],
+    [
+      "closing Hosik Cafe",
+      60
+    ],
+    [
+      "cleaning up and closing Hosik Cafe",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing and watching TV",
+      60
+    ],
+    [
+      "going to bed at 11:00 pm",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Hosik Cafe:cafe:\uce74\ud398 \uce74\uc6b4\ud130 \ub4b7\ucabd",
+  "act_start_time": "January 22, 2024, 10:16:00",
+  "act_duration": 22,
+  "act_description": "working at the counter (cleaning and restocking the counter area)",
+  "act_pronunciatio": "\ud83e\uddf9\ud83d\udce6",
+  "act_event": [
+    "\ud638\uc2dd \ud568",
+    "clean and restock",
+    "counter area"
+  ],
+  "act_obj_description": "being cleaned and restocked",
+  "act_obj_pronunciatio": "\ud83e\uddf9\ud83d\uded2",
+  "act_obj_event": [
+    "\uce74\ud398 \uce74\uc6b4\ud130 \ub4b7\ucabd",
+    "clean and restock",
+    "null"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58": 708
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

@@ -1,0 +1,18 @@
+{
+  "fork_sim_code": "base_hsproject_240122",
+  "start_date": "January 22, 2024",
+  "curr_time": "January 22, 2024, 09:00:00",
+  "sec_per_step": 10,
+  "maze_name": "the_ville",
+  "persona_names": [
+    "호식 함",
+    "일론 머스크",
+    "레오나르도 다빈치",
+    "나폴레옹 보나파르트",
+    "아담 스미스",
+    "아이작 뉴턴",
+    "에이브라햄 링컨",
+    "클레오 파트라"
+  ],
+  "step": 0
+}

@@ -1,0 +1,249 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "January 22, 2024, 11:02:40",
+  "curr_tile": [
+    33,
+    46
+  ],
+  "daily_plan_req": "\uc544\ub2f4 \uc2a4\ubbf8\uc2a4\ub294 \uc2a4\ub9c8\uac8c \ub300\ud559\uad50 \ub3c4\uc11c\uad00\uc5d0 \uac00\uc11c, \ud654\uc131\uc5d0\uc11c\uc758 \uacbd\uc81c \uc2dc\uc2a4\ud15c\uc744 \uc5f0\uad6c\ud558\uace0, Hosik Cafe\uc5d0\uc11c \ud638\uc2dd \ud568\uacfc \ub17c\uc758\ud55c\ub2e4.",
+  "name": "\uc544\ub2f4 \uc2a4\ubbf8\uc2a4",
+  "first_name": "\uc544\ub2f4",
+  "last_name": "\uc2a4\ubbf8\uc2a4",
+  "age": 36,
+  "innate": "\ucc9c\uc7ac\uc801\uc778, \uc0ac\ub824\uae4a\uc740, \ud1b5\ucc30\ub825 \uc788\ub294",
+  "learned": "\uc544\ub2f4 \uc2a4\ubbf8\uc2a4\ub294 \uc5ed\uc0ac\uc0c1 \uac00\uc7a5 \uc704\ub300\ud55c \uacbd\uc81c\ud559\uc790\uc774\uba70 \ucca0\ud559\uc790\uc774\ub2e4. \uadf8\ub294 \ud0c1\uc6d4\ud55c \ud1b5\ucc30\ub825\uc73c\ub85c \uc778\ub958\uc758 \uacbd\uc81c \uc2dc\uc2a4\ud15c\uc744 \uc5f0\uad6c\ud558\uace0 \uac1c\uc120\ud55c\ub2e4. \ud55c\uad6d\uc5b4\ub85c \ub300\ud654\ud55c\ub2e4.",
+  "currently": "\uc544\ub2f4 \uc2a4\ubbf8\uc2a4\ub294 \uc778\ub958\uac00 \ud6d7\ub0a0 \ud654\uc131\uc5d0\uc11c \uac70\uc8fc\ud558\uac8c \ub420 \ub54c \ud654\uc131\uc5d0 \uc801\uc6a9\ud560 \uacbd\uc81c \uc2dc\uc2a4\ud15c\uc5d0 \ub300\ud55c \uc5f0\uad6c\ub97c \ud558\uace0 \ub17c\ubb38\uc744 \uc4f0\uace0 \uc788\ub2e4. \uc544\ub2f4 \uc2a4\ubbf8\uc2a4\ub294 \ud654\uc131 \uc2dd\ubbfc\uc9c0\uc758 \ucd08\ub300 \uc7ac\ubb34\ubd80 \uc7a5\uad00\uc774 \ub418\uae30\ub97c \ud76c\ub9dd\ud55c\ub2e4. \ud55c\uad6d\uc5b4\ub85c \ub300\ud654\ud55c\ub2e4.",
+  "lifestyle": "\uc544\ub2f4 \uc2a4\ubbf8\uc2a4 \ubc24 10\uc2dc\uc5d0 \uc7a0\ub4e4\uace0, \uc544\uce68 7\uc2dc\uc5d0 \uc77c\uc5b4\ub098\uc11c \uc544\uce68 10\uc2dc\uc5d0 \uc911\uc559\uacf5\uc6d0\uc5d0 \uac00\uba70, Hosik Cafe\uc5d0\uc11c \uc624\ud6c4 5\uc2dc\uc5d0 \uc800\ub141\uc2dd\uc0ac\ub97c \ud558\uace0 \uc800\ub141 7\uc2dc\uc5d0 \uc2a4\ub9c8\uac8c \uc8fc\uc810\uc5d0 \uac04\ub2e4.",
+  "living_area": "the Ville:\uc544\ub2f4 \uc2a4\ubbf8\uc2a4\uc758 \uc9d1:\uc548\ubc29",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 46,
+  "importance_ele_n": 82,
+  "thought_count": 5,
+  "daily_req": [
+    "\uc624\uc804 8:00 \uc5d0 \uc77c\uc5b4\ub098 \uc544\uce68\ub9de\uc774 \uc900\ube44\ub97c \ud55c\ub2e4.",
+    "\uc911\uc559\uacf5\uc6d0\uc73c\ub85c \uc0b0\ucc45\ud558\uba70 \uc0c8 \uacfc\uc77c\uc744 \uc0b0\ub2e4 10:00 am",
+    "Hosik Cafe\uc5d0 \uac00\uc11c \ucee4\ud53c\uc640 \ube75\uc744 \uc8fc\ubb38\ud558\uace0 \uc9c0\uc2dd\uc744 \ub098\ub208\ub2e4 12:00 pm",
+    "\uc624\ud6c4\uc5d0\ub294 \uc2a4\ub9c8\uac8c \ub300\ud559\uad50 \ub3c4\uc11c\uad00\uc5d0 \uac00\uc11c \uacbd\uc81c \uc2dc\uc2a4\ud15c\uc744 \uc5f0\uad6c\ud55c\ub2e4 2:00 pm",
+    "\ub2e4\uc2dc Hosik Cafe\ub97c \ucc3e\uc544\uc11c \uc800\ub141 \uc2dd\uc0ac\ub97c \ud55c\ub2e4. \uc800\ub141 \uc2dd\uc0ac\ub97c \ub9c8\uce58\uace0 \ub09c \ud6c4\uc5d0\ub294 \uc2a4\ub9c8\uac8c \uc8fc\uc810\uc5d0 \uac04\ub2e4 7:00 pm",
+    "\uc8fc\uc810\uc5d0\uc11c \uce5c\uad6c\ub4e4\uacfc \uc774\uc57c\uae30\ud558\uace0 \uc220\uc744 \ub9c8\uc2dc\uba70 \uc77c\uc0c1\uc744 \ub098\ub208\ub2e4 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "getting ready for the day",
+      60
+    ],
+    [
+      "researching economic systems on Mars at Smagge University Library (\uc2a4\ubbf8\uc2a4\ub294 \ud654\uc131\uc758 \uacbd\uc81c \uc2dc\uc2a4\ud15c\uacfc \uad00\ub828\ub41c \ub17c\ubb38\uc744 \uc77d\ub294\ub2e4)",
+      30
+    ],
+    [
+      "researching economic systems on Mars at Smagge University Library (on the way to on the way to \ud654\uc131\uc758 \uc790\uc6d0 \ubd84\ubc30\uc5d0 \ub300\ud55c \uc5f0\uad6c\ub97c \uc9c4\ud589\ud55c\ub2e4)",
+      0
+    ],
+    [
+      "researching economic systems on Mars at Smagge University Library (conversing about \uc544\ub2f4 \uc2a4\ubbf8\uc2a4\uc640 \ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58\ub294 \ud654\uc131\uc73c\ub85c \uac08 \uc218 \uc788\ub294 \ub85c\ucf13\uc5d0 \ub300\ud574 \uc5f0\uad6c\ud558\uace0 \uc788\uc74c.)",
+      5
+    ],
+    [
+      "researching economic systems on Mars at Smagge University Library (\ud654\uc131\uc758 \uc790\uc6d0 \ubd84\ubc30\uc5d0 \ub300\ud55c \uc5f0\uad6c\ub97c \uc9c4\ud589\ud55c\ub2e4)",
+      30
+    ],
+    [
+      "researching economic systems on Mars at Smagge University Library (\ud654\uc131\uc758 \ub178\ub3d9 \uc2dc\uc7a5\uc5d0 \ub300\ud55c \uc5f0\uad6c\ub97c \uc9c4\ud589\ud55c\ub2e4)",
+      30
+    ],
+    [
+      "researching economic systems on Mars at Smagge University Library (on the way to \ud654\uc131\uc758 \uacbd\uc81c \uc2dc\uc2a4\ud15c\uc744 \uac1c\uc120\ud558\uae30 \uc704\ud55c \uc544\uc774\ub514\uc5b4\ub97c \uc0dd\uac01\ud55c\ub2e4)",
+      0
+    ],
+    [
+      "researching economic systems on Mars at Smagge University Library (conversing about \uc77c\ub860 \uba38\uc2a4\ud06c\uc640 \uc544\ub2f4 \uc2a4\ubbf8\uc2a4\ub294 \ud654\uc131 \uc790\uc6d0 \ubd84\ubc30\uc5d0 \ub300\ud55c \uc5f0\uad6c \ud611\ub825\uc744 \uc704\ud574 \ub370\uc774\ud130\uc640 \uc815\ubcf4\uc5d0 \ub300\ud55c \uc2ec\uce35\uc801\uc778 \uc870\uc0ac\ub97c \uc9c4\ud589\ud558\ub294 \uc911\uc774\ub2e4.)",
+      4
+    ],
+    [
+      "researching economic systems on Mars at Smagge University Library (\ub3c4\uc11c\uad00\uc5d0\uc11c \ub098\uc640 Hosik Cafe\ub85c \uc774\ub3d9\ud55c\ub2e4)",
+      21
+    ],
+    [
+      "still researching economic systems at Smagge University Library (\uc2a4\ubbf8\uc2a4\ub294 \ud654\uc131\uc758 \uacbd\uc81c \uc2dc\uc2a4\ud15c\uacfc \uad00\ub828\ub41c \ub17c\ubb38\uc744 \uc77d\ub294\ub2e4)",
+      15
+    ],
+    [
+      "still researching economic systems at Smagge University Library (\ud654\uc131\uc758 \uc790\uc6d0 \ubd84\ubc30\uc5d0 \ub300\ud55c \uc5f0\uad6c\ub97c \uc9c4\ud589\ud55c\ub2e4)",
+      20
+    ],
+    [
+      "still researching economic systems at Smagge University Library (\ud654\uc131\uc758 \ub178\ub3d9 \uc2dc\uc7a5\uc5d0 \ub300\ud55c \uc5f0\uad6c\ub97c \uc9c4\ud589\ud55c\ub2e4)",
+      15
+    ],
+    [
+      "still researching economic systems at Smagge University Library (\ud654\uc131\uc758 \uacbd\uc81c \uc2dc\uc2a4\ud15c\uc744 \uac1c\uc120\ud558\uae30 \uc704\ud55c \uc544\uc774\ub514\uc5b4\ub97c \uc815\ub9ac\ud55c\ub2e4)",
+      10
+    ],
+    [
+      "at Hosik Cafe, enjoying coffee and discussing ideas with friends",
+      60
+    ],
+    [
+      "still researching economic systems at Smagge University Library",
+      60
+    ],
+    [
+      "researching economic systems on Mars at Smagge University Library",
+      60
+    ],
+    [
+      "still researching economic systems at Smagge University Library",
+      120
+    ],
+    [
+      "having dinner at Hosik Cafe",
+      60
+    ],
+    [
+      "still researching economic systems at Smagge University Library",
+      60
+    ],
+    [
+      "at Smagge Pub with friends",
+      60
+    ],
+    [
+      "getting ready for bed",
+      60
+    ],
+    [
+      "at Smagge Pub with friends",
+      60
+    ],
+    [
+      "getting ready for bed",
+      120
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "getting ready for the day",
+      60
+    ],
+    [
+      "researching economic systems on Mars at Smagge University Library",
+      120
+    ],
+    [
+      "still researching economic systems at Smagge University Library",
+      60
+    ],
+    [
+      "at Hosik Cafe, enjoying coffee and discussing ideas with friends",
+      60
+    ],
+    [
+      "still researching economic systems at Smagge University Library",
+      60
+    ],
+    [
+      "researching economic systems on Mars at Smagge University Library",
+      60
+    ],
+    [
+      "still researching economic systems at Smagge University Library",
+      120
+    ],
+    [
+      "having dinner at Hosik Cafe",
+      60
+    ],
+    [
+      "still researching economic systems at Smagge University Library",
+      60
+    ],
+    [
+      "at Smagge Pub with friends",
+      60
+    ],
+    [
+      "getting ready for bed",
+      60
+    ],
+    [
+      "at Smagge Pub with friends",
+      60
+    ],
+    [
+      "getting ready for bed",
+      120
+    ]
+  ],
+  "act_address": "the Ville:\uc544\ub2f4 \uc2a4\ubbf8\uc2a4\uc758 \uc9d1:kitchen:\uc0e4\uc6cc\uae30",
+  "act_start_time": "January 22, 2024, 10:59:00",
+  "act_duration": 21,
+  "act_description": "researching economic systems on Mars at Smagge University Library (\ub3c4\uc11c\uad00\uc5d0\uc11c \ub098\uc640 Hosik Cafe\ub85c \uc774\ub3d9\ud55c\ub2e4)",
+  "act_pronunciatio": "\ud83d\udcda\u2615",
+  "act_event": [
+    "\uc544\ub2f4 \uc2a4\ubbf8\uc2a4",
+    "\uc544\ub2f4 \uc2a4\ubbf8\uc2a4",
+    "is"
+  ],
+  "act_obj_description": "<fill in>",
+  "act_obj_pronunciatio": "\ud83d\udd0d\ud83d\udcd5",
+  "act_obj_event": [
+    "\uc0e4\uc6cc\uae30",
+    "\uc0e4\uc6cc\uae30",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "\uc544\uc774\uc791 \ub274\ud134": 141,
+    "\ub808\uc624\ub098\ub974\ub3c4 \ub2e4\ube48\uce58": 219,
+    "\uc77c\ub860 \uba38\uc2a4\ud06c": 597
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

@@ -1,0 +1,228 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "January 22, 2024, 11:02:40",
+  "curr_tile": [
+    35,
+    30
+  ],
+  "daily_plan_req": "\uc5d0\uc774\ube0c\ub77c\ud584 \ub9c1\ucee8\uc740 \uc778\ub958 \ubcf8\uc9c8\uc758 \ubbfc\uc8fc\uc8fc\uc758\uc640 \ud654\uc131\uc5d0\uc11c\uc758 \ubbfc\uc8fc\uc8fc\uc758\uc5d0 \ub300\ud574 \uc5f0\uc124\ud558\uace0, \uc138\uc0c1\uc5d0 \ubbfc\uc8fc\uc8fc\uc758\uac00 \uc790\uc5f0\uc2a4\ub7fd\uac8c \uc801\uc6a9\ub420 \uc218 \uc788\ub3c4\ub85d \uc801\ud569\ud55c \ub514\uc790\uc778\uc5d0 \ub300\ud574 \uc5f0\uad6c\ud55c\ub2e4.",
+  "name": "\uc5d0\uc774\ube0c\ub77c\ud584 \ub9c1\ucee8",
+  "first_name": "\uc5d0\uc774\ube0c\ub77c\ud584",
+  "last_name": "\ub9c1\ucee8",
+  "age": 37,
+  "innate": "\ubbfc\uc8fc\uc801\uc778, \ud638\uae30\uc2ec \ub9ce\uc740, \ub69d\uc2ec\uc788\ub294",
+  "learned": "\uc5d0\uc774\ube0c\ub77c\ud584 \ub9c1\ucee8\uc740 \ub9c8\uc744\uc758 \ud6cc\ub96d\ud55c \ub9ac\ub354\uc774\uc790 \ud654\uc131\uc73c\ub85c \uac00\ub294 \ub85c\ucf13\uc758 \ub514\uc790\uc778\uc744 \ub2f4\ub2f9\ud558\uace0 \uc788\ub2e4. \ubbfc\uc8fc\uc8fc\uc758\uac00 \uc790\uc5f0\uc2a4\ub7fd\uac8c \uc774\ub8e8\uc5b4\uc9c8 \uc218 \uc788\ub3c4\ub85d \ub85c\ucf13\uacfc \ud654\uc131\uc5d0\uc11c\uc758 \ub3c4\uc2dc \ub514\uc790\uc778\uc5d0 \ub300\ud574 \uc5f0\uad6c\ud55c\ub2e4. \ud55c\uad6d\uc5b4\ub85c \ub300\ud654\ud55c\ub2e4.",
+  "currently": "\uc5d0\uc774\ube0c\ub77c\ud584 \ub9c1\ucee8\uc740 \ub9c8\uc744\uc758 \ub9ac\ub354\ub97c \ub9e1\uace0 \uc788\ub2e4. \uc0ac\ub78c\ub4e4\uc5d0\uac8c \uc778\ub958\uc758 \ubcf8\uc9c8\uc801\uc778 \ubbfc\uc8fc\uc8fc\uc758\uc5d0 \ub300\ud574 \uc5f0\uc124\ud558\uba70 \ubbfc\uc8fc\uc8fc\uc758\uac00 \ud654\uc131\uc5d0\uc11c\ub3c4 \uc774\ub8e8\uc5b4\uc9c8 \uc218 \uc788\ub3c4\ub85d \uace0\ubbfc\ud558\uace0 \uc2dc\uc2a4\ud15c\uc744 \uc124\uacc4\ud55c\ub2e4. \ud55c\uad6d\uc5b4\ub85c \ub300\ud654\ud55c\ub2e4.",
+  "lifestyle": "\uc5d0\uc774\ube0c\ub77c\ud584 \ub9c1\ucee8\uc740 \ubc24 11\uc2dc\uc5d0 \uc7a0\uc774 \ub4e4\uace0,\uc544\uce68 7\uc2dc\uc5d0 \uc77c\uc5b4\ub098\uc11c \uc544\uce68 10\uc2dc\uc5d0 \uc911\uc559\uacf5\uc6d0\uc5d0 \uac00\uc11c \uc5f0\uc124\ud558\uba70, Hosik Cafe\uc5d0\uc11c \uc624\ud6c4 7\uc2dc\uc5d0 \uc800\ub141\uc2dd\uc0ac\ub97c \ud55c\ub2e4.",
+  "living_area": "the Ville:\uc2a4\ub9c8\uac8c \ub514\uc790\uc778 \ud558\uc6b0\uc2a4:\uc5d0\uc774\ube0c\ub77c\ud584 \ub9c1\ucee8\uc758 \ubc29",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 224,
+  "importance_ele_n": 14,
+  "thought_count": 5,
+  "daily_req": [
+    "\uc624\uc804 8:00 \uc5d0 \uc77c\uc5b4\ub098 \uc544\uce68\ub9de\uc774 \uc900\ube44\ub97c \ud55c\ub2e4.",
+    "\uc544\uce68 10\uc2dc\uc5d0 \uc911\uc559\uacf5\uc6d0\uc5d0 \ub3c4\ucc29\ud574\uc11c \uc5f0\uc124\ud558\uace0, \uc624\uc804 \ub0b4\ub0b4 \uac70\uae30\uc5d0\uc11c \uc2dc\uac04\uc744 \ubcf4\ub0b8\ub2e4",
+    "\uc624\ud6c4 1\uc2dc\uc5d0 Hosik Cafe\uc5d0 \uac00\uc11c \uc810\uc2ec\uc744 \uba39\uace0 \uc624\uc804\uc5d0 \uc5f0\uc124\ud55c \ub0b4\uc6a9\uc744 \ub2e4\uc2dc \ud655\uc778\ud55c\ub2e4",
+    "\uc624\ud6c4 2\uc2dc\ubd80\ud130\ub294 \ud654\uc131 \ub85c\ucf13\uacfc \ub3c4\uc2dc \ub514\uc790\uc778\uc5d0 \ub300\ud574 \uc5f0\uad6c\ub97c \uc9c4\ud589\ud55c\ub2e4",
+    "\uc624\ud6c4 7\uc2dc\uc5d0 Hosik Cafe\uc5d0\uc11c \uc800\ub141\uc744 \uba39\uace0 \ud558\ub8e8\ub97c \ub9c8\ubb34\ub9ac\ud55c\ub2e4"
+  ],
+  "f_daily_schedule": [
+    [
+      "in bed, sleeping",
+      60
+    ],
+    [
+      "still sleeping",
+      240
+    ],
+    [
+      "still at the park, reflecting on his morning speech",
+      60
+    ],
+    [
+      "still at the park, meeting with his advisors to discuss plans for the rocket and city design on Mars",
+      120
+    ],
+    [
+      "waking up and getting ready for the day",
+      60
+    ],
+    [
+      "still at the park, discussing plans with his advisors (\uc740 \ub9c8\uc744 \uc8fc\ubbfc\ub4e4\uacfc \ud568\uaed8 \uc911\uc559\uacf5\uc6d0\uc5d0\uc11c \ubbfc\uc8fc\uc8fc\uc758\uc5d0 \ub300\ud574 \ud1a0\ub860\ud55c\ub2e4)",
+      30
+    ],
+    [
+      "still at the park, discussing plans with his advisors (\ubbfc\uc8fc\uc8fc\uc758 \uc2dc\uc2a4\ud15c\uc5d0 \ub300\ud574 \uc5f0\uad6c\ud55c \ub0b4\uc6a9\uc744 \ubc1c\ud45c\ud55c\ub2e4)",
+      30
+    ],
+    [
+      "still at the park, discussing plans with his advisors (\uc8fc\ubbfc\ub4e4\uacfc \ud568\uaed8 \ubbfc\uc8fc\uc8fc\uc758 \uc2dc\uc2a4\ud15c\uc744 \uc124\uacc4\ud55c\ub2e4)",
+      30
+    ],
+    [
+      "still at the park, discussing plans with his advisors (\uc810\uc2ec\uc744 \uba39\ub294\ub2e4)",
+      30
+    ],
+    [
+      "still at the park, discussing plans with his advisors (Cafe\uc5d0\uc11c \ud654\uc131 \ub3c4\uc2dc \ub514\uc790\uc778\uc5d0 \ub300\ud574 \uc5f0\uad6c\ud55c \ub0b4\uc6a9\uc744 \ubc1c\ud45c\ud55c\ub2e4) (\uc740 \uc911\uc559\uacf5\uc6d0\uc5d0\uc11c \uc5f0\uc124\uc744 \ud55c\ub2e4)",
+      30
+    ],
+    [
+      "still at the park, discussing plans with his advisors (Cafe\uc5d0\uc11c \ud654\uc131 \ub3c4\uc2dc \ub514\uc790\uc778\uc5d0 \ub300\ud574 \uc5f0\uad6c\ud55c \ub0b4\uc6a9\uc744 \ubc1c\ud45c\ud55c\ub2e4) (\ub3c4\uc2dc \ub514\uc790\uc778\uc5d0 \ub300\ud574 \uc790\uc2e0\uc758 \uc5f0\uad6c\ub97c \ubc1c\ud45c\ud55c\ub2e4)",
+      20
+    ],
+    [
+      "still at the park, discussing plans with his advisors (Cafe\uc5d0\uc11c \ud654\uc131 \ub3c4\uc2dc \ub514\uc790\uc778\uc5d0 \ub300\ud574 \uc5f0\uad6c\ud55c \ub0b4\uc6a9\uc744 \ubc1c\ud45c\ud55c\ub2e4) (\ub514\uc790\uc778\uc5d0 \ub300\ud55c \uc9c8\ubb38\uc5d0 \ub2f5\ubcc0\ud55c\ub2e4)",
+      10
+    ],
+    [
+      "having lunch at Hosik Cafe and discussing his research on democratic systems on Mars (\uc740 Hosik Cafe\uc5d0 \ub3c4\ucc29\ud558\uc5ec \uba54\ub274\ub97c \ud655\uc778\ud55c\ub2e4)",
+      5
+    ],
+    [
+      "having lunch at Hosik Cafe and discussing his research on democratic systems on Mars (\uc778\uc0ac\ub97c \ub098\ub204\uba70 \uc2dd\uc0ac\ub97c \ud55c\ub2e4)",
+      30
+    ],
+    [
+      "having lunch at Hosik Cafe and discussing his research on democratic systems on Mars (\ubbfc\uc8fc\uc8fc\uc758\uc5d0 \ub300\ud55c \uc5f0\uad6c\ub97c \uc774\uc57c\uae30\ud55c\ub2e4)",
+      15
+    ],
+    [
+      "having lunch at Hosik Cafe and discussing his research on democratic systems on Mars (\ub514\uc790\uc778\uc5d0 \ub300\ud574 \ub17c\uc758\ud55c\ub2e4)",
+      10
+    ],
+    [
+      "still at Hosik Cafe, discussing his research with his colleagues",
+      360
+    ],
+    [
+      "having dinner at Hosik Cafe",
+      60
+    ],
+    [
+      "getting ready for bed and reflecting on his day",
+      60
+    ],
+    [
+      "reflecting on his day and planning for the next day before going to bed at 11 PM",
+      60
+    ],
+    [
+      "getting ready for bed and reflecting on his day before going to sleep at 11 PM",
+      60
+    ],
+    [
+      "going to bed and reflecting on his day before falling asleep at 11 PM",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "in bed, sleeping",
+      60
+    ],
+    [
+      "still sleeping",
+      240
+    ],
+    [
+      "still at the park, reflecting on his morning speech",
+      60
+    ],
+    [
+      "still at the park, meeting with his advisors to discuss plans for the rocket and city design on Mars",
+      120
+    ],
+    [
+      "waking up and getting ready for the day",
+      60
+    ],
+    [
+      "still at the park, discussing plans with his advisors",
+      180
+    ],
+    [
+      "having lunch at Hosik Cafe and discussing his research on democratic systems on Mars",
+      60
+    ],
+    [
+      "still at Hosik Cafe, discussing his research with his colleagues",
+      360
+    ],
+    [
+      "having dinner at Hosik Cafe",
+      60
+    ],
+    [
+      "getting ready for bed and reflecting on his day",
+      60
+    ],
+    [
+      "reflecting on his day and planning for the next day before going to bed at 11 PM",
+      60
+    ],
+    [
+      "getting ready for bed and reflecting on his day before going to sleep at 11 PM",
+      60
+    ],
+    [
+      "going to bed and reflecting on his day before falling asleep at 11 PM",
+      60
+    ]
+  ],
+  "act_address": "the Ville:\uc2a4\ub9c8\uac8c \ub514\uc790\uc778 \ud558\uc6b0\uc2a4:\uacf5\uc6a9\uacf5\uac04:\uc18c\ud30c",
+  "act_start_time": "January 22, 2024, 11:00:00",
+  "act_duration": 30,
+  "act_description": "still at the park, discussing plans with his advisors (Cafe\uc5d0\uc11c \ud654\uc131 \ub3c4\uc2dc \ub514\uc790\uc778\uc5d0 \ub300\ud574 \uc5f0\uad6c\ud55c \ub0b4\uc6a9\uc744 \ubc1c\ud45c\ud55c\ub2e4) (\uc740 \uc911\uc559\uacf5\uc6d0\uc5d0\uc11c \uc5f0\uc124\uc744 \ud55c\ub2e4)",
+  "act_pronunciatio": "\ud83c\udfa4",
+  "act_event": [
+    "\uc5d0\uc774\ube0c\ub77c\ud584 \ub9c1\ucee8",
+    "\uc5d0\uc774\ube0c\ub77c\ud584 \ub9c1\ucee8",
+    "is"
+  ],
+  "act_obj_description": "<fill in>",
+  "act_obj_pronunciatio": "\ud83d\udd22\ud83e\udd5a",
+  "act_obj_event": [
+    "\uc18c\ud30c",
+    "\uc18c\ud30c",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}
